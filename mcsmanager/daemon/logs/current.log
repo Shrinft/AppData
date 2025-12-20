@@ -1,39 +1,224 @@
-[12/20 14:42:45] [INFO] All feature modules and permission firewalls have been initialized successfully
-[12/20 14:42:45] [INFO] LANGUAGE: en_us
-[12/20 14:42:45] [INFO] Welcome to MCSManager Daemon
-[12/20 14:42:45] [INFO] All 1 instances have been loaded.
-[12/20 14:42:45] [INFO] ----------------------------
-[12/20 14:42:45] [INFO] Daemon process has been successfully started
-[12/20 14:42:45] [INFO] Reference Documentation: https://docs.mcsmanager.com/
-[12/20 14:42:45] [INFO] Access URL: http://localhost:7860
-[12/20 14:42:45] [INFO] Configuration File: data/Config/global.json
-[12/20 14:42:45] [INFO] Access Key: 580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34
-[12/20 14:42:45] [INFO] The key is the sole authentication method. Please connect using daemons section of MCSManager panel.
-[12/20 14:42:45] [INFO] You can use the Ctrl+C shortcut to close the program
-[12/20 14:42:45] [INFO] ----------------------------
-[12/20 14:42:52] [INFO] Session : Requested instance start with emulated terminal.
-[12/20 14:42:52] [INFO] ----------------
-[12/20 14:42:52] [INFO] Session : Requested instance start.
-[12/20 14:42:52] [INFO] Instance UUID: [63af6014618148c9ac2fd0aeea4af138]
-[12/20 14:42:52] [INFO] Startup Command: ./frpc
-[12/20 14:42:52] [INFO] PTY Path: /workspace/mcsmanager/daemon/lib/pty_linux_x64
-[12/20 14:42:52] [INFO] PTY Parameters: -size 164,40 -coder utf8 -dir /workspace/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-eeaa5447-795b-4804-a224-eb2173ac2cf5 -cmd ["./frpc"]
-[12/20 14:42:52] [INFO] Working Directory: /workspace/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
-[12/20 14:42:52] [INFO] Try to start the subprocess using the system user, username: 
-[12/20 14:42:52] [INFO] ----------------
-[12/20 14:42:52] [INFO] Instance 63af6014618148c9ac2fd0aeea4af138 started successfully. PID: 1350
-[12/20 14:42:52] [INFO] Automatic start command for instance frp (63af6014618148c9ac2fd0aeea4af138) has been issued.
-[12/20 14:43:29] [INFO] Session BnHyi9HQjUEHzSx7AAAB (::ffff:127.0.0.1) has successfully authenticated
-[12/20 14:43:30] [WARN] Node language has been changed: zh_cn
-[12/20 14:43:38] [INFO] 会话 flU6wSzcJ7yt43r1AAAD(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
-[12/20 14:43:50] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/20 14:43:50] [INFO] ----------------
-[12/20 14:43:50] [INFO] 会话 : 请求开启实例.
-[12/20 14:43:50] [INFO] 实例标识符: [global0001]
-[12/20 14:43:50] [INFO] 启动命令: bash
-[12/20 14:43:50] [INFO] PTY 路径: /workspace/mcsmanager/daemon/lib/pty_linux_x64
-[12/20 14:43:50] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir / -fifo /tmp/mcsmanager-instance-pipe/pipe-723f28ae-fc90-494f-8e9f-e71f9634b67b -cmd ["bash"]
-[12/20 14:43:50] [INFO] 工作目录: /
-[12/20 14:43:50] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/20 14:43:50] [INFO] ----------------
-[12/20 14:43:50] [INFO] 实例 global0001 成功启动 PID: 1372
+[12/20 15:14:21] [INFO] All feature modules and permission firewalls have been initialized successfully
+[12/20 15:14:21] [INFO] LANGUAGE: zh_cn
+[12/20 15:14:21] [INFO] 欢迎使用 MCSManager 守护进程
+[12/20 15:14:21] [INFO] 所有应用实例已加载，总计 1 个
+[12/20 15:14:21] [INFO] ----------------------------
+[12/20 15:14:21] [INFO] 守护进程现已成功启动
+[12/20 15:14:21] [INFO] 参考文档：https://docs.mcsmanager.com/
+[12/20 15:14:21] [INFO] 访问地址: http://localhost:7860
+[12/20 15:14:21] [INFO] 配置文件：data/Config/global.json
+[12/20 15:14:21] [INFO] 访问密钥：580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34
+[12/20 15:14:21] [INFO] 密钥作为唯一认证方式，请使用 MCSManager 面板的节点功能连接程序
+[12/20 15:14:21] [INFO] 你可以使用 Ctrl+C 快捷键即可关闭程序
+[12/20 15:14:21] [INFO] ----------------------------
+[12/20 15:14:28] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:14:28] [INFO] ----------------
+[12/20 15:14:28] [INFO] 会话 : 请求开启实例.
+[12/20 15:14:28] [INFO] 实例标识符: [63af6014618148c9ac2fd0aeea4af138]
+[12/20 15:14:28] [INFO] 启动命令: ./frpc
+[12/20 15:14:28] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:14:28] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-d41a1090-2878-446c-a2d5-bfdd549ee059 -cmd ["./frpc"]
+[12/20 15:14:28] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
+[12/20 15:14:28] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:14:28] [INFO] ----------------
+[12/20 15:14:28] [INFO] 实例 63af6014618148c9ac2fd0aeea4af138 成功启动 PID: 1354
+[12/20 15:14:28] [INFO] 实例 frp 63af6014618148c9ac2fd0aeea4af138 自动启动指令已发出
+[12/20 15:15:10] [INFO] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1) 验证身份成功
+[12/20 15:15:11] [WARN] 节点语言已更改： zh_cn
+[12/20 15:20:23] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:20:23] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:20:38] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:20:38] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:20:51] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:20:51] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:21:11] [INFO] Browser Uploaded File: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0/git push.sh
+[12/20 15:21:39] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:21:39] [INFO] ----------------
+[12/20 15:21:39] [INFO] 会话 : 请求开启实例.
+[12/20 15:21:39] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 15:21:39] [INFO] 启动命令: ./git push
+[12/20 15:21:39] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:21:39] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-741df805-d908-448f-879b-620b49d31c6d -cmd ["./git","push"]
+[12/20 15:21:39] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 15:21:39] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:21:39] [INFO] ----------------
+[12/20 15:21:39] [ERROR] 实例c30553ca0026473f8c395082a92f09a0启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 15:21:39] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: 'c30553ca0026473f8c395082a92f09a0',
+  nickname: 'Git Push',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 15:21:45] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:21:45] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:22:00] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:22:00] [INFO] ----------------
+[12/20 15:22:00] [INFO] 会话 : 请求开启实例.
+[12/20 15:22:00] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 15:22:00] [INFO] 启动命令: ./git push.sh
+[12/20 15:22:00] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:22:00] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-02912a16-232b-41ba-ae5d-27301c158791 -cmd ["./git","push.sh"]
+[12/20 15:22:00] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 15:22:00] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:22:00] [INFO] ----------------
+[12/20 15:22:00] [ERROR] 实例c30553ca0026473f8c395082a92f09a0启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 15:22:00] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: 'c30553ca0026473f8c395082a92f09a0',
+  nickname: 'Git Push',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 15:22:57] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:22:57] [INFO] ----------------
+[12/20 15:22:57] [INFO] 会话 : 请求开启实例.
+[12/20 15:22:57] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 15:22:57] [INFO] 启动命令: ./git push.sh
+[12/20 15:22:57] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:22:57] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-b65ddcb5-33aa-4f98-9943-8a1688fdc109 -cmd ["./git","push.sh"]
+[12/20 15:22:57] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 15:22:57] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:22:57] [INFO] ----------------
+[12/20 15:22:57] [ERROR] 实例c30553ca0026473f8c395082a92f09a0启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 15:22:57] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: 'c30553ca0026473f8c395082a92f09a0',
+  nickname: 'Git Push',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 15:24:29] [INFO] 会话 CVI_Yl8aiGNhcXKGAAAP(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 15:25:07] [INFO] 会话 96_w7Zf_OVIan3EwAAAV(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 15:25:12] [INFO] 会话 RD2WZuK-g3uyBciBAAAX(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 15:27:55] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:27:55] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:28:10] [INFO] Browser Uploaded File: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0/deepseek_bash_20251213_384b19.sh
+[12/20 15:28:35] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:28:35] [WARN] 会话 6b1DNgoQwvrTkbK8AAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:29:39] [INFO] 会话 iCKN0Q7WrngrNUEPAAAh(::ffff:127.0.0.1) 验证身份成功
+[12/20 15:29:39] [WARN] 节点语言已更改： zh_cn
+[12/20 15:29:49] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:29:49] [INFO] ----------------
+[12/20 15:29:49] [INFO] 会话 : 请求开启实例.
+[12/20 15:29:49] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 15:29:49] [INFO] 启动命令: ./1.sh
+[12/20 15:29:49] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:29:49] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-d4e74a7b-1614-4c10-897a-d90f7813fe22 -cmd ["./1.sh"]
+[12/20 15:29:49] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 15:29:49] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:29:49] [INFO] ----------------
+[12/20 15:29:49] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1450
+[12/20 15:29:54] [WARN] 会话 iCKN0Q7WrngrNUEPAAAh(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 15:29:54] [WARN] 会话 iCKN0Q7WrngrNUEPAAAh(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 15:30:02] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:30:02] [INFO] ----------------
+[12/20 15:30:02] [INFO] 会话 : 请求开启实例.
+[12/20 15:30:02] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 15:30:02] [INFO] 启动命令: ./1.sh
+[12/20 15:30:02] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:30:02] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-967798ac-8714-4e9d-bd04-78282c80b703 -cmd ["./1.sh"]
+[12/20 15:30:02] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 15:30:02] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:30:02] [INFO] ----------------
+[12/20 15:30:02] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1456
+[12/20 15:30:32] [INFO] 会话 u6y1i6f98LPyuQ-6AAAl(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 15:30:37] [INFO] 会话 L4DYJetnxDfDFt5yAAAn(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 15:30:40] [INFO] 会话 SIfKjfpB8-oWCsJCAAAp(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 15:30:43] [INFO] Browser Uploaded File: /git push.sh
+[12/20 15:31:11] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 15:31:11] [INFO] ----------------
+[12/20 15:31:11] [INFO] 会话 : 请求开启实例.
+[12/20 15:31:11] [INFO] 实例标识符: [global0001]
+[12/20 15:31:11] [INFO] 启动命令: bash
+[12/20 15:31:11] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 15:31:11] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir / -fifo /tmp/mcsmanager-instance-pipe/pipe-b4984c14-3002-4074-b132-be79481e6d6b -cmd ["bash"]
+[12/20 15:31:11] [INFO] 工作目录: /
+[12/20 15:31:11] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 15:31:11] [INFO] ----------------
+[12/20 15:31:11] [INFO] 实例 global0001 成功启动 PID: 1469

@@ -30,4 +30,13 @@ and the repository exists.
 ]0;root@r-shrinftdev-adv-af0747ym-a8148-xnxcq: /workspace/AppDataroot@r-shrinftdev-adv-af0747ym-a8148-xnxcq:/workspace/AppData# git push
 Warning: Permanently added the ECDSA host key for IP address '140.82.114.3' to the list of known hosts.
 Everything up-to-date
-]0;root@r-shrinftdev-adv-af0747ym-a8148-xnxcq: /workspace/AppDataroot@r-shrinftdev-adv-af0747ym-a8148-xnxcq:/workspace/AppData# 
+]0;root@r-shrinftdev-adv-af0747ym-a8148-xnxcq: /workspace/AppDataroot@r-shrinftdev-adv-af0747ym-a8148-xnxcq:/workspace/AppData# [INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# [K]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git push  .sh
+bash: ./git: No such file or directory
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git push.sh[1@-[1P[1P[1@-
+bash: ./git-push.sh: /bin/bash^M: bad interpreter: No such file or directory
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git-push.sh
+bash: ./git-push.sh: /bin/bash^M: bad interpreter: No such file or directory
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git-push.sh

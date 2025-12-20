@@ -1,12 +1,12 @@
 {
-    "nickname": "__MCSM_GLOBAL_INSTANCE__",
-    "startCommand": "bash",
+    "nickname": "Git Push",
+    "startCommand": "./1.sh",
     "stopCommand": "^c",
-    "cwd": "/",
+    "cwd": "data/InstanceData/c30553ca0026473f8c395082a92f09a0",
     "ie": "utf8",
     "oe": "utf8",
-    "createDatetime": 1766214861750,
-    "lastDatetime": 1766214861750,
+    "createDatetime": 1766215217474,
+    "lastDatetime": 1766215802572,
     "type": "universal",
     "tag": [],
     "endTime": 0,
@@ -16,7 +16,7 @@
     "runAs": "",
     "crlf": 1,
     "category": 0,
-    "basePort": 10020,
+    "basePort": 10025,
     "enableRcon": false,
     "rconPassword": "",
     "rconPort": 0,
@@ -40,6 +40,8 @@
         "ports": [],
         "extraVolumes": [],
         "memory": 0,
+        "memorySwap": null,
+        "memorySwappiness": null,
         "networkMode": "bridge",
         "networkAliases": [],
         "cpusetCpus": "",
@@ -47,7 +49,7 @@
         "maxSpace": 0,
         "io": 0,
         "network": 0,
-        "workingDir": "/workspace/",
+        "workingDir": "/data",
         "env": [],
         "changeWorkdir": true
     },
@@ -58,6 +60,7 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": ""
+        "openFrpToken": "",
+        "isOpenFrp": false
     }
 }
