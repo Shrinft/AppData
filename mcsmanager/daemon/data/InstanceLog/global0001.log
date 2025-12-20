@@ -337,3 +337,18 @@ ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? ]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git-push.sh push.sh
 bash: ./git: No such file or directory
 ]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git push.sh-push.sh
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main ffcf043] 自动提交: 2025-12-20 15:41:19
+ 3 files changed, 82 insertions(+), 1 deletion(-)
+ create mode 100644 test_auto_1766216479.txt
+./git-push.sh: line 31: spawn: command not found
+couldn't read file "{": no such file or directory
+./git-push.sh: line 34: -re: command not found
+./git-push.sh: line 35: send: command not found
+./git-push.sh: line 36: exp_continue: command not found
+./git-push.sh: line 37: syntax error near unexpected token `}'
+./git-push.sh: line 37: `    }'
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git-push.sh push.sh
+bash: ./git: No such file or directory
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git push.sh-push.sh
