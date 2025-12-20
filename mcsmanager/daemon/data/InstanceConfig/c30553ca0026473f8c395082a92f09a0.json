@@ -1,6 +1,6 @@
 {
     "nickname": "Git Push",
-    "startCommand": "./1.sh",
+    "startCommand": "./git-push.sh",
     "stopCommand": "^c",
     "cwd": "data/InstanceData/c30553ca0026473f8c395082a92f09a0",
     "ie": "utf8",

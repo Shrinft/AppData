@@ -1,10 +1,12 @@
 #!/bin/bash
 
+cd /workspace/AppData
+
 #git add .
 #git commit -m "first commit"
 
 #git remote set-url origin "$AUTH_REPO_URL"
-cd /workspace/AppData
+
 echo "步骤0: 创建测试文件..."
 echo "自动提交测试于 $(date)" > test_auto_$(date +%s).txt
 
@@ -21,17 +23,15 @@ chmod 700 /root/.ssh
 # 如果有公钥文件，也设置适当权限
 chmod 644 /root/.ssh/id_ed25519.pub
 
-# 检查expect是否安装
-if ! command -v expect &> /dev/null; then
-    apt-get update && apt-get install -y expect  # Debian/Ubuntu
-    # 或 yum install -y expect  # RHEL/CentOS
-fi
-
-# 使用expect自动交互
-expect << EOF
+expect << 'EOF'
+set timeout 20
 spawn git push
 expect {
-    "Are you sure you want to continue connecting (yes/no/\[fingerprint\])?" {
+    "Are you sure you want to continue connecting" {
+        send "yes\r"
+        exp_continue
+    }
+    "yes/no" {
         send "yes\r"
         exp_continue
     }

@@ -42,3 +42,9 @@
 2025/12/20 15:14:29 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
 2025/12/20 15:14:30 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: proxy [CNBSERVER6] already exists[0m
 2025/12/20 15:15:03 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+2025/12/20 15:45:56 [1;34m[I] [control.go:252] 正在和服务器断开链接...[0m
+2025/12/20 15:45:56 [1;34m[I] [visitor_manager.go:77] gracefully shutdown visitor manager[0m
+2025/12/20 15:45:56 [1;34m[I] [service.go:227] 尝试重新连接至服务器[0m
+2025/12/20 15:45:57 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [4bc367e6dcda8934][0m
+2025/12/20 15:45:57 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2025/12/20 15:45:57 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m

@@ -1,0 +1,13 @@
+{
+    "instanceUuid": "c30553ca0026473f8c395082a92f09a0",
+    "name": "Git push",
+    "count": -1,
+    "time": "0 0 3 * * 1,2,3,4,6",
+    "actions": [
+        {
+            "type": "start",
+            "payload": ""
+        }
+    ],
+    "type": 2
+}

@@ -222,3 +222,31 @@
 [12/20 15:31:11] [INFO] 尝试使用系统用户启动子进程，用户名：
 [12/20 15:31:11] [INFO] ----------------
 [12/20 15:31:11] [INFO] 实例 global0001 成功启动 PID: 1469
+[12/20 15:46:01] [INFO] 会话 1v8D3oyv4Z_U7PsHAAA5(::ffff:127.0.0.1) 验证身份成功
+[12/20 15:46:02] [WARN] 节点语言已更改： zh_cn
+[12/20 16:00:27] [WARN] 会话 1v8D3oyv4Z_U7PsHAAA5(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 16:00:27] [WARN] 会话 1v8D3oyv4Z_U7PsHAAA5(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 16:02:34] [INFO] 创建计划任务 Git push:
+{"instanceUuid":"c30553ca0026473f8c395082a92f09a0","name":"Git push","count":-1,"time":"0 0 3 * * 1,2,3,4,6","actions":[{"type":"start","payload":""}],"type":2}
+[12/20 16:02:34] [INFO] 创建计划任务 Git push 完毕
+[12/20 16:02:44] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 16:02:44] [INFO] ----------------
+[12/20 16:02:44] [INFO] 会话 : 请求开启实例.
+[12/20 16:02:44] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 16:02:44] [INFO] 启动命令: ./git-push.sh
+[12/20 16:02:44] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 16:02:44] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-d1fac57b-ab18-467a-b4a0-587be8745a10 -cmd ["./git-push.sh"]
+[12/20 16:02:44] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 16:02:44] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 16:02:44] [INFO] ----------------
+[12/20 16:02:44] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1742
