@@ -326,3 +326,14 @@ spawn git push
 The authenticity of host 'github.com (140.82.113.3)' can't be established.
 ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? ]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# git push        ./git-push.sh
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main 6fa4adb] 自动提交: 2025-12-20 15:35:35
+ 3 files changed, 295 insertions(+), 1 deletion(-)
+ create mode 100644 test_auto_1766216134.txt
+spawn git push
+The authenticity of host 'github.com (140.82.113.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? ]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git-push.sh push.sh
+bash: ./git: No such file or directory
+]0;root@r-shrinftdev-adv-89r95phu-139e4-blrsb: /root@r-shrinftdev-adv-89r95phu-139e4-blrsb:/# ./git push.sh-push.sh
