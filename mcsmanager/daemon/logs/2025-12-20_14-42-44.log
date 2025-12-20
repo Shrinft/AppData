@@ -1,0 +1,51 @@
+[11/29 09:35:15] [INFO] All feature modules and permission firewalls have been initialized successfully
+[11/29 09:35:15] [INFO] LANGUAGE: en_us
+[11/29 09:35:15] [INFO] Welcome to MCSManager Daemon
+[11/29 09:35:15] [INFO] All 0 instances have been loaded.
+[11/29 09:35:15] [INFO] ----------------------------
+[11/29 09:35:15] [INFO] Daemon process has been successfully started
+[11/29 09:35:15] [INFO] Reference Documentation: https://docs.mcsmanager.com/
+[11/29 09:35:15] [INFO] Access URL: http://localhost:7860
+[11/29 09:35:15] [INFO] Configuration File: data/Config/global.json
+[11/29 09:35:15] [INFO] Access Key: mcpaneluserdebug
+[11/29 09:35:15] [INFO] The key is the sole authentication method. Please connect using daemons section of MCSManager panel.
+[11/29 09:35:15] [INFO] You can use the Ctrl+C shortcut to close the program
+[11/29 09:35:15] [INFO] ----------------------------
+[11/29 09:36:14] [INFO] Session mS791JR37m8hb0mbAAAB (::ffff:127.0.0.1) has successfully authenticated
+[11/29 09:36:14] [WARN] Node language has been changed: zh_cn
+[11/29 09:36:22] [INFO] 会话 dJ62cCz38DmoWZmIAAAD(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[11/29 09:37:08] [INFO] Browser Uploaded File: /workspace/tmp/adv/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138/frpc
+[11/29 09:38:45] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[11/29 09:38:45] [INFO] ----------------
+[11/29 09:38:45] [INFO] 会话 : 请求开启实例.
+[11/29 09:38:45] [INFO] 实例标识符: [63af6014618148c9ac2fd0aeea4af138]
+[11/29 09:38:45] [INFO] 启动命令: ./frpc
+[11/29 09:38:45] [INFO] PTY 路径: /workspace/tmp/adv/daemon/lib/pty_linux_x64
+[11/29 09:38:45] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/tmp/adv/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-1146d987-e06c-465d-881e-bb55e9e7a65d -cmd ["./frpc"]
+[11/29 09:38:45] [INFO] 工作目录: /workspace/tmp/adv/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
+[11/29 09:38:45] [INFO] 尝试使用系统用户启动子进程，用户名：
+[11/29 09:38:45] [INFO] ----------------
+[11/29 09:38:45] [ERROR] 实例63af6014618148c9ac2fd0aeea4af138启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[11/29 09:38:45] [WARN] 会话 mS791JR37m8hb0mbAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '63af6014618148c9ac2fd0aeea4af138',
+  nickname: 'frp',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[11/29 09:39:01] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[11/29 09:39:01] [INFO] ----------------
+[11/29 09:39:01] [INFO] 会话 : 请求开启实例.
+[11/29 09:39:01] [INFO] 实例标识符: [63af6014618148c9ac2fd0aeea4af138]
+[11/29 09:39:01] [INFO] 启动命令: ./frpc
+[11/29 09:39:01] [INFO] PTY 路径: /workspace/tmp/adv/daemon/lib/pty_linux_x64
+[11/29 09:39:01] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/tmp/adv/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-0cbc7edc-bf9c-418d-8472-b76e1205880c -cmd ["./frpc"]
+[11/29 09:39:01] [INFO] 工作目录: /workspace/tmp/adv/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
+[11/29 09:39:01] [INFO] 尝试使用系统用户启动子进程，用户名：
+[11/29 09:39:01] [INFO] ----------------
+[11/29 09:39:01] [INFO] 实例 63af6014618148c9ac2fd0aeea4af138 成功启动 PID: 6331

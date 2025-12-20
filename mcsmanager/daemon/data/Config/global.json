@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "ip": "",
+    "port": 7860,
+    "prefix": "",
+    "key": "580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34",
+    "maxFileTask": 2,
+    "maxZipFileSize": 200,
+    "language": "zh_cn",
+    "defaultInstancePath": "",
+    "allocatablePortRange": [
+        10010,
+        65500
+    ],
+    "currentAllocatablePort": 10020,
+    "portAssignInterval": 5,
+    "uploadSpeedRate": 0,
+    "downloadSpeedRate": 0,
+    "maxDownloadFromUrlFileCount": 1,
+    "whiteListPanelIp": false,
+    "whiteListPanelIps": [
+        "127.0.0.1",
+        "::1"
+    ],
+    "ssl": false,
+    "sslPemPath": "",
+    "sslKeyPath": ""
+}

@@ -1,0 +1,34 @@
+[INFO] 正在启动...
+[ERROR] 检测到进程启动失败，其可能的原因是：
+1. 实例启动命令编写错误，请前往实例设置界面检查启动命令与参数。
+2. 系统主机环境不正确或缺少环境，比如缺少 Java 环境等。
+
+启动命令：
+./frpc
+
+请将此信息报告给管理员，技术人员或自行排查故障。
+[ERROR] 实例启动失败，请检查启动命令，主机环境和配置文件等
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+2025/11/29 09:39:01 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/11/29 09:39:01 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/11/29 09:39:01 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [./frpc.ini][0m
+2025/11/29 09:39:01 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [327ab8b31a3546e2][0m
+2025/11/29 09:39:01 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2025/11/29 09:39:01 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+
+[INFO] 已执行预设的关闭命令：
+^c
+如果无法关闭实例请前往实例设置更改关闭实例的正确命令，比如 exit，stop，end 等
+[INFO] 实例已停止。
+[INFO] Preparing to start...
+[INFO] Emulated terminal mode is active. You can directly input content in the terminal and use Ctrl, Tab, and other function keys.
+[INFO] The instance has been started...
+2025/12/20 14:42:52 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/20 14:42:52 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/20 14:42:52 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [./frpc.ini][0m
+2025/12/20 14:42:53 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [7075fc816b5e865a][0m
+2025/12/20 14:42:53 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2025/12/20 14:42:53 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: proxy [CNBSERVER6] already exists[0m
+2025/12/20 14:43:26 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
