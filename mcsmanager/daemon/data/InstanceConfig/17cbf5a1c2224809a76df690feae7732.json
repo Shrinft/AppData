@@ -1,0 +1,66 @@
+{
+    "nickname": "Git Push Saves",
+    "startCommand": "./gitpush download",
+    "stopCommand": "^c",
+    "cwd": "/workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732",
+    "ie": "utf8",
+    "oe": "utf8",
+    "createDatetime": 1766245311517,
+    "lastDatetime": 1766248929285,
+    "type": "universal",
+    "tag": [],
+    "endTime": 0,
+    "fileCode": "utf8",
+    "processType": "general",
+    "updateCommand": "",
+    "runAs": "",
+    "crlf": 1,
+    "category": 0,
+    "basePort": 10055,
+    "enableRcon": false,
+    "rconPassword": "",
+    "rconPort": 0,
+    "rconIp": "",
+    "actionCommandList": [],
+    "terminalOption": {
+        "haveColor": false,
+        "pty": true,
+        "ptyWindowCol": 164,
+        "ptyWindowRow": 40
+    },
+    "eventTask": {
+        "autoStart": true,
+        "autoRestart": true,
+        "autoRestartMaxTimes": -1,
+        "ignore": false
+    },
+    "docker": {
+        "containerName": "",
+        "image": "",
+        "ports": [],
+        "extraVolumes": [],
+        "memory": 0,
+        "memorySwap": null,
+        "memorySwappiness": null,
+        "networkMode": "bridge",
+        "networkAliases": [],
+        "cpusetCpus": "",
+        "cpuUsage": 0,
+        "maxSpace": 0,
+        "io": 0,
+        "network": 0,
+        "workingDir": "/data",
+        "env": [],
+        "changeWorkdir": true
+    },
+    "pingConfig": {
+        "ip": "",
+        "port": 25565,
+        "type": 1
+    },
+    "extraServiceConfig": {
+        "openFrpTunnelId": "",
+        "openFrpToken": "",
+        "isOpenFrp": false
+    }
+}

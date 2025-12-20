@@ -1,0 +1,122 @@
+Language_Changed: "成功设置语言为中文(简体)！"
+Language_Unknown: "未知的语言名称！"
+
+Start_Time: "启动完成！耗时[time]秒！使用指令‘help’来查看帮助！"
+Start_Welcome: "欢迎使用MossFrp Java版本客户端 版本：[version]"
+Start_Copyright: "本插件&独立客户端均为B站@墨守MossCG版权所有"
+Start_SystemFull: "操作系统名称：[system]"
+Start_SystemRead: "识别系统模式：[system]"
+Start_RunMode: "客户端运行模式：[mode]"
+Start_CommandComplete: "指令监听线程已启动"
+Start_ProcessComplete: "Frp核心管理线程已启动"
+Start_UpdateDomainsComplete: "可用域名更新已完成！"
+Start_UpdateDomainsFailed: "可用域名更新失败！使用默认域名！"
+Start_CheckUpdateComplete: "版本更新检查已完成！"
+Start_CheckUpdateFailed: "版本更新检查失败！请检查网络连接！"
+Start_CheckNoticeFailed: "公告获取失败！请检查网络连接！"
+Start_NeedUpdate: "检查到新版本！最新版本：[version]，请及时更新！"
+Start_CheckFailed: "启动失败！请使用命令行启动MossFrp！并添加启动参数：-MossFrp=nb，
+这是为了防止用户直接点开jar客户端导致客户端运行但不显示窗口所设置的保护措施，
+此保护措施在linux和插件版本不会生效！"
+
+Load_LoadFile: "正在加载配置文件：[file]"
+Load_NotEnableFile: "不启用的配置文件：[file]"
+Load_LoadFileFailed: "无法加载配置文件：[file]"
+Load_LoadFileSucceed: "已加载配置文件：[file]"
+
+Save_SaveReadFailed: "读取保存配置文件模板时出错！"
+Save_SaveWriteFailed: "写入保存配置文件时出错！"
+Save_SaveSucceed: "已保存配置文件[name].yml！请在客户端下文件夹/MossFrp/configs里找到对应配置文件完成配置，配置完成之后使用mossfrp reload（独立端使用reload）来使配置文件生效！"
+
+Exit_Start: "正在退出MossFrp客户端！"
+Exit_Finished: "MossFrp客户端已退出！感谢使用！"
+
+Prefix_Info: "[信息]"
+Prefix_Warn: "[警告]"
+Prefix_Error: "[错误]"
+Prefix_Exception: "[报错]"
+Prefix_Debug: "[测试]"
+Prefix_Command: "[指令]"
+Prefix_Unknown: "[未知]"
+
+Code_DecodeFailed: "穿透码解码失败！请确认你输入的穿透码是否有误！"
+Code_DecodeSuccess: "穿透码解码成功！数据如下："
+Code_DecodeNode: "节点："
+Code_DecodeNumber: "编号："
+Code_DecodePortServer: "服务端口："
+Code_DecodePortRange: "可用端口："
+
+Core_RunError: "无法启动Frp管理核心！请检查或反馈错误！"
+Core_HeartbeatError: "Frp管理核心心跳包出现错误！"
+Core_HeartbeatTimeout: "Frp管理核心心跳包超时！"
+Core_ProcessStart: "Frp核心管理线程已启动"
+Core_ProcessClose: "Frp核心管理线程正在关闭"
+Core_ProcessExit: "Frp核心管理线程已关闭"
+Core_FrpStartRun: "Frp进程[name]启动中！"
+Core_FrpStartFailed: "Frp进程[name]启动失败！"
+Core_FrpStartSucceed: "Frp进程[name]启动成功！"
+Core_FrpStop: "Frp进程[name]已停止！"
+
+Frp_ReadError: "读取frp输出时发生错误！"
+Frp_InfoLogin: "成功登录到远程Frp节点！"
+Frp_InfoStarting: "代理已创建，正在开启转发！"
+Frp_InfoStartSuccess: "隧道启动成功！请使用指令 list 查看隧道列表！"
+Frp_InfoPortUsed: "检测到端口被占用！请修改端口！"
+Frp_InfoErrorEOF: "链接异常！错误：EOF"
+Frp_InfoLoginEOF: "登陆失败！错误：EOF"
+Frp_InfoReconnecting: "正在尝试重新链接到服务器！"
+Frp_InfoNoSuchHost: "无法解析服务器地址！请确认你输入的服务器地址是否正确或你的电脑的网络连通性！"
+Frp_InfoConnectNoRespond: "链接失败：目标服务器无响应！请检查远程frp服务器是否在线或MossFrp穿透码是否到期！"
+Frp_InfoConnectRejectRemote: "链接失败：目标服务器拒绝连接！请检查远程frp服务器是否在线或MossFrp穿透码是否到期！"
+Frp_InfoConnectRejectLocal: "链接失败：本地服务器拒绝连接！请检查本地服务端是否开启或端口是否正确！"
+Frp_InfoConnectTokenWrong: "链接失败：token错误！请检查远程frp服务器token是否对应本地token或MossFrp穿透码是否正确！"
+Frp_InfoUDPConnection: "接收到一个UDP链接，地址：[address]"
+Frp_InfoUDPConnectionEOF: "UDP链接异常！错误：EOF"
+Frp_InfoWriterClosing: "写入控制正在关闭......"
+
+List_Prefix: "隧道列表："
+List_Starting: "[启动中]"
+List_Online: "[开启]"
+List_Offline: "[关闭]"
+List_Local: "本地地址："
+List_Remote: "连接地址："
+List_Or: " 或 "
+
+File_WriteConfigStart: "正在写入frp配置文件"
+File_WriteConfigSuccess: "配置文件写入完成"
+File_WriteConfigFailed: "配置文件写入失败！"
+File_WriteSaveSuccess: "保存配置文件写入完成"
+File_WriteSaveFailed: "保存配置文件写入失败！"
+File_WriteSaveStart: "正在写入frp保存配置文件"
+File_CollectStart: "正在收集日志信息！"
+File_CollectFailed: "日志信息收集失败！"
+File_CollectComplete: "日志信息已收集完成，文件名称：[name]，请到/MossFrp/report文件夹中获得日志信息文件！"
+
+Command_Unknown: "未知指令！"
+Command_ConsoleOnly: "MossFrp指令只允许在后台使用！"
+Command_ReloadStart: "正在重载MossFrp......"
+Command_ReloadComplete: "已重载MossFrp！"
+Command_NameChinese: "配置文件名称不允许出现中文或特殊符号哦~请使用数字/字母/下划线组成的名称哦~"
+
+Command_Help: "\r\n--= MossFrp 指令帮助 =--
+  \r\n保存配置：save
+  \r\n隧道列表：list
+  \r\n切换语言：lang
+  \r\n收集信息：report
+  \r\n重载软件：reload
+  \r\n关闭软件：exit
+  \r\n查看帮助：help
+  \r\nTips：输入的时候别带括号<>哦！"
+Command_HelpLang: "\r\n--= MossFrp 指令帮助 =--
+  \r\n切换语言：lang <语言>
+  \r\n可用语言列表：zh_cn en_us
+  \r\n当然你也可以自己写语言文件加载哦
+  \r\n注意在此处切换语言只是临时切换，请到配置文件里面设置语言
+  \r\nTips：输入的时候别带括号<>哦！"
+Command_HelpSave: "\r\n--= MossFrp 指令帮助 =--
+  \r\n保存配置：save <名称> <穿透码>
+  \r\n举例：save myTunnel abc123456789
+  \r\n名称不允许中文/特殊符号/空格，只允许英文/下划线/数字
+  \r\n如果是非MossFrp隧道，直接在对应文件夹下复制example.yml去改就行
+  \r\n配置文件将会保存在/MossFrp/configs文件夹下
+  \r\nTips：输入的时候别带括号<>哦！"

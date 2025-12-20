@@ -37,3 +37,475 @@
 [INFO] 实例已启动...
 [INFO] 实例已停止。
 [INFO] 正在启动...
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main 5c6be03] 自动提交: 2025-12-20 16:40:48
+ 13 files changed, 504 insertions(+), 837 deletions(-)
+ create mode 100644 mcsmanager/daemon/data/InstanceConfig/54acc079ea6f49c5ab67bd1eb45c13b4.json
+ create mode 100755 mcsmanager/daemon/data/InstanceData/54acc079ea6f49c5ab67bd1eb45c13b4/git-push.sh
+ create mode 100644 mcsmanager/daemon/data/TaskConfig/54acc079ea6f49c5ab67bd1eb45c13b4_Restart.json
+ copy mcsmanager/daemon/logs/{current.log => 2025-12-20_16-34-55.log} (100%)
+ rewrite mcsmanager/daemon/logs/current.log (91%)
+ rewrite mcsmanager/daemon/logs/sysinfo.log (99%)
+ copy mcsmanager/daemon/logs/{sysinfo.log => sysinfo_2025-12-20_16-34-55.log} (100%)
+ create mode 100644 test_auto_1766220047.txt
+spawn git push
+The authenticity of host 'github.com (140.82.113.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+yes
+Warning: Permanently added 'github.com,140.82.113.3' (ECDSA) to the list of known hosts.
+Enumerating objects: 40, done.
+Counting objects:   2% (1/40)Counting objects:   5% (2/40)Counting objects:   7% (3/40)Counting objects:  10% (4/40)Counting objects:  12% (5/40)Counting objects:  15% (6/40)Counting objects:  17% (7/40)Counting objects:  20% (8/40)Counting objects:  22% (9/40)Counting objects:  25% (10/40)Counting objects:  27% (11/40)Counting objects:  30% (12/40)Counting objects:  32% (13/40)Counting objects:  35% (14/40)Counting objects:  37% (15/40)Counting objects:  40% (16/40)Counting objects:  42% (17/40)Counting objects:  45% (18/40)Counting objects:  47% (19/40)Counting objects:  50% (20/40)Counting objects:  52% (21/40)Counting objects:  55% (22/40)Counting objects:  57% (23/40)Counting objects:  60% (24/40)Counting objects:  62% (25/40)Counting objects:  65% (26/40)Counting objects:  67% (27/40)Counting objects:  70% (28/40)Counting objects:  72% (29/40)Counting objects:  75% (30/40)Counting objects:  77% (31/40)Counting objects:  80% (32/40)Counting objects:  82% (33/40)Counting objects:  85% (34/40)Counting objects:  87% (35/40)Counting objects:  90% (36/40)Counting objects:  92% (37/40)Counting objects:  95% (38/40)Counting objects:  97% (39/40)Counting objects: 100% (40/40)Counting objects: 100% (40/40), done.
+Delta compression using up to 16 threads
+Compressing objects:   4% (1/21)Compressing objects:   9% (2/21)Compressing objects:  14% (3/21)Compressing objects:  19% (4/21)Compressing objects:  23% (5/21)Compressing objects:  28% (6/21)Compressing objects:  33% (7/21)Compressing objects:  38% (8/21)Compressing objects:  42% (9/21)Compressing objects:  47% (10/21)Compressing objects:  52% (11/21)Compressing objects:  57% (12/21)Compressing objects:  61% (13/21)Compressing objects:  66% (14/21)Compressing objects:  71% (15/21)Compressing objects:  76% (16/21)Compressing objects:  80% (17/21)Compressing objects:  85% (18/21)Compressing objects:  90% (19/21)Compressing objects:  95% (20/21)Compressing objects: 100% (21/21)Compressing objects: 100% (21/21), done.
+Writing objects:   4% (1/23)Writing objects:   8% (2/23)Writing objects:  13% (3/23)Writing objects:  17% (4/23)Writing objects:  21% (5/23)Writing objects:  26% (6/23)Writing objects:  30% (7/23)Writing objects:  34% (8/23)Writing objects:  39% (9/23)Writing objects:  43% (10/23)Writing objects:  47% (11/23)Writing objects:  52% (12/23)Writing objects:  56% (13/23)Writing objects:  60% (14/23)Writing objects:  65% (15/23)Writing objects:  69% (16/23)Writing objects:  73% (17/23)Writing objects:  78% (18/23)Writing objects:  82% (19/23)Writing objects:  86% (20/23)Writing objects:  91% (21/23)Writing objects:  95% (22/23)Writing objects: 100% (23/23)Writing objects: 100% (23/23), 6.57 KiB | 3.29 MiB/s, done.
+Total 23 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)[Kremote: Resolving deltas:  10% (1/10)[Kremote: Resolving deltas:  20% (2/10)[Kremote: Resolving deltas:  30% (3/10)[Kremote: Resolving deltas:  40% (4/10)[Kremote: Resolving deltas:  50% (5/10)[Kremote: Resolving deltas:  60% (6/10)[Kremote: Resolving deltas:  70% (7/10)[Kremote: Resolving deltas:  80% (8/10)[Kremote: Resolving deltas:  90% (9/10)[Kremote: Resolving deltas: 100% (10/10)[Kremote: Resolving deltas: 100% (10/10), completed with 10 local objects.[K
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+remote: [1;31merror[m: GH013: Repository rule violations found for refs/heads/main.[K
+remote: 
+remote: - GITHUB PUSH PROTECTION[K
+remote:   —————————————————————————————————————————[K
+remote:     Resolve the following violations before pushing again[K
+remote: 
+remote:     - Push cannot contain secrets[K
+remote: 
+remote:     [K
+remote:      (?) Learn how to resolve a blocked push[K
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push[K
+remote:     [K
+remote:      (?) This repository does not have Secret Scanning enabled, but is eligible. Enable Secret Scanning to view and manage detected secrets.[K
+remote:      Visit the repository settings page, https://github.com/Shrinft/AppData/settings/security_analysis[K
+remote:     [K
+remote:     [K
+remote:       —— Hugging Face User Access Token ————————————————————[K
+remote:        locations:[K
+remote:          - commit: 5c6be031fdaf320cf07284931133ba43a22d3c29[K
+remote:            path: mcsmanager/daemon/data/InstanceData/54acc079ea6f49c5ab67bd1eb45c13b4/git-push.sh:4[K
+remote:     [K
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.[K
+remote:        https://github.com/Shrinft/AppData/security/secret-scanning/unblock-secret/376NHBRyt0meT9KBgDaVTlJRVpd[K
+remote:     [K
+remote: 
+remote: 
+To github.com:Shrinft/AppData.git
+ [31m! [remote rejected][m main -> main (push declined due to repository rule violations)
+[31merror: failed to push some refs to 'git@github.com:Shrinft/AppData.git'
+[m步骤0: 创建测试文件...
+步骤1: 提交更改...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+^C步骤0: 创建测试文件...
+步骤1: 提交更改...
+
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.jstatd/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.jstatd/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.localedata/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.localedata/cldr.md
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.localedata/thaidict.md
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management.agent/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management.jfr/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.management/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.naming.dns/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.naming.rmi/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.net/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.net/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.nio.mapmode/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.sctp/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.security.auth/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.security.jgss/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.unsupported.desktop/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.unsupported/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.xml.dom/LICENSE
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/legal/jdk.zipfs/LICENSE
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/classlist
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/ct.sym
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/jexec
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/jfr/default.jfc
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/jfr/profile.jfc
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/jrt-fs.jar
+ create mode 100755 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/jspawnhelper
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/jvm.cfg
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libattach.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libawt.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libawt_headless.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libawt_xawt.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libdt_socket.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libextnet.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libfontmanager.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libfreetype.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libinstrument.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libj2gss.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libj2pcsc.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libj2pkcs11.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjaas.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjava.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjavajpeg.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjawt.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjdwp.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjimage.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjli.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjsig.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjsound.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libjsvml.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/liblcms.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libmanagement.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libmanagement_agent.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libmanagement_ext.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libmlib_image.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libnet.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libnio.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libprefs.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/librmi.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libsaproc.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libsctp.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libsimdsort.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libsplashscreen.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libsyslookup.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libverify.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/libzip.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/modules
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/psfont.properties.ja
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/psfontj2d.properties
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/security/blocked.certs
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/security/cacerts
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/security/public_suffix_list.dat
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/server/classes.jsa
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/server/classes_coh.jsa
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/server/classes_nocoops.jsa
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/server/classes_nocoops_coh.jsa
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/server/libjsig.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/server/libjvm.so
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/src.zip
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/lib/tzdb.dat
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jar.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jarsigner.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/java.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/javac.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/javadoc.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/javap.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jcmd.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jconsole.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jdb.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jdeprscan.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jdeps.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jfr.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jhsdb.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jinfo.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jlink.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jmap.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jmod.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jnativescan.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jpackage.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jps.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jrunscript.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jshell.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jstack.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jstat.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jstatd.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/jwebserver.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/keytool.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/rmiregistry.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/man/man1/serialver.1
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/readme.txt
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/release
+ create mode 100644 mcsmanager/daemon/data/InstanceConfig/4b4ff92a2e61484b876a74dfbda2e953.json
+ create mode 100644 mcsmanager/daemon/data/InstanceConfig/932eca89f5d94742999b1a9de51bd511.json
+ create mode 100644 mcsmanager/daemon/data/InstanceConfig/fc60639ffe414b2c833de1d256490d53.json
+ create mode 100755 mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511/frpc
+ create mode 100644 mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511/frpc.ini
+ create mode 100644 mcsmanager/daemon/data/InstanceLog/4b4ff92a2e61484b876a74dfbda2e953.log
+ create mode 100644 mcsmanager/daemon/data/InstanceLog/fc60639ffe414b2c833de1d256490d53.log
+ mode change 100644 => 100755 mcsmanager/daemon/lib/7z_linux_x64
+ create mode 100644 test_auto_1766223253.txt
+ create mode 100644 test_auto_1766223878.txt
+spawn git push
+Warning: Permanently added the ECDSA host key for IP address '140.82.112.4' to the list of known hosts.
+
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+Counting objects:  46% (317/687)Counting objects:  47% (323/687)Counting objects:  48% (330/687)Counting objects:  49% (337/687)Counting objects:  50% (344/687)Counting objects:  51% (351/687)Counting objects:  52% (358/687)Counting objects:  53% (365/687)Counting objects:  54% (371/687)Counting objects:  55% (378/687)Counting objects:  56% (385/687)Counting objects:  57% (392/687)Counting objects:  58% (399/687)Counting objects:  59% (406/687)Counting objects:  60% (413/687)Counting objects:  61% (420/687)Counting objects:  62% (426/687)Counting objects:  63% (433/687)Counting objects:  64% (440/687)Counting objects:  65% (447/687)Counting objects:  66% (454/687)Counting objects:  67% (461/687)Counting objects:  68% (468/687)Counting objects:  69% (475/687)Counting objects:  70% (481/687)Counting objects:  71% (488/687)Counting objects:  72% (495/687)Counting objects:  73% (502/687)Counting objects:  74% (509/687)Counting objects:  75% (516/687)Counting objects:  76% (523/687)Counting objects:  77% (529/687)Counting objects:  78% (536/687)Counting objects:  79% (543/687)Counting objects:  80% (550/687)Counting objects:  81% (557/687)Counting objects:  82% (564/687)Counting objects:  83% (571/687)Counting objects:  84% (578/687)Counting objects:  85% (584/687)Counting objects:  86% (591/687)Counting objects:  87% (598/687)Counting objects:  88% (605/687)Counting objects:  89% (612/687)Counting objects:  90% (619/687)Counting objects:  91% (626/687)Counting objects:  92% (633/687)Counting objects:  93% (639/687)Counting objects:  94% (646/687)Counting objects:  95% (653/687)Counting objects:  96% (660/687)Counting objects:  97% (667/687)Counting objects:  98% (674/687)Counting objects:  99% (681/687)Counting objects: 100% (687/687)Counting objects: 100% (687/687), done.
+Delta compression using up to 16 threads
+Compressing objects:   0% (1/555)Compressing objects:   1% (6/555)Compressing objects:   2% (12/555)Compressing objects:   3% (17/555)Compressing objects:   4% (23/555)Compressing objects:   5% (28/555)Compressing objects:   6% (34/555)Compressing objects:   7% (39/555)Compressing objects:   8% (45/555)Compressing objects:   9% (50/555)Compressing objects:  10% (56/555)Compressing objects:  11% (62/555)Compressing objects:  12% (67/555)Compressing objects:  13% (73/555)Compressing objects:  14% (78/555)Compressing objects:  15% (84/555)Compressing objects:  16% (89/555)Compressing objects:  17% (95/555)Compressing objects:  18% (100/555)Compressing objects:  19% (106/555)Compressing objects:  20% (111/555)Compressing objects:  21% (117/555)Compressing objects:  22% (123/555)Compressing objects:  23% (128/555)Compressing objects:  24% (134/555)Compressing objects:  25% (139/555)Compressing objects:  26% (145/555)Compressing objects:  27% (150/555)Compressing objects:  28% (156/555)Compressing objects:  29% (161/555)Compressing objects:  30% (167/555)Compressing objects:  31% (173/555)Compressing objects:  32% (178/555)Compressing objects:  33% (184/555)Compressing objects:  34% (189/555)Compressing objects:  35% (195/555)Compressing objects:  36% (200/555)Compressing objects:  37% (206/555)Compressing objects:  38% (211/555)Compressing objects:  39% (217/555)Compressing objects:  40% (222/555)Compressing objects:  41% (228/555)Compressing objects:  42% (234/555)Compressing objects:  43% (239/555)Compressing objects:  44% (245/555)Compressing objects:  45% (250/555)Compressing objects:  46% (256/555)Compressing objects:  47% (261/555)Compressing objects:  48% (267/555)Compressing objects:  49% (272/555)Compressing objects:  50% (278/555)Compressing objects:  51% (284/555)Compressing objects:  52% (289/555)Compressing objects:  53% (295/555)Compressing objects:  54% (300/555)Compressing objects:  55% (306/555)Compressing objects:  56% (311/555)Compressing objects:  57% (317/555)Compressing objects:  58% (322/555)Compressing objects:  59% (328/555)Compressing objects:  60% (333/555)Compressing objects:  61% (339/555)Compressing objects:  62% (345/555)Compressing objects:  63% (350/555)Compressing objects:  64% (356/555)Compressing objects:  65% (361/555)Compressing objects:  66% (367/555)Compressing objects:  67% (372/555)Compressing objects:  68% (378/555)Compressing objects:  69% (383/555)Compressing objects:  70% (389/555)Compressing objects:  71% (395/555)Compressing objects:  72% (400/555)Compressing objects:  73% (406/555)Compressing objects:  74% (411/555)Compressing objects:  75% (417/555)Compressing objects:  76% (422/555)Compressing objects:  77% (428/555)Compressing objects:  78% (433/555)Compressing objects:  79% (439/555)Compressing objects:  80% (444/555)Compressing objects:  81% (450/555)Compressing objects:  81% (453/555)Compressing objects:  82% (456/555)Compressing objects:  83% (461/555)Compressing objects:  84% (467/555)Compressing objects:  85% (472/555)Compressing objects:  86% (478/555)Compressing objects:  87% (483/555)Compressing objects:  88% (489/555)Compressing objects:  89% (494/555)Compressing objects:  90% (500/555)Compressing objects:  91% (506/555)Compressing objects:  92% (511/555)Compressing objects:  92% (516/555)Compressing objects:  93% (517/555)Compressing objects:  94% (522/555)Compressing objects:  95% (528/555)Compressing objects:  95% (529/555)Compressing objects:  96% (533/555)Compressing objects:  97% (539/555)Compressing objects:  98% (544/555)Compressing objects:  99% (550/555)Compressing objects: 100% (555/555)Compressing objects: 100% (555/555), done.
+Writing objects:   0% (1/667)Writing objects:   1% (7/667)Writing objects:   1% (11/667), 16.37 MiB | 6.32 MiB/sWriting objects:   1% (11/667), 67.21 MiB | 21.76 MiB/sWriting objects:   2% (14/667), 67.21 MiB | 21.76 MiB/sWriting objects:   3% (21/667), 67.21 MiB | 21.76 MiB/sWriting objects:   4% (27/667), 67.21 MiB | 21.76 MiB/sWriting objects:   5% (34/667), 67.21 MiB | 21.76 MiB/sWriting objects:   6% (41/667), 67.21 MiB | 21.76 MiB/sWriting objects:   7% (47/667), 67.21 MiB | 21.76 MiB/sWriting objects:   8% (54/667), 67.21 MiB | 21.76 MiB/sWriting objects:   9% (61/667), 67.21 MiB | 21.76 MiB/sWriting objects:  10% (67/667), 67.21 MiB | 21.76 MiB/sWriting objects:  11% (74/667), 67.21 MiB | 21.76 MiB/sWriting objects:  12% (81/667), 67.21 MiB | 21.76 MiB/sWriting objects:  13% (87/667), 77.79 MiB | 21.57 MiB/sWriting objects:  14% (94/667), 77.79 MiB | 21.57 MiB/sWriting objects:  15% (101/667), 77.79 MiB | 21.57 MiB/sWriting objects:  16% (107/667), 77.79 MiB | 21.57 MiB/sWriting objects:  17% (114/667), 77.79 MiB | 21.57 MiB/sWriting objects:  18% (121/667), 77.79 MiB | 21.57 MiB/sWriting objects:  18% (126/667), 82.12 MiB | 16.31 MiB/sWriting objects:  19% (127/667), 82.12 MiB | 16.31 MiB/sWriting objects:  20% (134/667), 82.12 MiB | 16.31 MiB/sWriting objects:  21% (141/667), 82.12 MiB | 16.31 MiB/sWriting objects:  22% (147/667), 109.08 MiB | 19.71 MiB/sWriting objects:  23% (154/667), 109.08 MiB | 19.71 MiB/sWriting objects:  24% (161/667), 109.08 MiB | 19.71 MiB/sWriting objects:  25% (167/667), 109.08 MiB | 19.71 MiB/sWriting objects:  26% (174/667), 109.08 MiB | 19.71 MiB/sWriting objects:  27% (181/667), 109.08 MiB | 19.71 MiB/sWriting objects:  28% (187/667), 109.08 MiB | 19.71 MiB/sWriting objects:  29% (194/667), 109.08 MiB | 19.71 MiB/sWriting objects:  30% (201/667), 109.08 MiB | 19.71 MiB/sWriting objects:  31% (207/667), 109.08 MiB | 19.71 MiB/sWriting objects:  31% (213/667), 113.80 MiB | 17.89 MiB/sWriting objects:  32% (214/667), 113.80 MiB | 17.89 MiB/sWriting objects:  33% (222/667), 113.80 MiB | 17.89 MiB/sWriting objects:  34% (227/667), 113.80 MiB | 17.89 MiB/sWriting objects:  35% (234/667), 113.80 MiB | 17.89 MiB/sWriting objects:  36% (241/667), 113.80 MiB | 17.89 MiB/sWriting objects:  37% (247/667), 113.80 MiB | 17.89 MiB/sWriting objects:  38% (254/667), 113.80 MiB | 17.89 MiB/sWriting objects:  39% (261/667), 113.80 MiB | 17.89 MiB/sWriting objects:  40% (267/667), 113.80 MiB | 17.89 MiB/sWriting objects:  41% (274/667), 113.80 MiB | 17.89 MiB/sWriting objects:  42% (281/667), 113.80 MiB | 17.89 MiB/sWriting objects:  43% (287/667), 113.80 MiB | 17.89 MiB/sWriting objects:  44% (294/667), 113.80 MiB | 17.89 MiB/sWriting objects:  45% (301/667), 113.80 MiB | 17.89 MiB/sWriting objects:  46% (307/667), 113.80 MiB | 17.89 MiB/sWriting objects:  47% (314/667), 113.80 MiB | 17.89 MiB/sWriting objects:  48% (321/667), 113.80 MiB | 17.89 MiB/sWriting objects:  49% (327/667), 113.80 MiB | 17.89 MiB/sWriting objects:  50% (336/667), 113.80 MiB | 17.89 MiB/sWriting objects:  51% (341/667), 113.80 MiB | 17.89 MiB/sWriting objects:  52% (347/667), 113.80 MiB | 17.89 MiB/sWriting objects:  53% (354/667), 113.80 MiB | 17.89 MiB/sWriting objects:  54% (361/667), 113.80 MiB | 17.89 MiB/sWriting objects:  55% (367/667), 113.80 MiB | 17.89 MiB/sWriting objects:  56% (374/667), 113.80 MiB | 17.89 MiB/sWriting objects:  57% (381/667), 113.80 MiB | 17.89 MiB/sWriting objects:  58% (387/667), 113.80 MiB | 17.89 MiB/sWriting objects:  58% (388/667), 135.70 MiB | 17.96 MiB/sWriting objects:  58% (391/667), 158.25 MiB | 19.16 MiB/sWriting objects:  59% (394/667), 158.25 MiB | 19.16 MiB/sWriting objects:  60% (401/667), 158.25 MiB | 19.16 MiB/sWriting objects:  61% (407/667), 158.25 MiB | 19.16 MiB/sWriting objects:  62% (414/667), 179.86 MiB | 22.02 MiB/sWriting objects:  62% (414/667), 181.93 MiB | 24.72 MiB/sWriting objects:  63% (423/667), 181.93 MiB | 24.72 MiB/sWriting objects:  64% (427/667), 181.93 MiB | 24.72 MiB/sWriting objects:  65% (434/667), 196.34 MiB | 18.89 MiB/sWriting objects:  66% (441/667), 196.34 MiB | 18.89 MiB/sWriting objects:  67% (447/667), 206.55 MiB | 18.39 MiB/sWriting objects:  68% (454/667), 206.55 MiB | 18.39 MiB/sWriting objects:  69% (461/667), 206.55 MiB | 18.39 MiB/sWriting objects:  70% (467/667), 206.55 MiB | 18.39 MiB/sWriting objects:  71% (474/667), 206.55 MiB | 18.39 MiB/sWriting objects:  72% (481/667), 206.55 MiB | 18.39 MiB/sWriting objects:  73% (487/667), 206.55 MiB | 18.39 MiB/sWriting objects:  74% (494/667), 206.55 MiB | 18.39 MiB/sWriting objects:  75% (501/667), 206.55 MiB | 18.39 MiB/sWriting objects:  76% (507/667), 206.55 MiB | 18.39 MiB/sWriting objects:  77% (514/667), 206.55 MiB | 18.39 MiB/sWriting objects:  78% (521/667), 206.55 MiB | 18.39 MiB/sWriting objects:  79% (527/667), 206.55 MiB | 18.39 MiB/sWriting objects:  79% (527/667), 220.55 MiB | 22.80 MiB/sWriting objects:  80% (534/667), 220.55 MiB | 22.80 MiB/sWriting objects:  81% (541/667), 220.55 MiB | 22.80 MiB/sWriting objects:  82% (547/667), 220.55 MiB | 22.80 MiB/sWriting objects:  83% (554/667), 220.55 MiB | 22.80 MiB/sWriting objects:  84% (561/667), 220.55 MiB | 22.80 MiB/sWriting objects:  85% (567/667), 220.55 MiB | 22.80 MiB/s[INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main fc3a492] 自动提交: 2025-12-20 17:53:55
+ 7 files changed, 298 insertions(+), 260 deletions(-)
+ delete mode 100755 mcsmanager/daemon/data/InstanceData/54acc079ea6f49c5ab67bd1eb45c13b4/git-push.sh
+ create mode 100644 test_auto_1766224435.txt
+spawn git push
+Enumerating objects: 702, done.
+Counting objects:   0% (1/702)Counting objects:   1% (8/702)Counting objects:   2% (15/702)Counting objects:   3% (22/702)Counting objects:   4% (29/702)Counting objects:   5% (36/702)Counting objects:   6% (43/702)Counting objects:   7% (50/702)Counting objects:   8% (57/702)Counting objects:   9% (64/702)Counting objects:  10% (71/702)Counting objects:  11% (78/702)Counting objects:  12% (85/702)Counting objects:  13% (92/702)Counting objects:  14% (99/702)
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+Counting objects:  65% (457/702)Counting objects:  66% (464/702)Counting objects:  67% (471/702)Counting objects:  68% (478/702)Counting objects:  69% (485/702)Counting objects:  70% (492/702)Counting objects:  71% (499/702)Counting objects:  72% (506/702)Counting objects:  73% (513/702)Counting objects:  74% (520/702)Counting objects:  75% (527/702)Counting objects:  76% (534/702)Counting objects:  77% (541/702)Counting objects:  78% (548/702)Counting objects:  79% (555/702)Counting objects:  80% (562/702)Counting objects:  81% (569/702)Counting objects:  82% (576/702)Counting objects:  83% (583/702)Counting objects:  84% (590/702)Counting objects:  85% (597/702)Counting objects:  86% (604/702)Counting objects:  87% (611/702)Counting objects:  88% (618/702)Counting objects:  89% (625/702)Counting objects:  90% (632/702)Counting objects:  91% (639/702)Counting objects:  92% (646/702)Counting objects:  93% (653/702)Counting objects:  94% (660/702)Counting objects:  95% (667/702)Counting objects:  96% (674/702)Counting objects:  97% (681/702)Counting objects:  98% (688/702)Counting objects:  99% (695/702)Counting objects: 100% (702/702)Counting objects: 100% (702/702), done.
+Delta compression using up to 16 threads
+Compressing objects:   0% (1/570)Compressing objects:   1% (6/570)Compressing objects:   2% (12/570)Compressing objects:   3% (18/570)Compressing objects:   4% (23/570)Compressing objects:   5% (29/570)Compressing objects:   6% (35/570)Compressing objects:   7% (40/570)Compressing objects:   8% (46/570)Compressing objects:   9% (52/570)Compressing objects:  10% (57/570)Compressing objects:  11% (63/570)Compressing objects:  12% (69/570)Compressing objects:  13% (75/570)Compressing objects:  14% (80/570)Compressing objects:  15% (86/570)Compressing objects:  16% (92/570)Compressing objects:  17% (97/570)Compressing objects:  18% (103/570)Compressing objects:  19% (109/570)Compressing objects:  20% (114/570)Compressing objects:  21% (120/570)Compressing objects:  22% (126/570)Compressing objects:  23% (132/570)Compressing objects:  24% (137/570)Compressing objects:  25% (143/570)Compressing objects:  26% (149/570)Compressing objects:  27% (154/570)Compressing objects:  28% (160/570)Compressing objects:  29% (166/570)Compressing objects:  30% (171/570)Compressing objects:  31% (177/570)Compressing objects:  32% (183/570)Compressing objects:  33% (189/570)Compressing objects:  34% (194/570)Compressing objects:  35% (200/570)Compressing objects:  36% (206/570)Compressing objects:  37% (211/570)Compressing objects:  38% (217/570)Compressing objects:  39% (223/570)Compressing objects:  40% (228/570)Compressing objects:  41% (234/570)Compressing objects:  42% (240/570)Compressing objects:  43% (246/570)Compressing objects:  44% (251/570)Compressing objects:  45% (257/570)Compressing objects:  46% (263/570)Compressing objects:  47% (268/570)Compressing objects:  48% (274/570)Compressing objects:  49% (280/570)Compressing objects:  50% (285/570)Compressing objects:  51% (291/570)Compressing objects:  52% (297/570)Compressing objects:  53% (303/570)Compressing objects:  54% (308/570)Compressing objects:  55% (314/570)Compressing objects:  56% (320/570)Compressing objects:  57% (325/570)Compressing objects:  58% (331/570)Compressing objects:  59% (337/570)Compressing objects:  60% (342/570)Compressing objects:  61% (348/570)Compressing objects:  62% (354/570)Compressing objects:  63% (360/570)Compressing objects:  64% (365/570)Compressing objects:  65% (371/570)Compressing objects:  66% (377/570)Compressing objects:  67% (382/570)Compressing objects:  68% (388/570)Compressing objects:  69% (394/570)Compressing objects:  70% (399/570)Compressing objects:  71% (405/570)Compressing objects:  72% (411/570)Compressing objects:  73% (417/570)Compressing objects:  74% (422/570)Compressing objects:  75% (428/570)Compressing objects:  76% (434/570)Compressing objects:  77% (439/570)Compressing objects:  78% (445/570)Compressing objects:  78% (447/570)Compressing objects:  79% (451/570)Compressing objects:  80% (456/570)Compressing objects:  81% (462/570)Compressing objects:  82% (468/570)Compressing objects:  83% (474/570)Compressing objects:  84% (479/570)Compressing objects:  85% (485/570)Compressing objects:  86% (491/570)Compressing objects:  87% (496/570)Compressing objects:  88% (502/570)Compressing objects:  89% (508/570)Compressing objects:  90% (513/570)Compressing objects:  91% (519/570)Compressing objects:  92% (525/570)Compressing objects:  93% (531/570)Compressing objects:  94% (536/570)Compressing objects:  95% (542/570)Compressing objects:  96% (548/570)Compressing objects:  96% (552/570)Compressing objects:  97% (553/570)Compressing objects:  98% (559/570)Compressing objects:  98% (561/570)Compressing objects:  99% (565/570)Compressing objects: 100% (570/570)Compressing objects: 100% (570/570), done.
+Writing objects:   0% (1/682)Writing objects:   1% (7/682)Writing objects:   1% (12/682), 16.37 MiB | 5.05 MiB/sWriting objects:   2% (14/682), 61.42 MiB | 16.43 MiB/sWriting objects:   3% (21/682), 61.42 MiB | 16.43 MiB/sWriting objects:   4% (28/682), 61.42 MiB | 16.43 MiB/sWriting objects:   5% (35/682), 61.42 MiB | 16.43 MiB/sWriting objects:   5% (36/682), 61.42 MiB | 16.43 MiB/sWriting objects:   6% (41/682), 61.42 MiB | 16.43 MiB/sWriting objects:   7% (48/682), 61.42 MiB | 16.43 MiB/sWriting objects:   8% (55/682), 61.42 MiB | 16.43 MiB/sWriting objects:   9% (62/682), 61.42 MiB | 16.43 MiB/sWriting objects:  10% (69/682), 77.12 MiB | 18.13 MiB/sWriting objects:  11% (76/682), 77.12 MiB | 18.13 MiB/sWriting objects:  12% (82/682), 77.12 MiB | 18.13 MiB/sWriting objects:  13% (89/682), 77.12 MiB | 18.13 MiB/sWriting objects:  14% (96/682), 77.12 MiB | 18.13 MiB/sWriting objects:  15% (103/682), 77.12 MiB | 18.13 MiB/sWriting objects:  16% (110/682), 77.12 MiB | 18.13 MiB/sWriting objects:  17% (116/682), 77.12 MiB | 18.13 MiB/sWriting objects:  18% (123/682), 77.12 MiB | 18.13 MiB/sWriting objects:  18% (127/682), 82.12 MiB | 14.57 MiB/sWriting objects:  19% (130/682), 82.12 MiB | 14.57 MiB/sWriting objects:  19% (133/682), 82.12 MiB | 14.57 MiB/sWriting objects:  20% (137/682), 82.12 MiB | 14.57 MiB/sWriting objects:  21% (144/682), 104.94 MiB | 17.11 MiB/sWriting objects:  22% (151/682), 104.94 MiB | 17.11 MiB/sWriting objects:  23% (157/682), 104.94 MiB | 17.11 MiB/sWriting objects:  24% (164/682), 104.94 MiB | 17.11 MiB/sWriting objects:  25% (171/682), 104.94 MiB | 17.11 MiB/sWriting objects:  26% (178/682), 104.94 MiB | 17.11 MiB/sWriting objects:  27% (185/682), 104.94 MiB | 17.11 MiB/sWriting objects:  28% (191/682), 104.94 MiB | 17.11 MiB/sWriting objects:  29% (198/682), 104.94 MiB | 17.11 MiB/sWriting objects:  30% (205/682), 104.94 MiB | 17.11 MiB/sWriting objects:  31% (212/682), 104.94 MiB | 17.11 MiB/sWriting objects:  31% (214/682), 113.80 MiB | 15.24 MiB/sWriting objects:  32% (219/682), 113.80 MiB | 15.24 MiB/sWriting objects:  33% (226/682), 113.80 MiB | 15.24 MiB/sWriting objects:  34% (232/682), 113.80 MiB | 15.24 MiB/sWriting objects:  35% (239/682), 113.80 MiB | 15.24 MiB/sWriting objects:  36% (246/682), 113.80 MiB | 15.24 MiB/sWriting objects:  37% (253/682), 113.80 MiB | 15.24 MiB/sWriting objects:  38% (260/682), 113.80 MiB | 15.24 MiB/sWriting objects:  39% (266/682), 113.80 MiB | 15.24 MiB/sWriting objects:  40% (273/682), 113.80 MiB | 15.24 MiB/sWriting objects:  41% (280/682), 113.80 MiB | 15.24 MiB/sWriting objects:  42% (287/682), 113.80 MiB | 15.24 MiB/sWriting objects:  43% (294/682), 113.80 MiB | 15.24 MiB/sWriting objects:  44% (301/682), 113.80 MiB | 15.24 MiB/sWriting objects:  45% (307/682), 113.80 MiB | 15.24 MiB/sWriting objects:  46% (314/682), 113.80 MiB | 15.24 MiB/sWriting objects:  47% (321/682), 113.80 MiB | 15.24 MiB/sWriting objects:  48% (328/682), 113.80 MiB | 15.24 MiB/sWriting objects:  49% (337/682), 113.80 MiB | 15.24 MiB/sWriting objects:  50% (341/682), 113.80 MiB | 15.24 MiB/sWriting objects:  51% (348/682), 113.80 MiB | 15.24 MiB/sWriting objects:  52% (355/682), 113.80 MiB | 15.24 MiB/sWriting objects:  53% (362/682), 113.80 MiB | 15.24 MiB/sWriting objects:  54% (369/682), 113.80 MiB | 15.24 MiB/sWriting objects:  55% (376/682), 113.80 MiB | 15.24 MiB/sWriting objects:  56% (382/682), 113.80 MiB | 15.24 MiB/sWriting objects:  56% (387/682), 135.20 MiB | 16.91 MiB/sWriting objects:  57% (389/682), 135.20 MiB | 16.91 MiB/sWriting objects:  57% (389/682), 135.70 MiB | 14.84 MiB/sWriting objects:  57% (392/682), 158.25 MiB | 16.70 MiB/sWriting objects:  58% (396/682), 158.25 MiB | 16.70 MiB/sWriting objects:  59% (404/682), 158.25 MiB | 16.70 MiB/sWriting objects:  60% (411/682), 158.25 MiB | 16.70 MiB/sWriting objects:  60% (416/682), 181.00 MiB | 15.81 MiB/sWriting objects:  61% (417/682), 181.00 MiB | 15.81 MiB/sWriting objects:  62% (425/682), 181.00 MiB | 15.81 MiB/sWriting objects:  63% (430/682), 181.00 MiB | 15.81 MiB/sWriting objects:  63% (434/682), 196.38 MiB | 15.49 MiB/sWriting objects:  64% (437/682), 196.38 MiB | 15.49 MiB/sWriting objects:  65% (444/682), 196.38 MiB | 15.49 MiB/sWriting objects:  66% (451/682), 206.58 MiB | 17.31 MiB/sWriting objects:  67% (457/682), 206.58 MiB | 17.31 MiB/sWriting objects:  68% (464/682), 206.58 MiB | 17.31 MiB/sWriting objects:  69% (471/682), 206.58 MiB | 17.31 MiB/sWriting objects:  70% (478/682), 206.58 MiB | 17.31 MiB/sWriting objects:  71% (485/682), 206.58 MiB | 17.31 MiB/sWriting objects:  72% (492/682), 206.58 MiB | 17.31 MiB/sWriting objects:  73% (498/682), 206.58 MiB | 17.31 MiB/sWriting objects:  74% (505/682), 206.58 MiB | 17.31 MiB/sWriting objects:  75% (513/682), 206.58 MiB | 17.31 MiB/sWriting objects:  76% (519/682), 206.58 MiB | 17.31 MiB/sWriting objects:  77% (526/682), 206.58 MiB | 17.31 MiB/sWriting objects:  77% (528/682), 217.27 MiB | 15.62 MiB/sWriting objects:  78% (532/682), 217.27 MiB | 15.62 MiB/sWriting objects:  79% (540/682), 217.27 MiB | 15.62 MiB/sWriting objects:  80% (546/682), 217.27 MiB | 15.62 MiB/sWriting objects:  81% (553/682), 217.27 MiB | 15.62 MiB/sWriting objects:  82% (560/682), 226.77 MiB | 17.73 MiB/sWriting objects:  83% (567/682), 226.77 MiB | 17.73 MiB/sWriting objects:  83% (571/682), 226.77 MiB | 17.73 MiB/sWriting objects:  84% (573/682), 226.77 MiB | 17.73 MiB/s[INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main c659a39] 自动提交: 2025-12-21 00:52:21
+
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+ create mode 100644 MinecraftServer/world/region/r.1.-6.mca
+ create mode 100644 MinecraftServer/world/region/r.4.-1.mca
+ create mode 100644 MinecraftServer/world/session.lock
+ create mode 100644 MinecraftServer/world/skinrestorer/2b89d7d2-555b-3668-a201-e49c02c43296.json
+ create mode 100644 MinecraftServer/world/stats/00000000-0000-0000-0009-01f56bb82cd7.json
+ create mode 100644 MinecraftServer/world/stats/00000000-0000-0000-0009-01f646a9411c.json
+ create mode 100644 MinecraftServer/world/stats/2b89d7d2-555b-3668-a201-e49c02c43296.json
+ create mode 100644 MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64.zip
+ create mode 100644 MinecraftServer_backup_20251221_001853/level.dat
+ create mode 100644 MinecraftServer_backup_20251221_001853/level.dat_old
+ create mode 100644 MinecraftServer_backup_20251221_001853/session.lock
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/data/chunks.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/data/raids.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-1.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-2.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.-2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.0.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.0.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/entities/r.0.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-1.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-2.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.-2.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.0.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.0.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/poi/r.0.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-1.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-2.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.-2.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.0.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.0.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM-1/region/r.0.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/data/chunks.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/data/raids_end.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.-1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.-1.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.-2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.0.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.0.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/entities/r.2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.-1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.-1.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.-2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.-2.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.-3.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.-3.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.0.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.0.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.2.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/poi/r.2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.-1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.-1.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.-2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.-2.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.-3.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.-3.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.0.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.0.0.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.1.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.2.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/DIM1/region/r.2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/advancements/00000000-0000-0000-0009-01f56bb82cd7.json
+ create mode 100644 MinecraftServer_backup_20251221_004256/advancements/00000000-0000-0000-0009-01f646a9411c.json
+ create mode 100644 MinecraftServer_backup_20251221_004256/advancements/2b89d7d2-555b-3668-a201-e49c02c43296.json
+ create mode 100644 MinecraftServer_backup_20251221_004256/data/chunks.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/data/raids.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/data/random_sequences.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/data/scoreboard.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-1.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-2.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-3.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-3.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.-3.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.0.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.0.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/entities/r.1.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/level.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/level.dat_old
+ create mode 100644 MinecraftServer_backup_20251221_004256/playerdata/00000000-0000-0000-0009-01f56bb82cd7.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/playerdata/00000000-0000-0000-0009-01f56bb82cd7.dat_old
+ create mode 100644 MinecraftServer_backup_20251221_004256/playerdata/00000000-0000-0000-0009-01f646a9411c.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/playerdata/00000000-0000-0000-0009-01f646a9411c.dat_old
+ create mode 100644 MinecraftServer_backup_20251221_004256/playerdata/2b89d7d2-555b-3668-a201-e49c02c43296.dat
+ create mode 100644 MinecraftServer_backup_20251221_004256/playerdata/2b89d7d2-555b-3668-a201-e49c02c43296.dat_old
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-1.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-1.-6.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-2.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-3.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-3.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.-3.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.0.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.0.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.0.-6.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.1.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.1.-6.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/poi/r.4.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-1.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-1.-6.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-2.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-2.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-2.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-3.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-3.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.-3.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.0.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.0.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.0.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.0.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.0.-6.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.1.-2.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.1.-3.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.1.-4.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.1.-5.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.1.-6.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/region/r.4.-1.mca
+ create mode 100644 MinecraftServer_backup_20251221_004256/session.lock
+ create mode 100644 MinecraftServer_backup_20251221_004256/skinrestorer/2b89d7d2-555b-3668-a201-e49c02c43296.json
+ create mode 100644 MinecraftServer_backup_20251221_004256/stats/00000000-0000-0000-0009-01f56bb82cd7.json
+ create mode 100644 MinecraftServer_backup_20251221_004256/stats/00000000-0000-0000-0009-01f646a9411c.json
+ create mode 100644 MinecraftServer_backup_20251221_004256/stats/2b89d7d2-555b-3668-a201-e49c02c43296.json
+ rename mcsmanager/daemon/data/InstanceConfig/{54acc079ea6f49c5ab67bd1eb45c13b4.json => 17cbf5a1c2224809a76df690feae7732.json} (78%)
+ create mode 100755 mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732/gitpush
+ create mode 100755 mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732/gitpush.bak
+ create mode 100644 mcsmanager/daemon/data/InstanceLog/17cbf5a1c2224809a76df690feae7732.log
+ create mode 100644 mcsmanager/daemon/data/InstanceLog/932eca89f5d94742999b1a9de51bd511.log
+ rewrite mcsmanager/daemon/data/InstanceLog/fc60639ffe414b2c833de1d256490d53.log (97%)
+ create mode 100644 "mcsmanager/daemon/data/TaskConfig/17cbf5a1c2224809a76df690feae7732_\344\270\212\344\274\240.json"
+ create mode 100644 "mcsmanager/daemon/data/TaskConfig/17cbf5a1c2224809a76df690feae7732_\344\270\213\350\275\275.json"
+ delete mode 100644 mcsmanager/daemon/data/TaskConfig/54acc079ea6f49c5ab67bd1eb45c13b4_Restart.json
+ create mode 100644 test_auto_1766249500.txt
+spawn git push
+Warning: Permanently added the ECDSA host key for IP address '140.82.113.4' to the list of known hosts.
+Enumerating objects: 1149, done.
+Counting objects:   0% (1/1149)Counting objects:   1% (12/1149)Counting objects:   2% (23/1149)Counting objects:   3% (35/1149)Counting objects:   4% (46/1149)Counting objects:   5% (58/1149)Counting objects:   6% (69/1149)Counting objects:   7% (81/1149)Counting objects:   8% (92/1149)Counting objects:   9% (104/1149)Counting objects:  10% (115/1149)Counting objects:  11% (127/1149)Counting objects:  12% (138/1149)Counting objects:  13% (150/1149)Counting objects:  14% (161/1149)Counting objects:  15% (173/1149)Counting objects:  16% (184/1149)Counting objects:  17% (196/1149)Counting objects:  18% (207/1149)Counting objects:  19% (219/1149)Counting objects:  20% (230/1149)Counting objects:  21% (242/1149)Counting objects:  22% (253/1149)Counting objects:  23% (265/1149)Counting objects:  24% (276/1149)Counting objects:  25% (288/1149)Counting objects:  26% (299/1149)Counting objects:  27% (311/1149)Counting objects:  28% (322/1149)Counting objects:  29% (334/1149)Counting objects:  30% (345/1149)Counting objects:  31% (357/1149)Counting objects:  32% (368/1149)Counting objects:  33% (380/1149)Counting objects:  34% (391/1149)Counting objects:  35% (403/1149)Counting objects:  36% (414/1149)Counting objects:  37% (426/1149)Counting objects:  38% (437/1149)Counting objects:  39% (449/1149)Counting objects:  40% (460/1149)Counting objects:  41% (472/1149)Counting objects:  42% (483/1149)Counting objects:  43% (495/1149)Counting objects:  44% (506/1149)Counting objects:  45% (518/1149)Counting objects:  46% (529/1149)Counting objects:  47% (541/1149)Counting objects:  48% (552/1149)Counting objects:  49% (564/1149)Counting objects:  50% (575/1149)Counting objects:  51% (586/1149)Counting objects:  52% (598/1149)Counting objects:  53% (609/1149)Counting objects:  54% (621/1149)Counting objects:  55% (632/1149)Counting objects:  56% (644/1149)Counting objects:  57% (655/1149)Counting objects:  58% (667/1149)Counting objects:  59% (678/1149)Counting objects:  60% (690/1149)Counting objects:  61% (701/1149)Counting objects:  62% (713/1149)Counting objects:  63% (724/1149)Counting objects:  64% (736/1149)Counting objects:  65% (747/1149)Counting objects:  66% (759/1149)Counting objects:  67% (770/1149)Counting objects:  68% (782/1149)Counting objects:  69% (793/1149)Counting objects:  70% (805/1149)Counting objects:  71% (816/1149)Counting objects:  72% (828/1149)Counting objects:  73% (839/1149)Counting objects:  74% (851/1149)Counting objects:  75% (862/1149)Counting objects:  76% (874/1149)Counting objects:  77% (885/1149)Counting objects:  78% (897/1149)Counting objects:  79% (908/1149)Counting objects:  80% (920/1149)Counting objects:  81% (931/1149)Counting objects:  82% (943/1149)Counting objects:  83% (954/1149)Counting objects:  84% (966/1149)Counting objects:  85% (977/1149)Counting objects:  86% (989/1149)Counting objects:  87% (1000/1149)Counting objects:  88% (1012/1149)Counting objects:  89% (1023/1149)Counting objects:  90% (1035/1149)Counting objects:  91% (1046/1149)Counting objects:  92% (1058/1149)Counting objects:  93% (1069/1149)Counting objects:  94% (1081/1149)Counting objects:  95% (1092/1149)Counting objects:  96% (1104/1149)Counting objects:  97% (1115/1149)Counting objects:  98% (1127/1149)Counting objects:  99% (1138/1149)Counting objects: 100% (1149/1149)Counting objects: 100% (1149/1149), done.
+Delta compression using up to 16 threads
+Compressing objects:   0% (1/994)Compressing objects:   1% (10/994)Compressing objects:   2% (20/994)Compressing objects:   3% (30/994)Compressing objects:   4% (40/994)Compressing objects:   5% (50/994)Compressing objects:   6% (60/994)Compressing objects:   7% (70/994)Compressing objects:   8% (80/994)Compressing objects:   9% (90/994)Compressing objects:  10% (100/994)Compressing objects:  11% (110/994)Compressing objects:  12% (120/994)Compressing objects:  13% (130/994)Compressing objects:  14% (140/994)Compressing objects:  15% (150/994)Compressing objects:  16% (160/994)Compressing objects:  17% (169/994)Compressing objects:  18% (179/994)Compressing objects:  19% (189/994)Compressing objects:  20% (199/994)Compressing objects:  21% (209/994)Compressing objects:  22% (219/994)Compressing objects:  23% (229/994)Compressing objects:  24% (239/994)Compressing objects:  25% (249/994)Compressing objects:  26% (259/994)Compressing objects:  27% (269/994)Compressing objects:  28% (279/994)Compressing objects:  29% (289/994)Compressing objects:  30% (299/994)Compressing objects:  31% (309/994)Compressing objects:  32% (319/994)Compressing objects:  33% (329/994)Compressing objects:  34% (338/994)Compressing objects:  35% (348/994)Compressing objects:  36% (358/994)Compressing objects:  37% (368/994)Compressing objects:  38% (378/994)Compressing objects:  39% (388/994)Compressing objects:  40% (398/994)Compressing objects:  41% (408/994)Compressing objects:  42% (418/994)Compressing objects:  43% (428/994)Compressing objects:  44% (438/994)Compressing objects:  45% (448/994)Compressing objects:  45% (454/994)Compressing objects:  46% (458/994)Compressing objects:  47% (468/994)Compressing objects:  48% (478/994)Compressing objects:  49% (488/994)Compressing objects:  50% (497/994)Compressing objects:  51% (507/994)Compressing objects:  52% (517/994)Compressing objects:  53% (527/994)Compressing objects:  54% (537/994)Compressing objects:  55% (547/994)Compressing objects:  56% (557/994)Compressing objects:  57% (567/994)Compressing objects:  58% (577/994)Compressing objects:  59% (587/994)Compressing objects:  60% (597/994)Compressing objects:  61% (607/994)Compressing objects:  62% (617/994)Compressing objects:  63% (627/994)Compressing objects:  64% (637/994)Compressing objects:  64% (642/994)Compressing objects:  65% (647/994)Compressing objects:  66% (657/994)Compressing objects:  67% (666/994)Compressing objects:  68% (676/994)Compressing objects:  69% (686/994)Compressing objects:  71% (706/994)Compressing objects:  72% (716/994)Compressing objects:  72% (723/994)Compressing objects:  73% (726/994)Compressing objects:  74% (736/994)Compressing objects:  75% (746/994)Compressing objects:  76% (756/994)Compressing objects:  77% (766/994)Compressing objects:  78% (776/994)Compressing objects:  79% (786/994)Compressing objects:  79% (788/994)Compressing objects:  80% (796/994)Compressing objects:  81% (806/994)Compressing objects:  82% (816/994)Compressing objects:  83% (826/994)Compressing objects:  83% (828/994)Compressing objects:  84% (835/994)Compressing objects:  86% (855/994)Compressing objects:  87% (865/994)Compressing objects:  88% (875/994)Compressing objects:  89% (885/994)Compressing objects:  89% (891/994)Compressing objects:  90% (895/994)Compressing objects:  91% (905/994)Compressing objects:  92% (915/994)Compressing objects:  92% (919/994)Compressing objects:  92% (924/994)Compressing objects:  93% (925/994)Compressing objects:  93% (929/994)Compressing objects:  94% (935/994)Compressing objects:  95% (945/994)Compressing objects:  95% (954/994)Compressing objects:  96% (955/994)Compressing objects:  96% (959/994)Compressing objects:  96% (964/994)Compressing objects:  97% (965/994)Compressing objects:  97% (974/994)Compressing objects:  98% (975/994)Compressing objects:  98% (984/994)Compressing objects:  99% (985/994)Compressing objects:  99% (990/994)Compressing objects: 100% (994/994)Compressing objects: 100% (994/994), done.
+Writing objects:   0% (1/1129)Writing objects:   1% (12/1129)Writing objects:   2% (24/1129)Writing objects:   3% (34/1129)Writing objects:   4% (46/1129)Writing objects:   5% (57/1129)Writing objects:   6% (68/1129)Writing objects:   7% (80/1129)Writing objects:   8% (91/1129), 8.00 MiB | 15.98 MiB/sWriting objects:   8% (98/1129), 8.73 MiB | 6.34 MiB/s [INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main 5a8b100] 自动提交: 2025-12-21 00:54:34
+ 6 files changed, 250 insertions(+), 2 deletions(-)
+ create mode 100644 test_auto_1766249674.txt
+spawn git push
+Enumerating objects: 1163, done.
+Counting objects:   0% (1/1163)Counting objects:   1% (12/1163)Counting objects:   2% (24/1163)Counting objects:   3% (35/1163)
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+Counting objects:  40% (466/1163)Counting objects:  41% (477/1163)Counting objects:  42% (489/1163)Counting objects:  43% (501/1163)Counting objects:  44% (512/1163)Counting objects:  45% (524/1163)Counting objects:  46% (535/1163)Counting objects:  47% (547/1163)Counting objects:  48% (559/1163)Counting objects:  49% (570/1163)Counting objects:  50% (582/1163)Counting objects:  51% (594/1163)Counting objects:  52% (605/1163)Counting objects:  53% (617/1163)Counting objects:  54% (629/1163)Counting objects:  55% (640/1163)Counting objects:  56% (652/1163)Counting objects:  57% (663/1163)Counting objects:  58% (675/1163)Counting objects:  59% (687/1163)Counting objects:  60% (698/1163)Counting objects:  61% (710/1163)Counting objects:  62% (722/1163)Counting objects:  63% (733/1163)Counting objects:  64% (745/1163)Counting objects:  65% (756/1163)Counting objects:  66% (768/1163)Counting objects:  67% (780/1163)Counting objects:  68% (791/1163)Counting objects:  69% (803/1163)Counting objects:  70% (815/1163)Counting objects:  71% (826/1163)Counting objects:  72% (838/1163)Counting objects:  73% (849/1163)Counting objects:  74% (861/1163)Counting objects:  75% (873/1163)Counting objects:  76% (884/1163)Counting objects:  77% (896/1163)Counting objects:  78% (908/1163)Counting objects:  79% (919/1163)Counting objects:  80% (931/1163)Counting objects:  81% (943/1163)Counting objects:  82% (954/1163)Counting objects:  83% (966/1163)Counting objects:  84% (977/1163)Counting objects:  85% (989/1163)Counting objects:  86% (1001/1163)Counting objects:  87% (1012/1163)Counting objects:  88% (1024/1163)Counting objects:  89% (1036/1163)Counting objects:  90% (1047/1163)Counting objects:  91% (1059/1163)Counting objects:  92% (1070/1163)Counting objects:  93% (1082/1163)Counting objects:  94% (1094/1163)Counting objects:  95% (1105/1163)Counting objects:  96% (1117/1163)Counting objects:  97% (1129/1163)Counting objects:  98% (1140/1163)Counting objects:  99% (1152/1163)Counting objects: 100% (1163/1163)Counting objects: 100% (1163/1163), done.
+Delta compression using up to 16 threads
+Compressing objects:   0% (1/1008)Compressing objects:   1% (11/1008)Compressing objects:   2% (21/1008)Compressing objects:   3% (31/1008)Compressing objects:   4% (41/1008)Compressing objects:   5% (51/1008)Compressing objects:   6% (61/1008)Compressing objects:   7% (71/1008)Compressing objects:   8% (81/1008)Compressing objects:   9% (91/1008)Compressing objects:  10% (101/1008)Compressing objects:  11% (111/1008)Compressing objects:  12% (121/1008)Compressing objects:  13% (132/1008)Compressing objects:  14% (142/1008)Compressing objects:  15% (152/1008)Compressing objects:  16% (162/1008)Compressing objects:  17% (172/1008)Compressing objects:  18% (182/1008)Compressing objects:  19% (192/1008)Compressing objects:  20% (202/1008)Compressing objects:  21% (212/1008)Compressing objects:  22% (222/1008)Compressing objects:  23% (232/1008)Compressing objects:  24% (242/1008)Compressing objects:  25% (252/1008)Compressing objects:  26% (263/1008)Compressing objects:  27% (273/1008)Compressing objects:  28% (283/1008)Compressing objects:  29% (293/1008)Compressing objects:  30% (303/1008)Compressing objects:  31% (313/1008)Compressing objects:  32% (323/1008)Compressing objects:  33% (333/1008)Compressing objects:  34% (343/1008)Compressing objects:  35% (353/1008)Compressing objects:  36% (363/1008)Compressing objects:  37% (373/1008)Compressing objects:  38% (384/1008)Compressing objects:  39% (394/1008)Compressing objects:  40% (404/1008)Compressing objects:  41% (414/1008)Compressing objects:  42% (424/1008)Compressing objects:  43% (434/1008)Compressing objects:  44% (444/1008)Compressing objects:  45% (454/1008)Compressing objects:  46% (464/1008)Compressing objects:  47% (474/1008)Compressing objects:  47% (482/1008)Compressing objects:  48% (484/1008)Compressing objects:  49% (494/1008)Compressing objects:  50% (504/1008)Compressing objects:  51% (515/1008)Compressing objects:  52% (525/1008)Compressing objects:  54% (545/1008)Compressing objects:  55% (555/1008)Compressing objects:  56% (565/1008)Compressing objects:  57% (575/1008)Compressing objects:  58% (585/1008)Compressing objects:  59% (595/1008)Compressing objects:  60% (605/1008)Compressing objects:  61% (615/1008)Compressing objects:  62% (625/1008)Compressing objects:  63% (636/1008)Compressing objects:  64% (646/1008)Compressing objects:  64% (648/1008)Compressing objects:  65% (656/1008)Compressing objects:  66% (666/1008)Compressing objects:  67% (676/1008)Compressing objects:  68% (686/1008)Compressing objects:  69% (696/1008)Compressing objects:  70% (706/1008)Compressing objects:  71% (716/1008)Compressing objects:  72% (726/1008)Compressing objects:  73% (736/1008)Compressing objects:  73% (740/1008)Compressing objects:  74% (746/1008)Compressing objects:  75% (756/1008)Compressing objects:  76% (767/1008)Compressing objects:  77% (777/1008)Compressing objects:  78% (787/1008)Compressing objects:  79% (797/1008)Compressing objects:  80% (807/1008)Compressing objects:  81% (817/1008)Compressing objects:  81% (818/1008)Compressing objects:  82% (827/1008)Compressing objects:  83% (837/1008)Compressing objects:  84% (847/1008)Compressing objects:  85% (857/1008)Compressing objects:  85% (863/1008)Compressing objects:  86% (867/1008)Compressing objects:  87% (877/1008)Compressing objects:  88% (888/1008)Compressing objects:  88% (895/1008)Compressing objects:  89% (898/1008)Compressing objects:  91% (918/1008)Compressing objects:  92% (928/1008)Compressing objects:  92% (933/1008)Compressing objects:  93% (938/1008)Compressing objects:  93% (944/1008)Compressing objects:  94% (948/1008)Compressing objects:  94% (957/1008)Compressing objects:  95% (958/1008)Compressing objects:  95% (961/1008)Compressing objects:  96% (968/1008)Compressing objects:  96% (973/1008)Compressing objects:  97% (978/1008)Compressing objects:  98% (988/1008)Compressing objects:  98% (989/1008)Compressing objects:  98% (997/1008)Compressing objects:  99% (998/1008)Compressing objects:  99% (1007/1008)Compressing objects: 100% (1008/1008)Compressing objects: 100% (1008/1008), done.
+Writing objects:   0% (1/1143)Writing objects:   1% (12/1143)Writing objects:   2% (23/1143)Writing objects:   3% (35/1143)Writing objects:   4% (46/1143)Writing objects:   5% (58/1143)Writing objects:   6% (69/1143)Writing objects:   7% (81/1143)Writing objects:   8% (92/1143), 7.27 MiB | 14.39 MiB/sWriting objects:   8% (99/1143), 8.73 MiB | 5.56 MiB/s [INFO] 实例已停止。

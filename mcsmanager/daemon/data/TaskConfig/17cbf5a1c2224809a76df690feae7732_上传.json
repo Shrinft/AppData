@@ -1,0 +1,13 @@
+{
+    "instanceUuid": "17cbf5a1c2224809a76df690feae7732",
+    "name": "上传",
+    "count": -1,
+    "time": "30 50 2 * * 1,2,3,4,5,7",
+    "actions": [
+        {
+            "type": "command",
+            "payload": "U"
+        }
+    ],
+    "type": 2
+}

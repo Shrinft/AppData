@@ -1,0 +1,122 @@
+Language_Changed: "Successfully set language to English(us)!"
+Language_Unknown: "Unknown language!"
+
+Start_Time: "Load completed, used [time] seconds! Use command 'help' to get command help."
+Start_Welcome: "Welcome to use MossFrp JAVA Client, version:[version]"
+Start_Copyright: "This plugin client and standard version client are copyrighted by Bilibili@墨守MossCG."
+Start_SystemFull:  "Operate system name: [system]"
+Start_SystemRead: "Run system mode: [system]"
+Start_RunMode: "Client run mode: [mode]"
+Start_CommandComplete: "Command listener thread started."
+Start_ProcessComplete: "Frp process manager core started."
+Start_UpdateDomainsComplete: "Available domains update succeed."
+Start_UpdateDomainsFailed: "Available domains update failed. Use default domains."
+Start_CheckUpdateComplete: "Update check complete."
+Start_CheckUpdateFailed: "Update check failed! Please check if your internet is connected."
+Start_CheckNoticeFailed: "Failed to get notice from server! Please check if your internet is connected."
+Start_NeedUpdate: "Fount a new version! Latest version: [version], update if available!"
+Start_CheckFailed: "Start failed! Please start MossFrp client with CMD, and add argument '-MossFrp=nb',
+we set this to prevent users from click jar client file directly that client run without windows,
+this setting won't active if user's system is linux or run this as a plugin!"
+
+Load_LoadFile: "Loading saved config: [file]"
+Load_NotEnableFile: "Not enabled config: [file]"
+Load_LoadFileFailed: "Failed to load saved config: [file]"
+Load_LoadFileSucceed: "Succeed to load saved config: [file]"
+
+Save_SaveReadFailed: "Failed to read save config template!"
+Save_SaveWriteFailed: "Failed to write save config file!"
+Save_SaveSucceed: "Config file [name].yml saved. Find and complete your frp config in '/MossFrp/configs', then use the command 'mossfrp reload'(Standard version use 'reload'.) to enable your tunnel."
+
+Exit_Start: "Exiting MossFrp client......"
+Exit_Finished: "MossFrp client have already exit! Thanks for using!"
+
+Prefix_Info: "[Info]"
+Prefix_Warn: "[Warn]"
+Prefix_Error: "[Error]"
+Prefix_Exception: "[Exception]"
+Prefix_Debug: "[Debug]"
+Prefix_Command: "[Command]"
+Prefix_Unknown: "[Unknown]"
+
+Code_DecodeFailed: "Tunnel key decode failed! Please confirm your tunnel key!"
+Code_DecodeSuccess: "Tunnel key decode success! Information below."
+Code_DecodeNode: "Node: "
+Code_DecodeNumber: "Number: "
+Code_DecodePortServer: "Server Port: "
+Code_DecodePortRange: "Available Port: "
+
+Core_RunError: "Can not start frp process core! Please check or report error!"
+Core_HeartbeatError: "Frp process heartbeat error!"
+Core_HeartbeatTimeout: "Frp process heartbeat timeout!"
+Core_ProcessStart: "Frp process manager core started."
+Core_ProcessClose: "Frp process manager core closing."
+Core_ProcessExit: "Frp process manager core closed."
+Core_FrpStartRun: "Frp process [name] starting."
+Core_FrpStartFailed: "Frp process [name] start failed."
+Core_FrpStartSucceed: "Frp process [name] start succeed."
+Core_FrpStop: "Frp process [name] stopped."
+
+Frp_ReadError: "An error has occurred while reading Frp output message."
+Frp_InfoLogin: "Successfully login info remote Frp server!"
+Frp_InfoStarting: "Proxy added. Starting tunnel......"
+Frp_InfoStartSuccess: "Tunnel start successfully! Use 'list' to see the list of tunnel."
+Frp_InfoPortUsed: "Port already used! Please change your remote port!"
+Frp_InfoErrorEOF: "Connection error! Reason: EOF."
+Frp_InfoLoginEOF: "Login failed! Reason: EOF."
+Frp_InfoReconnecting: "Trying reconnect to Frp server......"
+Frp_InfoNoSuchHost: "No such host! Please check your server address or if your PC connected to internet!"
+Frp_InfoConnectNoRespond: "Connection failed! There was no respond from Frp server! Check if the Frp server down or your MossFrp tunnel key is outdated!"
+Frp_InfoConnectRejectRemote: "Connection reject! Your connection was rejected by remote server! Check if the Frp server down or your MossFrp tunnel key is outdated!"
+Frp_InfoConnectRejectLocal: "Connection reject! Your connection was rejected by local server! Check if your local server down or your local port wrong!"
+Frp_InfoConnectTokenWrong: "Connection failed! Wrong token! Check if the Frp server down or your MossFrp tunnel key is outdated or wrong!"
+Frp_InfoUDPConnection: "Receive a UDP connection, address: [address]"
+Frp_InfoUDPConnectionEOF: "UDP connection error! Reason: EOF."
+Frp_InfoWriterClosing: "Control writer is closing......"
+
+List_Prefix: "Tunnel list: "
+List_Starting: "[Starting]"
+List_Online: "[Enabled]"
+List_Offline: "[Disabled]"
+List_Local: "Local address: "
+List_Remote: "Remote address:"
+List_Or: " Or "
+
+File_WriteConfigStart: "Writing Frp configuration file......"
+File_WriteConfigSuccess: "The configuration file was written successfully."
+File_WriteConfigFailed: "The configuration file was written failed!"
+File_WriteSaveStart: "Writing save configuration file......"
+File_WriteSaveSuccess: "The save configuration file was written successfully."
+File_WriteSaveFailed: "The save configuration file was written failed!"
+File_CollectStart: "Collecting info......Please wait......"
+File_CollectFailed: "Failed to collect info!"
+File_CollectComplete: "Info collect succeed. Info file name: [name] , go to dir /MossFrp/report to get info collect file."
+
+Command_Unknown: "Unknown command."
+Command_ConsoleOnly: "MossFrp commands can be only executed in console!"
+Command_ReloadStart: "Reloading MossFrp......"
+Command_ReloadComplete: "MossFrp reloaded!"
+Command_NameChinese: "Chinese or special symbols are not allowed in config name!"
+
+Command_Help: "\r\n--= MossFrp Command Help =--
+  \r\nSave config: save
+  \r\nTunnel list: list
+  \r\nChange language: lang
+  \r\nCollect info: report
+  \r\nReload software: reload
+  \r\nClose software: exit
+  \r\nCheck for help: help
+  \r\nTips: Don't input <> while input arguments."
+Command_HelpLang: "\r\n--= MossFrp Command Help =--
+  \r\nChange language: lang <language>
+  \r\nSupport languages: zh_cn en_us
+  \r\nOf course you can write your custom language files and load it.
+  \r\nSet language here is temporarily, you can set language in config permanently.
+  \r\nTips: Don't input <> while input arguments."
+Command_HelpSave: "\r\n--= MossFrp Command Help =--
+  \r\nSave config: save <name> <code>
+  \r\nExample: save myTunnel abc123456789
+  \r\nChinese/spaces/symbols are not allowed in name, you can only use letter/underline/number.
+  \r\nIf your frp server isn't provided by MossFrp, copy example.yml and complete it.
+  \r\nFrp config files save in '/MossFrp/configs'
+  \r\nTips: Don't input <> while input arguments."
