@@ -344,3 +344,110 @@
 [12/21 11:48:35] [INFO] 尝试使用系统用户启动子进程，用户名：
 [12/21 11:48:35] [INFO] ----------------
 [12/21 11:48:35] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2243
+[12/21 11:49:37] [INFO] Browser Uploaded File: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0/deepseek_bash_20251221_1942e7.sh
+[12/21 11:50:08] [WARN] 会话 Eyjm75PgOeWrt7DoAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 11:50:08] [WARN] 会话 Eyjm75PgOeWrt7DoAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 11:50:28] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 11:50:28] [INFO] ----------------
+[12/21 11:50:28] [INFO] 会话 : 请求开启实例.
+[12/21 11:50:28] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 11:50:28] [INFO] 启动命令: ./shell.sh
+[12/21 11:50:28] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 11:50:28] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-09704028-2176-4a1b-84fc-1ff258b3d87b -cmd ["./shell.sh"]
+[12/21 11:50:28] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 11:50:28] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 11:50:28] [INFO] ----------------
+[12/21 11:50:28] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2314
+[12/21 11:51:14] [INFO] Browser Uploaded File: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0/deepseek_bash_20251221_0a74a3.sh
+[12/21 11:51:46] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 11:51:46] [INFO] ----------------
+[12/21 11:51:46] [INFO] 会话 : 请求开启实例.
+[12/21 11:51:46] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 11:51:46] [INFO] 启动命令: ./shell.sh
+[12/21 11:51:46] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 11:51:46] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-c4203ba8-06ed-4a3b-8a24-75d89e3e265d -cmd ["./shell.sh"]
+[12/21 11:51:46] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 11:51:46] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 11:51:46] [INFO] ----------------
+[12/21 11:51:46] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2326
+[12/21 11:52:44] [INFO] 创建计划任务 Git push:
+{"instanceUuid":"c30553ca0026473f8c395082a92f09a0","name":"Git push","count":-1,"time":"50 50 2 * * 1,2,3,4,5,6,7","actions":[{"type":"command","payload":"./git-push.sh"}],"type":2}
+[12/21 11:52:44] [INFO] 创建计划任务 Git push 完毕
+[12/21 11:54:59] [WARN] 会话 Eyjm75PgOeWrt7DoAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 11:54:59] [WARN] 会话 Eyjm75PgOeWrt7DoAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 11:55:27] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 11:55:27] [INFO] ----------------
+[12/21 11:55:27] [INFO] 会话 : 请求开启实例.
+[12/21 11:55:27] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 11:55:27] [INFO] 启动命令: ./shell.sh
+[12/21 11:55:27] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 11:55:27] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-6fe8020d-5120-41b8-88cd-bda2428e3e5d -cmd ["./shell.sh"]
+[12/21 11:55:27] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 11:55:27] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 11:55:27] [INFO] ----------------
+[12/21 11:55:27] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2345
+[12/21 11:55:35] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 11:55:35] [INFO] ----------------
+[12/21 11:55:35] [INFO] 会话 : 请求开启实例.
+[12/21 11:55:35] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 11:55:35] [INFO] 启动命令: ./shell.sh
+[12/21 11:55:35] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 11:55:35] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-ae51dc92-4b83-41cd-a602-8a84b7851159 -cmd ["./shell.sh"]
+[12/21 11:55:35] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 11:55:35] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 11:55:35] [INFO] ----------------
+[12/21 11:55:35] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2356
+[12/21 11:56:01] [WARN] 会话 Eyjm75PgOeWrt7DoAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 11:56:01] [WARN] 会话 Eyjm75PgOeWrt7DoAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 11:57:32] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 11:57:32] [INFO] ----------------
+[12/21 11:57:32] [INFO] 会话 : 请求开启实例.
+[12/21 11:57:32] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 11:57:32] [INFO] 启动命令: ./shell.sh
+[12/21 11:57:32] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 11:57:32] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-b28a1e67-816f-406a-9019-a76dd1d6d665 -cmd ["./shell.sh"]
+[12/21 11:57:32] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 11:57:32] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 11:57:32] [INFO] ----------------
+[12/21 11:57:32] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2372
+[12/21 12:00:03] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 12:00:03] [INFO] ----------------
+[12/21 12:00:03] [INFO] 会话 : 请求开启实例.
+[12/21 12:00:03] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 12:00:03] [INFO] 启动命令: ./shell.sh
+[12/21 12:00:03] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 12:00:03] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-06a3f0e8-cea8-471f-972d-62cdb98c230f -cmd ["./shell.sh"]
+[12/21 12:00:03] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 12:00:03] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 12:00:03] [INFO] ----------------
+[12/21 12:00:03] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 2394

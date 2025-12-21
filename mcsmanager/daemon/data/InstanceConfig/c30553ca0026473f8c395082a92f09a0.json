@@ -1,12 +1,12 @@
 {
     "nickname": "Git Push",
-    "startCommand": "./git-push.sh",
-    "stopCommand": "^c",
+    "startCommand": "./shell.sh",
+    "stopCommand": "exit",
     "cwd": "data/InstanceData/c30553ca0026473f8c395082a92f09a0",
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1766215217474,
-    "lastDatetime": 1766249674213,
+    "lastDatetime": 1766289452466,
     "type": "universal",
     "tag": [],
     "endTime": 0,
@@ -29,10 +29,10 @@
         "ptyWindowRow": 40
     },
     "eventTask": {
-        "autoStart": false,
+        "autoStart": true,
         "autoRestart": false,
         "autoRestartMaxTimes": -1,
-        "ignore": false
+        "ignore": true
     },
     "docker": {
         "containerName": "",
@@ -60,6 +60,7 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": ""
+        "openFrpToken": "",
+        "isOpenFrp": false
     }
 }
