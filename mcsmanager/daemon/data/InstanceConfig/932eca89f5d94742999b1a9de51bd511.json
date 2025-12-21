@@ -1,12 +1,12 @@
 {
     "nickname": "frpc",
-    "startCommand": "./frpc -c ftpc.ini",
+    "startCommand": "./frpc -c frpc.ini",
     "stopCommand": "^c",
     "cwd": "/workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511",
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1766220678953,
-    "lastDatetime": 1766220678953,
+    "lastDatetime": 1766288458634,
     "type": "universal",
     "tag": [],
     "endTime": 0,
@@ -29,8 +29,8 @@
         "ptyWindowRow": 40
     },
     "eventTask": {
-        "autoStart": false,
-        "autoRestart": false,
+        "autoStart": true,
+        "autoRestart": true,
         "autoRestartMaxTimes": -1,
         "ignore": true
     },

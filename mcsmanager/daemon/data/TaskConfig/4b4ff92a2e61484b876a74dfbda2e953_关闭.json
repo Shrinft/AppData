@@ -1,0 +1,13 @@
+{
+    "instanceUuid": "4b4ff92a2e61484b876a74dfbda2e953",
+    "name": "关闭",
+    "count": -1,
+    "time": "0 45 2 * * 1,2,3,4,5,6,7",
+    "actions": [
+        {
+            "type": "stop",
+            "payload": ""
+        }
+    ],
+    "type": 2
+}

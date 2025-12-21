@@ -1,0 +1,1125 @@
+[12/20 16:34:55] [INFO] All feature modules and permission firewalls have been initialized successfully
+[12/20 16:34:55] [INFO] LANGUAGE: zh_cn
+[12/20 16:34:55] [INFO] 欢迎使用 MCSManager 守护进程
+[12/20 16:34:55] [INFO] 所有应用实例已加载，总计 2 个
+[12/20 16:34:55] [INFO] ----------------------------
+[12/20 16:34:55] [INFO] 守护进程现已成功启动
+[12/20 16:34:55] [INFO] 参考文档：https://docs.mcsmanager.com/
+[12/20 16:34:55] [INFO] 访问地址: http://localhost:7860
+[12/20 16:34:55] [INFO] 配置文件：data/Config/global.json
+[12/20 16:34:55] [INFO] 访问密钥：580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34
+[12/20 16:34:55] [INFO] 密钥作为唯一认证方式，请使用 MCSManager 面板的节点功能连接程序
+[12/20 16:34:55] [INFO] 你可以使用 Ctrl+C 快捷键即可关闭程序
+[12/20 16:34:55] [INFO] ----------------------------
+[12/20 16:35:02] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 16:35:02] [INFO] ----------------
+[12/20 16:35:02] [INFO] 会话 : 请求开启实例.
+[12/20 16:35:02] [INFO] 实例标识符: [63af6014618148c9ac2fd0aeea4af138]
+[12/20 16:35:02] [INFO] 启动命令: ./frpc
+[12/20 16:35:02] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 16:35:02] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-01fdf5ba-f3f7-4920-a322-7f3e04cc7898 -cmd ["./frpc"]
+[12/20 16:35:02] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
+[12/20 16:35:02] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 16:35:02] [INFO] ----------------
+[12/20 16:35:02] [INFO] 实例 63af6014618148c9ac2fd0aeea4af138 成功启动 PID: 1351
+[12/20 16:35:02] [INFO] 实例 frp 63af6014618148c9ac2fd0aeea4af138 自动启动指令已发出
+[12/20 16:35:38] [INFO] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1) 验证身份成功
+[12/20 16:35:38] [WARN] 节点语言已更改： zh_cn
+[12/20 16:35:55] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/ 响应数据时异常:
+ {
+  instanceUuid: '53356b17fe0f4651b5cf7917aeef5c8e',
+  err: 'The operation failed, the instance 53356b17fe0f4651b5cf7917aeef5c8e does not exist.'
+}
+[12/20 16:36:03] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/ 响应数据时异常:
+ {
+  instanceUuid: '53356b17fe0f4651b5cf7917aeef5c8e',
+  err: 'The operation failed, the instance 53356b17fe0f4651b5cf7917aeef5c8e does not exist.'
+}
+[12/20 16:36:05] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/ 响应数据时异常:
+ {
+  instanceUuid: '53356b17fe0f4651b5cf7917aeef5c8e',
+  err: 'The operation failed, the instance 53356b17fe0f4651b5cf7917aeef5c8e does not exist.'
+}
+[12/20 16:36:16] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/ 响应数据时异常:
+ {
+  instanceUuid: '53356b17fe0f4651b5cf7917aeef5c8e',
+  err: 'The operation failed, the instance 53356b17fe0f4651b5cf7917aeef5c8e does not exist.'
+}
+[12/20 16:36:23] [INFO] 会话 J85MQasjcpckfETFAAAD(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 16:36:35] [INFO] 会话 LF7_Y8bItAgaMp1mAAAF(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 16:37:03] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 16:37:03] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 16:37:36] [INFO] 创建计划任务 Git push:
+{"instanceUuid":"c30553ca0026473f8c395082a92f09a0","name":"Git push","count":-1,"time":"0 0 3 * * 1,2,3,4,5,6,7","actions":[{"type":"start","payload":""}],"type":2}
+[12/20 16:37:36] [INFO] 创建计划任务 Git push 完毕
+[12/20 16:37:45] [INFO] 会话 36TCKMKrqGgcZBElAAAL(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 16:40:32] [INFO] 创建计划任务 Restart:
+{"instanceUuid":"54acc079ea6f49c5ab67bd1eb45c13b4","name":"Restart","count":-1,"time":"47 39 16 * * 1,2,4,6","actions":[{"type":"start","payload":""}],"type":2}
+[12/20 16:40:32] [INFO] 创建计划任务 Restart 完毕
+[12/20 16:40:47] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 16:40:47] [INFO] ----------------
+[12/20 16:40:47] [INFO] 会话 : 请求开启实例.
+[12/20 16:40:47] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 16:40:47] [INFO] 启动命令: ./git-push.sh
+[12/20 16:40:47] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 16:40:47] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-82c50fd0-e776-4ac3-8f80-9f8816b80fe1 -cmd ["./git-push.sh"]
+[12/20 16:40:47] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 16:40:47] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 16:40:47] [INFO] ----------------
+[12/20 16:40:47] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1370
+[12/20 17:09:32] [INFO] Browser Uploaded File: /workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511/frpc
+[12/20 17:09:33] [INFO] Browser Uploaded File: /workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511/frpc.ini
+[12/20 17:10:54] [INFO] 会话 sQvXR9EH3Tkm0_eGAAAd(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 17:10:55] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:10:55] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:12:33] [INFO] Browser Uploaded File: /workspace/AppData/MinecraftServer/fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 17:20:21] [INFO] Browser Uploaded File: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64.zip
+[12/20 17:21:07] [INFO] Function useUnzip(): Command: /workspace/AppData/mcsmanager/daemon/lib/file_zip_linux_x64 --mode=2 --zipPath=zulu25.30.17-ca-jdk25.0.1-linux_x64.zip --distDirPath=/workspace/AppData/MinecraftServer/ --code=utf-8
+[12/20 17:21:07] [INFO] 7zip 成功加载: 7-Zip (z) 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+[12/20 17:22:47] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:22:47] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:23:15] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:23:15] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:24:48] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:24:48] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:25:17] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:25:17] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:26:27] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:26:27] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:27:18] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:27:18] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:27:36] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/process_config/file 响应数据时异常:
+ Error: 文件不存在或路径错误，文件访问被拒绝
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:522:45)
+    at RouterApp.emit (node:events:518:28)
+    at RouterApp.emitRouter (webpack://mcsmanager-daemon/src/service/router.ts:19:13)
+    at Socket.<anonymous> (webpack://mcsmanager-daemon/src/service/router.ts:66:17)
+    at Socket.emit (node:events:518:28)
+    at Socket.emitUntyped (/workspace/AppData/mcsmanager/daemon/node_modules/socket.io/dist/typed-events.js:69:22)
+    at /workspace/AppData/mcsmanager/daemon/node_modules/socket.io/dist/socket.js:697:39
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+[12/20 17:27:39] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:27:39] [INFO] ----------------
+[12/20 17:27:39] [INFO] 会话 : 请求开启实例.
+[12/20 17:27:39] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 17:27:39] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 17:27:39] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:27:39] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-71bf2ac8-e443-41b6-9480-f57d7d58c61b -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 17:27:39] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 17:27:39] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:27:39] [INFO] ----------------
+[12/20 17:27:39] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 1461
+[12/20 17:28:13] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:28:13] [INFO] ----------------
+[12/20 17:28:13] [INFO] 会话 : 请求开启实例.
+[12/20 17:28:13] [INFO] 实例标识符: [fc60639ffe414b2c833de1d256490d53]
+[12/20 17:28:13] [INFO] 启动命令: htop
+[12/20 17:28:13] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:28:13] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53 -fifo /tmp/mcsmanager-instance-pipe/pipe-0628af0d-d541-401a-bf94-7b21acdacf4f -cmd ["htop"]
+[12/20 17:28:13] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53
+[12/20 17:28:13] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:28:13] [INFO] ----------------
+[12/20 17:28:13] [ERROR] 实例fc60639ffe414b2c833de1d256490d53启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 17:28:13] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: 'fc60639ffe414b2c833de1d256490d53',
+  nickname: 'htop',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 17:28:25] [INFO] 会话 XJXcsmG8AsyDXAGUAAAr(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 17:28:29] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:28:29] [INFO] ----------------
+[12/20 17:28:29] [INFO] 会话 : 请求开启实例.
+[12/20 17:28:29] [INFO] 实例标识符: [global0001]
+[12/20 17:28:29] [INFO] 启动命令: bash
+[12/20 17:28:29] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:28:29] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir / -fifo /tmp/mcsmanager-instance-pipe/pipe-6cce6e7c-c0e2-4ab2-8743-60d28fda0a16 -cmd ["bash"]
+[12/20 17:28:29] [INFO] 工作目录: /
+[12/20 17:28:29] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:28:29] [INFO] ----------------
+[12/20 17:28:29] [INFO] 实例 global0001 成功启动 PID: 1519
+[12/20 17:29:00] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:29:00] [INFO] ----------------
+[12/20 17:29:00] [INFO] 会话 : 请求开启实例.
+[12/20 17:29:00] [INFO] 实例标识符: [fc60639ffe414b2c833de1d256490d53]
+[12/20 17:29:00] [INFO] 启动命令: htop
+[12/20 17:29:00] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:29:00] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53 -fifo /tmp/mcsmanager-instance-pipe/pipe-75f5629c-f3fa-46f8-8e70-1ed338920c1f -cmd ["htop"]
+[12/20 17:29:00] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53
+[12/20 17:29:00] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:29:00] [INFO] ----------------
+[12/20 17:29:00] [INFO] 实例 fc60639ffe414b2c833de1d256490d53 成功启动 PID: 1559
+[12/20 17:29:10] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:29:10] [INFO] ----------------
+[12/20 17:29:10] [INFO] 会话 : 请求开启实例.
+[12/20 17:29:10] [INFO] 实例标识符: [fc60639ffe414b2c833de1d256490d53]
+[12/20 17:29:10] [INFO] 启动命令: htop
+[12/20 17:29:10] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:29:10] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53 -fifo /tmp/mcsmanager-instance-pipe/pipe-f22652a3-faf4-4783-ae5a-4696120fcc1f -cmd ["htop"]
+[12/20 17:29:10] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53
+[12/20 17:29:10] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:29:10] [INFO] ----------------
+[12/20 17:29:10] [INFO] 实例 fc60639ffe414b2c833de1d256490d53 成功启动 PID: 1565
+[12/20 17:31:40] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:31:40] [INFO] ----------------
+[12/20 17:31:40] [INFO] 会话 : 请求开启实例.
+[12/20 17:31:40] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 17:31:40] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 17:31:40] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:31:40] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-4702419c-7f28-46ff-bef6-9108b216b690 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 17:31:40] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 17:31:40] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:31:40] [INFO] ----------------
+[12/20 17:31:40] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 1573
+[12/20 17:33:08] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 17:33:08] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 17:34:13] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:34:13] [INFO] ----------------
+[12/20 17:34:13] [INFO] 会话 : 请求开启实例.
+[12/20 17:34:13] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 17:34:13] [INFO] 启动命令: ./git-push.sh
+[12/20 17:34:13] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:34:13] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-31ab1aa5-38f9-463d-8b6e-c3bb7a9342cf -cmd ["./git-push.sh"]
+[12/20 17:34:13] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 17:34:13] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:34:13] [INFO] ----------------
+[12/20 17:34:13] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1635
+[12/20 17:44:38] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:44:38] [INFO] ----------------
+[12/20 17:44:38] [INFO] 会话 : 请求开启实例.
+[12/20 17:44:38] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 17:44:38] [INFO] 启动命令: ./git-push.sh
+[12/20 17:44:38] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:44:38] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-0a8d827a-1f82-4095-813d-0c75a55aea62 -cmd ["./git-push.sh"]
+[12/20 17:44:38] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 17:44:38] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:44:38] [INFO] ----------------
+[12/20 17:44:38] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1657
+[12/20 17:53:45] [INFO] 会话 FpVbt5sCEinISaZWAABD(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 17:53:55] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 17:53:55] [INFO] ----------------
+[12/20 17:53:55] [INFO] 会话 : 请求开启实例.
+[12/20 17:53:55] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/20 17:53:55] [INFO] 启动命令: ./git-push.sh
+[12/20 17:53:55] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 17:53:55] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-d340d925-fd9e-4174-8b8f-2fc3c31e1c9e -cmd ["./git-push.sh"]
+[12/20 17:53:55] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/20 17:53:55] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 17:53:55] [INFO] ----------------
+[12/20 17:53:55] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1741
+[12/20 18:00:23] [ERROR] 实例932eca89f5d94742999b1a9de51bd511启动时错误:  StartupError: 启动命令，输入输出编码或工作目录为空值
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:152:13)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:25)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 18:00:23] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '932eca89f5d94742999b1a9de51bd511',
+  nickname: 'frpc',
+  err: '启动命令，输入输出编码或工作目录为空值'
+}
+[12/20 18:00:30] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 18:00:30] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 18:31:45] [INFO] 会话 If0uE-XC6fvY8idQAABR(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 19:09:35] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 19:09:35] [INFO] ----------------
+[12/20 19:09:35] [INFO] 会话 : 请求开启实例.
+[12/20 19:09:35] [INFO] 实例标识符: [global0001]
+[12/20 19:09:35] [INFO] 启动命令: bash
+[12/20 19:09:35] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 19:09:35] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir / -fifo /tmp/mcsmanager-instance-pipe/pipe-40882386-bd5c-4728-873a-c7993fde62b6 -cmd ["bash"]
+[12/20 19:09:35] [INFO] 工作目录: /
+[12/20 19:09:35] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 19:09:35] [INFO] ----------------
+[12/20 19:09:35] [INFO] 实例 global0001 成功启动 PID: 1864
+[12/20 20:54:58] [INFO] 会话 L2hGR64MCEFuiiUJAABf(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 20:55:06] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 20:55:06] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 20:56:59] [INFO] 会话 5l44gqtCKrPo70gRAABj(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 21:09:00] [INFO] 会话 o-jpkgyIiPq8g5ZXAABn(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 21:09:28] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/file/move 响应数据时异常:
+ Error: Source and destination must not be the same.
+    at /workspace/AppData/mcsmanager/daemon/node_modules/fs-extra/lib/util/stat.js:39:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[12/20 21:15:01] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 21:15:01] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 21:15:53] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 21:15:53] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 21:16:15] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 21:16:15] [INFO] ----------------
+[12/20 21:16:15] [INFO] 会话 : 请求开启实例.
+[12/20 21:16:15] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 21:16:15] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 21:16:15] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 21:16:15] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-99cdd24d-5c3a-4bd6-b222-0373bffcfc65 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 21:16:15] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 21:16:15] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 21:16:15] [INFO] ----------------
+[12/20 21:16:15] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 1912
+[12/20 21:21:19] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 21:21:19] [INFO] ----------------
+[12/20 21:21:19] [INFO] 会话 : 请求开启实例.
+[12/20 21:21:19] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 21:21:19] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 21:21:19] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 21:21:19] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-49bae30a-7b6e-48a1-b4f4-f166e065c2c3 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 21:21:19] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 21:21:19] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 21:21:19] [INFO] ----------------
+[12/20 21:21:19] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2016
+[12/20 21:24:39] [INFO] 会话 3eGb8B0CRSCE9qMBAAB1(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 21:39:10] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/file/move 响应数据时异常:
+ Error: dest already exists.
+    at /workspace/AppData/mcsmanager/daemon/node_modules/fs-extra/lib/move/move.js:41:31
+    at /workspace/AppData/mcsmanager/daemon/node_modules/universalify/index.js:22:54
+[12/20 21:39:44] [INFO] Function useUnzip(): Command: /workspace/AppData/mcsmanager/daemon/lib/file_zip_linux_x64 --mode=2 --zipPath=world.zip --distDirPath=/workspace/AppData/MinecraftServer/ --code=utf-8
+[12/20 21:40:01] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 21:40:01] [INFO] ----------------
+[12/20 21:40:01] [INFO] 会话 : 请求开启实例.
+[12/20 21:40:01] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 21:40:01] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 21:40:01] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 21:40:01] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-d605837b-5835-40d4-9e27-1b7e5fd4e7d1 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 21:40:01] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 21:40:01] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 21:40:01] [INFO] ----------------
+[12/20 21:40:01] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2067
+[12/20 21:49:38] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 21:49:38] [INFO] ----------------
+[12/20 21:49:38] [INFO] 会话 : 请求开启实例.
+[12/20 21:49:38] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 21:49:38] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 21:49:38] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 21:49:38] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-6ff0b334-8ad5-4542-8322-3be6d54da0bd -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 21:49:38] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 21:49:38] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 21:49:38] [INFO] ----------------
+[12/20 21:49:38] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2143
+[12/20 21:50:24] [INFO] 会话 O6h8Jb-GUMDgoZHuAACH(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 22:13:24] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:13:24] [INFO] ----------------
+[12/20 22:13:24] [INFO] 会话 : 请求开启实例.
+[12/20 22:13:24] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:13:24] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:13:24] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:13:24] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-55e0b943-cbc7-4e70-ac65-f57ad1daa4f8 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:13:24] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:13:24] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:13:24] [INFO] ----------------
+[12/20 22:13:24] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2269
+[12/20 22:18:41] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:18:41] [INFO] ----------------
+[12/20 22:18:41] [INFO] 会话 : 请求开启实例.
+[12/20 22:18:41] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:18:41] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:18:41] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:18:41] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-b4be925b-112e-451c-aecd-5c11173f4074 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:18:41] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:18:41] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:18:41] [INFO] ----------------
+[12/20 22:18:41] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2283
+[12/20 22:21:43] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:21:43] [INFO] ----------------
+[12/20 22:21:43] [INFO] 会话 : 请求开启实例.
+[12/20 22:21:43] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:21:43] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:21:43] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:21:43] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-5e12c3c4-e2c7-47a4-8b15-1eaff45a2987 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:21:43] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:21:43] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:21:43] [INFO] ----------------
+[12/20 22:21:43] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2299
+[12/20 22:25:17] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:25:17] [INFO] ----------------
+[12/20 22:25:17] [INFO] 会话 : 请求开启实例.
+[12/20 22:25:17] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:25:17] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:25:17] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:25:17] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-9e294468-124a-49ca-bb34-38af303c1f8a -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:25:17] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:25:17] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:25:17] [INFO] ----------------
+[12/20 22:25:17] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2315
+[12/20 22:27:42] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:27:42] [INFO] ----------------
+[12/20 22:27:42] [INFO] 会话 : 请求开启实例.
+[12/20 22:27:42] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:27:42] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:27:42] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:27:42] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-79bbb08d-55b3-40dd-855b-64a79b403b0b -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:27:42] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:27:42] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:27:42] [INFO] ----------------
+[12/20 22:27:42] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2351
+[12/20 22:29:42] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:29:42] [INFO] ----------------
+[12/20 22:29:42] [INFO] 会话 : 请求开启实例.
+[12/20 22:29:42] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:29:42] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:29:42] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:29:42] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-37495b4e-627f-4cc0-8efa-2d7c44634cbd -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:29:42] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:29:42] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:29:42] [INFO] ----------------
+[12/20 22:29:42] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2384
+[12/20 22:32:28] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:32:28] [INFO] ----------------
+[12/20 22:32:28] [INFO] 会话 : 请求开启实例.
+[12/20 22:32:28] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:32:28] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:32:28] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:32:28] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-a51df971-4622-433d-828e-2cb8a17ef83c -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:32:28] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:32:28] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:32:28] [INFO] ----------------
+[12/20 22:32:28] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2421
+[12/20 22:33:28] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:33:28] [INFO] ----------------
+[12/20 22:33:28] [INFO] 会话 : 请求开启实例.
+[12/20 22:33:28] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:33:28] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:33:28] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:33:28] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-da66addd-c9ca-4b20-942c-0eba3da65cb5 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:33:28] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:33:28] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:33:28] [INFO] ----------------
+[12/20 22:33:28] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2480
+[12/20 22:43:58] [INFO] 会话 oiXeAeGNVDg17tTPAACh(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 22:44:52] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:44:52] [INFO] ----------------
+[12/20 22:44:52] [INFO] 会话 : 请求开启实例.
+[12/20 22:44:52] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:44:52] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:44:52] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:44:52] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-1bae95bb-2924-4e50-9a03-94cc983566d2 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:44:52] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:44:52] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:44:52] [INFO] ----------------
+[12/20 22:44:52] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2565
+[12/20 22:46:25] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:46:25] [INFO] ----------------
+[12/20 22:46:25] [INFO] 会话 : 请求开启实例.
+[12/20 22:46:25] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:46:25] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:46:25] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:46:25] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-5beed5db-3b5c-456b-bad9-5d37ee5afd22 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:46:25] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:46:25] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:46:25] [INFO] ----------------
+[12/20 22:46:25] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2650
+[12/20 22:56:22] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:56:22] [INFO] ----------------
+[12/20 22:56:22] [INFO] 会话 : 请求开启实例.
+[12/20 22:56:22] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:56:22] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:56:22] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:56:22] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-505420d2-1193-4a83-b886-35e3ef084acb -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:56:22] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:56:22] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:56:22] [INFO] ----------------
+[12/20 22:56:22] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2744
+[12/20 22:56:36] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:56:36] [INFO] ----------------
+[12/20 22:56:36] [INFO] 会话 : 请求开启实例.
+[12/20 22:56:36] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:56:36] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:56:36] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:56:36] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-6c030116-a320-4332-9328-ee142917bed7 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:56:36] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:56:36] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:56:36] [INFO] ----------------
+[12/20 22:56:36] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2760
+[12/20 22:58:06] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 22:58:06] [INFO] ----------------
+[12/20 22:58:06] [INFO] 会话 : 请求开启实例.
+[12/20 22:58:06] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 22:58:06] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 22:58:06] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 22:58:06] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-f8acf502-7247-4bae-9623-7207878fa43b -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 22:58:06] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 22:58:06] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 22:58:06] [INFO] ----------------
+[12/20 22:58:06] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2789
+[12/20 23:11:01] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:11:01] [INFO] ----------------
+[12/20 23:11:01] [INFO] 会话 : 请求开启实例.
+[12/20 23:11:01] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:11:01] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 23:11:01] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:11:01] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-cc05fe36-5ce9-4c1c-855c-d460f6cc2e76 -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 23:11:01] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:11:01] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:11:01] [INFO] ----------------
+[12/20 23:11:01] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2858
+[12/20 23:14:09] [ERROR] Error: UnhandledRejection: Error: Source and destination must not be the same.
+    at /workspace/AppData/mcsmanager/daemon/node_modules/fs-extra/lib/util/stat.js:39:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) Promise {
+  <rejected> Error: Source and destination must not be the same.
+      at /workspace/AppData/mcsmanager/daemon/node_modules/fs-extra/lib/util/stat.js:39:17
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+}
+[12/20 23:24:17] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:24:17] [INFO] ----------------
+[12/20 23:24:17] [INFO] 会话 : 请求开启实例.
+[12/20 23:24:17] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:24:17] [INFO] 启动命令: ./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh
+[12/20 23:24:17] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:24:17] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-05b70f97-d737-46ca-acf5-601597cb387d -cmd ["./fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.sh"]
+[12/20 23:24:17] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:24:17] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:24:17] [INFO] ----------------
+[12/20 23:24:17] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2955
+[12/20 23:25:46] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:25:46] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:26:47] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:26:47] [ERROR] 实例4b4ff92a2e61484b876a74dfbda2e953启动时错误:  Error: 错误的命令双引号，无法找到成对双引号，如需使用单个双引号请使用 {quotes} 符号
+    at findQuotes (webpack://mcsmanager-daemon/src/entity/commands/base/command_parser.ts:43:11)
+    at _analyze (webpack://mcsmanager-daemon/src/entity/commands/base/command_parser.ts:17:17)
+    at commandStringToArray (webpack://mcsmanager-daemon/src/entity/commands/base/command_parser.ts:46:3)
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:181:41)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:25)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 23:26:47] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '4b4ff92a2e61484b876a74dfbda2e953',
+  nickname: 'Minecraft Server',
+  err: '错误的命令双引号，无法找到成对双引号，如需使用单个双引号请使用 {quotes} 符号'
+}
+[12/20 23:26:52] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:26:52] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:27:08] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:27:08] [INFO] ----------------
+[12/20 23:27:08] [INFO] 会话 : 请求开启实例.
+[12/20 23:27:08] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:27:08] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx16G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 23:27:08] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:27:08] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-fe010391-af83-47dd-b393-4b4bb6b4fda3 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx16G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 23:27:08] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:27:08] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:27:08] [INFO] ----------------
+[12/20 23:27:08] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 3333
+[12/20 23:29:55] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:29:55] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:30:17] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:30:17] [INFO] ----------------
+[12/20 23:30:17] [INFO] 会话 : 请求开启实例.
+[12/20 23:30:17] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:30:17] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx10G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 23:30:17] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:30:17] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-f3e15eaf-9285-4dee-9e1f-7b888d778e63 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx10G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 23:30:17] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:30:17] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:30:17] [INFO] ----------------
+[12/20 23:30:17] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 3376
+[12/20 23:33:50] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:33:50] [INFO] ----------------
+[12/20 23:33:50] [INFO] 会话 : 请求开启实例.
+[12/20 23:33:50] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:33:50] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx10G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 23:33:50] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:33:50] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-17a7a8d3-2d87-4048-bf69-bc8b6c66455a -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx10G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 23:33:50] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:33:50] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:33:50] [INFO] ----------------
+[12/20 23:33:50] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 3419
+[12/20 23:36:25] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:36:25] [INFO] ----------------
+[12/20 23:36:25] [INFO] 会话 : 请求开启实例.
+[12/20 23:36:25] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:36:25] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx10G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 23:36:25] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:36:25] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-bc675802-301a-4fa9-a68f-7cbb1274331e -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx10G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 23:36:25] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:36:25] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:36:25] [INFO] ----------------
+[12/20 23:36:25] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 3470
+[12/20 23:40:42] [INFO] Browser Uploaded File: /workspace/AppData/MinecraftServer/vcc.zip
+[12/20 23:40:58] [INFO] Function useUnzip(): Command: /workspace/AppData/mcsmanager/daemon/lib/file_zip_linux_x64 --mode=2 --zipPath=vcc.zip --distDirPath=/workspace/AppData/MinecraftServer/ --code=utf-8
+[12/20 23:41:12] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:41:12] [INFO] ----------------
+[12/20 23:41:12] [INFO] 会话 : 请求开启实例.
+[12/20 23:41:12] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:41:12] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx10G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar
+[12/20 23:41:12] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:41:12] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-f7fa206a-63e1-4a8e-bb10-edeef3074377 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx10G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.18.3-launcher.1.1.0.jar"]
+[12/20 23:41:12] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:41:12] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:41:12] [INFO] ----------------
+[12/20 23:41:12] [ERROR] 实例4b4ff92a2e61484b876a74dfbda2e953启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 23:41:12] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '4b4ff92a2e61484b876a74dfbda2e953',
+  nickname: 'Minecraft Server',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 23:42:23] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:42:23] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:42:35] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:42:35] [INFO] ----------------
+[12/20 23:42:35] [INFO] 会话 : 请求开启实例.
+[12/20 23:42:35] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/20 23:42:35] [INFO] 启动命令: ./gitpush
+[12/20 23:42:35] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:42:35] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-b7a5e9cd-2ad9-4f63-af42-a62911a5f2c5 -cmd ["./gitpush"]
+[12/20 23:42:35] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/20 23:42:35] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:42:35] [INFO] ----------------
+[12/20 23:42:35] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3611
+[12/20 23:43:36] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:43:36] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:43:54] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:43:54] [INFO] ----------------
+[12/20 23:43:54] [INFO] 会话 : 请求开启实例.
+[12/20 23:43:54] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:43:54] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx10G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar
+[12/20 23:43:54] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:43:54] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-60012691-a747-4151-8b86-4f3abb54d4fe -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx10G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar"]
+[12/20 23:43:54] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:43:54] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:43:54] [INFO] ----------------
+[12/20 23:43:54] [ERROR] 实例4b4ff92a2e61484b876a74dfbda2e953启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 23:43:54] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '4b4ff92a2e61484b876a74dfbda2e953',
+  nickname: 'Minecraft Server',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 23:44:25] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:44:25] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:44:29] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:44:29] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:44:43] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:44:43] [INFO] ----------------
+[12/20 23:44:43] [INFO] 会话 : 请求开启实例.
+[12/20 23:44:43] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:44:43] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx10G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar
+[12/20 23:44:43] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:44:43] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-971640c7-72a2-466b-b0e8-c06a58222a47 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx10G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar"]
+[12/20 23:44:43] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:44:43] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:44:43] [INFO] ----------------
+[12/20 23:44:43] [ERROR] 实例4b4ff92a2e61484b876a74dfbda2e953启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 23:44:43] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '4b4ff92a2e61484b876a74dfbda2e953',
+  nickname: 'Minecraft Server',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 23:44:53] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:44:53] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:45:06] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:45:06] [INFO] ----------------
+[12/20 23:45:06] [INFO] 会话 : 请求开启实例.
+[12/20 23:45:06] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:45:06] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar
+[12/20 23:45:06] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:45:06] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-420fa891-d33b-4c97-911a-ae44c56ba790 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar"]
+[12/20 23:45:06] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:45:06] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:45:06] [INFO] ----------------
+[12/20 23:45:06] [ERROR] 实例4b4ff92a2e61484b876a74dfbda2e953启动时错误:  StartupError: 实例启动失败，请检查启动命令，主机环境和配置文件等
+    at PtyStartCommand.createProcess (webpack://mcsmanager-daemon/src/entity/commands/pty/pty_start.ts:264:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PtyStartCommand.exec (webpack://mcsmanager-daemon/src/entity/commands/start.ts:43:14)
+    at PresetCommandManager.execPreset (webpack://mcsmanager-daemon/src/entity/instance/preset.ts:24:12)
+    at Instance.execPreset (webpack://mcsmanager-daemon/src/entity/instance/instance.ts:458:14)
+    at RouterApp.<anonymous> (webpack://mcsmanager-daemon/src/routers/Instance_router.ts:236:7)
+[12/20 23:45:06] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/instance/open 响应数据时异常:
+ {
+  instanceUuid: '4b4ff92a2e61484b876a74dfbda2e953',
+  nickname: 'Minecraft Server',
+  err: '实例启动失败，请检查启动命令，主机环境和配置文件等'
+}
+[12/20 23:46:24] [INFO] 会话 dyQGgTKPdOzqbSUcAADH(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 23:47:06] [INFO] 会话 FgpCG01TMHWnL4pzAADJ(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/20 23:48:07] [INFO] Browser Uploaded File: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64.zip
+[12/20 23:48:33] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:48:33] [INFO] ----------------
+[12/20 23:48:33] [INFO] 会话 : 请求开启实例.
+[12/20 23:48:33] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/20 23:48:33] [INFO] 启动命令: ./gitpush
+[12/20 23:48:33] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:48:33] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-75402ac7-aa1e-4352-b285-e37733320e26 -cmd ["./gitpush"]
+[12/20 23:48:33] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/20 23:48:33] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:48:33] [INFO] ----------------
+[12/20 23:48:33] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3645
+[12/20 23:51:01] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:51:01] [INFO] ----------------
+[12/20 23:51:01] [INFO] 会话 : 请求开启实例.
+[12/20 23:51:01] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/20 23:51:01] [INFO] 启动命令: ./gitpush
+[12/20 23:51:01] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:51:01] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-b0391883-c995-46f0-ac77-0d08dc62db7d -cmd ["./gitpush"]
+[12/20 23:51:01] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/20 23:51:01] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:51:01] [INFO] ----------------
+[12/20 23:51:01] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3659
+[12/20 23:56:47] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:56:47] [INFO] ----------------
+[12/20 23:56:47] [INFO] 会话 : 请求开启实例.
+[12/20 23:56:47] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/20 23:56:47] [INFO] 启动命令: ./gitpush
+[12/20 23:56:47] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:56:47] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-ab5944ba-6287-4227-8e82-409525fbb9d6 -cmd ["./gitpush"]
+[12/20 23:56:47] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/20 23:56:47] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:56:47] [INFO] ----------------
+[12/20 23:56:47] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3674
+[12/20 23:58:20] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:58:20] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:58:36] [INFO] Function useUnzip(): Command: /workspace/AppData/mcsmanager/daemon/lib/file_zip_linux_x64 --mode=2 --zipPath=zulu25.30.17-ca-jdk25.0.1-linux_x64.zip --distDirPath=/workspace/AppData/MinecraftServer/ --code=utf-8
+[12/20 23:58:48] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/20 23:58:49] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/20 23:59:31] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/20 23:59:31] [INFO] ----------------
+[12/20 23:59:31] [INFO] 会话 : 请求开启实例.
+[12/20 23:59:31] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/20 23:59:31] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar
+[12/20 23:59:31] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/20 23:59:31] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-f3e75248-51b0-4ffa-b5b7-2011ca2b64ec -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx15G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar"]
+[12/20 23:59:31] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/20 23:59:31] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/20 23:59:31] [INFO] ----------------
+[12/20 23:59:31] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 3691
+[12/21 00:00:30] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:00:30] [INFO] ----------------
+[12/21 00:00:30] [INFO] 会话 : 请求开启实例.
+[12/21 00:00:30] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:00:30] [INFO] 启动命令: ./gitpush
+[12/21 00:00:30] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:00:30] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-73c6e586-ba5a-47b3-82e1-3e79e49d62eb -cmd ["./gitpush"]
+[12/21 00:00:30] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:00:30] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:00:30] [INFO] ----------------
+[12/21 00:00:30] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3776
+[12/21 00:00:35] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:00:35] [INFO] ----------------
+[12/21 00:00:35] [INFO] 会话 : 请求开启实例.
+[12/21 00:00:35] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:00:35] [INFO] 启动命令: ./gitpush
+[12/21 00:00:35] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:00:35] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-8f4b39b1-e556-4849-a1e4-4f8d927ec208 -cmd ["./gitpush"]
+[12/21 00:00:35] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:00:35] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:00:35] [INFO] ----------------
+[12/21 00:00:35] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3783
+[12/21 00:03:02] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 00:03:02] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 00:03:25] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:03:25] [INFO] ----------------
+[12/21 00:03:25] [INFO] 会话 : 请求开启实例.
+[12/21 00:03:25] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:03:25] [INFO] 启动命令: ./gitpush Download
+[12/21 00:03:25] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:03:25] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-c9e2b55f-057b-4211-9f16-35e57ec06397 -cmd ["./gitpush","Download"]
+[12/21 00:03:25] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:03:25] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:03:25] [INFO] ----------------
+[12/21 00:03:25] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3789
+[12/21 00:03:45] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 00:03:45] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 00:03:57] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:03:57] [INFO] ----------------
+[12/21 00:03:57] [INFO] 会话 : 请求开启实例.
+[12/21 00:03:57] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:03:57] [INFO] 启动命令: ./gitpush download
+[12/21 00:03:57] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:03:57] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-091e85f6-a630-4d79-bc70-65e0cd212081 -cmd ["./gitpush","download"]
+[12/21 00:03:57] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:03:57] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:03:57] [INFO] ----------------
+[12/21 00:03:57] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3795
+[12/21 00:07:27] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:07:27] [INFO] ----------------
+[12/21 00:07:27] [INFO] 会话 : 请求开启实例.
+[12/21 00:07:27] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/21 00:07:27] [INFO] 启动命令: /workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar
+[12/21 00:07:27] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:07:27] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-6d9a9080-dbe6-4da3-bc41-f6a2ebd01fe4 -cmd ["/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java","-Xmx15G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar"]
+[12/21 00:07:27] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/21 00:07:27] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:07:27] [INFO] ----------------
+[12/21 00:07:27] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 3819
+[12/21 00:09:17] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:09:17] [INFO] ----------------
+[12/21 00:09:17] [INFO] 会话 : 请求开启实例.
+[12/21 00:09:17] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:09:17] [INFO] 启动命令: ./gitpush download
+[12/21 00:09:17] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:09:17] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-aecf3e85-6942-4035-95b1-d1c9c098962a -cmd ["./gitpush","download"]
+[12/21 00:09:17] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:09:17] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:09:17] [INFO] ----------------
+[12/21 00:09:17] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3896
+[12/21 00:17:14] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:17:14] [INFO] ----------------
+[12/21 00:17:14] [INFO] 会话 : 请求开启实例.
+[12/21 00:17:14] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:17:14] [INFO] 启动命令: ./gitpush download
+[12/21 00:17:14] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:17:14] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-b99bd883-25af-41a7-b9a0-e0732339354f -cmd ["./gitpush","download"]
+[12/21 00:17:14] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:17:14] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:17:14] [INFO] ----------------
+[12/21 00:17:14] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 3932
+[12/21 00:19:53] [INFO] 会话 YP7Slgz_P1L3mMgwAADt(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/21 00:25:57] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 00:25:58] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 00:42:09] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:42:09] [INFO] ----------------
+[12/21 00:42:09] [INFO] 会话 : 请求开启实例.
+[12/21 00:42:09] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[12/21 00:42:09] [INFO] 启动命令: ./gitpush download
+[12/21 00:42:09] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:42:09] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-b8ea1df7-2fd8-4854-b5d8-4db2c88002e1 -cmd ["./gitpush","download"]
+[12/21 00:42:09] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[12/21 00:42:09] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:42:09] [INFO] ----------------
+[12/21 00:42:09] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 4070
+[12/21 00:48:26] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 00:48:26] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 00:49:32] [INFO] 创建计划任务 上传:
+{"instanceUuid":"17cbf5a1c2224809a76df690feae7732","name":"上传","count":-1,"time":"30 50 2 * * 1,2,3,4,5,7","actions":[{"type":"command","payload":"U"}],"type":2}
+[12/21 00:49:32] [INFO] 创建计划任务 上传 完毕
+[12/21 00:50:36] [INFO] 创建计划任务 下载:
+{"instanceUuid":"17cbf5a1c2224809a76df690feae7732","name":"下载","count":-1,"time":"0 30 3 * * 1,2,3,4,5,6,7","actions":[{"type":"command","payload":"D"}],"type":2}
+[12/21 00:50:36] [INFO] 创建计划任务 下载 完毕
+[12/21 00:51:40] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:51:40] [INFO] ----------------
+[12/21 00:51:40] [INFO] 会话 : 请求开启实例.
+[12/21 00:51:40] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 00:51:40] [INFO] 启动命令: ./git-push.sh
+[12/21 00:51:40] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:51:40] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-5d187622-58ef-421b-87ea-0925f927ac84 -cmd ["./git-push.sh"]
+[12/21 00:51:40] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 00:51:40] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:51:40] [INFO] ----------------
+[12/21 00:51:40] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 4145
+[12/21 00:54:34] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 00:54:34] [INFO] ----------------
+[12/21 00:54:34] [INFO] 会话 : 请求开启实例.
+[12/21 00:54:34] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[12/21 00:54:34] [INFO] 启动命令: ./git-push.sh
+[12/21 00:54:34] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 00:54:34] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-e2555aac-9537-44a8-ac74-c3fb6a123ac2 -cmd ["./git-push.sh"]
+[12/21 00:54:34] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[12/21 00:54:34] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 00:54:34] [INFO] ----------------
+[12/21 00:54:34] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 4229
+[12/21 00:56:16] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 00:56:16] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 00:56:56] [INFO] 会话 juq1jEi1fyIvCIDZAAEJ(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/21 01:01:58] [INFO] 会话 GzvVa8vqA6L2aE1fAAEN(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/21 01:06:26] [INFO] 会话 _y_sb9aWkFmYFOnYAAEV(::ffff:127.0.0.1) 因长时间未验证身份而断开连接
+[12/21 01:11:03] [WARN] 会话 nj903PNkQY4763bwAAAB(::ffff:127.0.0.1)/file/move 响应数据时异常:
+ Error: Source and destination must not be the same.
+    at /workspace/AppData/mcsmanager/daemon/node_modules/fs-extra/lib/util/stat.js:39:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

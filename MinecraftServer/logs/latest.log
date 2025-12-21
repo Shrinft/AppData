@@ -1,5 +1,5 @@
-[00:07:28] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.17.2
-[00:07:29] [main/INFO]: Loading 101 mods:
+[11:35:14] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.17.2
+[11:35:14] [main/INFO]: Loading 101 mods:
 	- carpet 1.4.169+v250325
 	- fabric-api 0.128.2+1.21.5
 	   |-- fabric-api-base 0.4.62+73a52b4b49
@@ -123,59 +123,89 @@
 	   \-- viafabric-mc1215 0.4.18+104-main
 	- viarewind 4.0.12-SNAPSHOT
 	- viaversion 5.5.2-SNAPSHOT
-[00:07:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspace/AppData/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:07:29] [main/INFO]: Compatibility level set to JAVA_17
-[00:07:29] [main/INFO]: Compatibility level set to JAVA_21
-[00:07:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[00:07:43] [main/INFO]: Loading extensions...
-[00:07:43] [main/INFO]: Loaded 0 extension(s)
-[00:07:44] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
-[00:07:45] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:07:45] [main/INFO]: Loading translations...
-[00:07:45] [main/INFO]: Registering protocols...
-[00:07:46] [main/INFO]: Registering protocols...
-[00:07:46] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
-[00:07:46] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[00:07:46] [ViaFabric-0/WARN]: There is a newer plugin version available: 5.6.0, you're on: 5.5.2-SNAPSHOT
-[00:07:47] [main/INFO]: Loading configuration...
-[00:07:48] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:07:52] [main/INFO]: Loaded 1373 recipes
-[00:07:52] [main/INFO]: Loaded 1484 advancements
-[00:07:53] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.033 ms
-[00:07:53] [Server thread/INFO]:         __    
-[00:07:53] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.4
-[00:07:53] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.128.2+1.21.5
-[00:07:53] [Server thread/INFO]: 
-[00:07:53] [Server thread/INFO]: Loading storage provider... [H2]
-[00:07:53] [Server thread/INFO]: Loading internal permission managers...
-[00:07:53] [Server thread/INFO]: Performing initial data load...
-[00:07:53] [Server thread/INFO]: Successfully enabled. (took 672ms)
-[00:07:53] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[00:07:53] [Server thread/INFO]: Loading properties
-[00:07:53] [Server thread/INFO]: Default game type: SURVIVAL
-[00:07:53] [Server thread/INFO]: Generating keypair
-[00:07:54] [Server thread/INFO]: Starting Minecraft server on *:11520
-[00:07:54] [Server thread/INFO]: Using epoll channel type
-[00:07:54] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[00:07:54] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[00:07:54] [Server thread/WARN]: Perhaps a server is already running on that port?
-[00:07:54] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.IllegalStateException: Failed to initialize server
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:728) [server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290) [server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
-[00:07:54] [Server thread/ERROR]: This crash report has been saved to: /workspace/AppData/MinecraftServer/crash-reports/crash-2025-12-21_00.07.54-server.txt
-[00:07:54] [Server thread/INFO]: Geyser shutdown successfully.
-[00:07:54] [Server thread/INFO]: Starting shutdown process...
-[00:07:54] [Server thread/INFO]: Closing storage...
-[00:07:54] [Server thread/INFO]: Goodbye!
-[00:07:54] [Server thread/INFO]: Stopping server
-[00:07:54] [Server thread/INFO]: Saving worlds
-[00:07:54] [Server thread/ERROR]: Exception stopping the server
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_3218.method_8621()" because "$$5" is null
-	at knot/net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:568) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_3782(MinecraftServer.java:627) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3176.method_3782(class_3176.java:543) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:747) [server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290) [server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[11:35:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspace/AppData/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:35:14] [main/INFO]: Compatibility level set to JAVA_17
+[11:35:14] [main/INFO]: Compatibility level set to JAVA_21
+[11:35:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11:35:24] [main/INFO]: Loading extensions...
+[11:35:24] [main/INFO]: Loaded 0 extension(s)
+[11:35:25] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[11:35:25] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:35:25] [main/INFO]: Loading translations...
+[11:35:25] [main/INFO]: Registering protocols...
+[11:35:26] [main/INFO]: Registering protocols...
+[11:35:26] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[11:35:26] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[11:35:26] [ViaFabric-0/WARN]: There is a newer plugin version available: 5.6.0, you're on: 5.5.2-SNAPSHOT
+[11:35:26] [main/INFO]: Loading configuration...
+[11:35:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:35:29] [main/INFO]: Loaded 1373 recipes
+[11:35:29] [main/INFO]: Loaded 1484 advancements
+[11:35:29] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.948 ms
+[11:35:29] [Server thread/INFO]:         __    
+[11:35:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.4
+[11:35:29] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.128.2+1.21.5
+[11:35:29] [Server thread/INFO]: 
+[11:35:29] [Server thread/INFO]: Loading storage provider... [H2]
+[11:35:30] [Server thread/INFO]: Loading internal permission managers...
+[11:35:30] [Server thread/INFO]: Performing initial data load...
+[11:35:30] [Server thread/INFO]: Successfully enabled. (took 486ms)
+[11:35:30] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[11:35:30] [Server thread/INFO]: Loading properties
+[11:35:30] [Server thread/INFO]: Default game type: SURVIVAL
+[11:35:30] [Server thread/INFO]: Generating keypair
+[11:35:30] [Server thread/INFO]: Starting Minecraft server on *:11520
+[11:35:30] [Server thread/INFO]: Using epoll channel type
+[11:35:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:35:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:35:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:35:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:35:30] [Server thread/INFO]: Preparing level "world"
+[11:35:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:35:38] [Server thread/INFO]: Time elapsed: 7517 ms
+[11:35:38] [Server thread/INFO]: Done (8.148s)! For help, type "help"
+[11:35:38] [Server thread/INFO]: Took 34ms to boot Floodgate
+[11:35:39] [Server thread/INFO]: ******************************************
+[11:35:39] [Server thread/INFO]: 
+[11:35:39] [Server thread/INFO]: Loading Geyser version 2.7.2-b862 (git-master-00ceaa9)
+[11:35:39] [Server thread/INFO]: 
+[11:35:39] [Server thread/INFO]: ******************************************
+[11:35:43] [epollEventLoopGroup-3-1/INFO]: Started Geyser on UDP port 19132
+[11:35:43] [Server thread/INFO]: Done (4.254s)! Run /geyser help for help!
+[11:35:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4465ms or 89 ticks behind
+[11:35:44] [ForkJoinPool.commonPool-worker-1/INFO]: [32;1mThere's a new Geyser update available to support Bedrock version 1.21.131. Download it here: [34;1m[4mhttps://geysermc.org/download[0m
+[11:36:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:48:13] [Server thread/INFO]: Stopping the server
+[11:48:13] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:48:13] [Server thread/INFO]: Shutting down Geyser.
+[11:48:14] [Server thread/INFO]: Geyser shutdown successfully.
+[11:48:14] [WebSocketConnectReadThread-86/INFO]: The skin uploader has been closed
+[11:48:16] [Server thread/INFO]: Starting shutdown process...
+[11:48:16] [Server thread/INFO]: Closing storage...
+[11:48:16] [Server thread/INFO]: Goodbye!
+[11:48:16] [Server thread/INFO]: Stopping server
+[11:48:16] [Server thread/INFO]: Saving players
+[11:48:16] [Server thread/INFO]: Saving worlds
+[11:48:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:48:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:48:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:48:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:48:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:48:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:48:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:48:16] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.

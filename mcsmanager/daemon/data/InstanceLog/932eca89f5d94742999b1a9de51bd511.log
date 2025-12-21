@@ -1,2 +1,311 @@
 [INFO] 正在启动...
 [ERROR] 启动命令，输入输出编码或工作目录为空值
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[ERROR] 实例进程启动失败，请检查启动命令和运行环境等配置！
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[信息] 检测到实例关闭，根据主动事件机制，自动重启指令已发出...
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+
+
+[0;33m[MCSMANAGER] [0m[0;33;1mThe instantaneous output content is too long and has been rejected....[0m
+
+?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000034190, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:09 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:09 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+open ftpc.ini: no such file or directory
+panic: sync: negative WaitGroup counter
+
+goroutine 1 [running]:
+sync.(*WaitGroup).Add(0xc0000acbc8?, 0x29?)
+	sync/waitgroup.go:62 +0xe5
+sync.(*WaitGroup).Done(0x0?)
+	sync/waitgroup.go:87 +0x25
+github.com/fatedier/frp/cmd/frpc/sub.runClient({0x7ffdd2a17c3e, 0x8}, 0xbc5df8?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000034190, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:11 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:11 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+open ftpc.ini: no such file or directory
+panic: sync: negative WaitGroup counter
+
+goroutine 1 [running]:
+sync.(*WaitGroup).Add(0xc0000acc98?, 0x29?)
+	sync/waitgroup.go:62 +0xe5
+sync.(*WaitGroup).Done(0x0?)
+	sync/waitgroup.go:87 +0x25
+github.com/fatedier/frp/cmd/frpc/sub.runClient({0x7fff0c0e3c3e, 0x8}, 0xbc5df8?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000034190, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:13 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:13 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+open ftpc.ini: no such file or directory
+panic: sync: negative WaitGroup counter
+
+goroutine 1 [running]:
+sync.(*WaitGroup).Add(0x40?, 0x29?)
+	sync/waitgroup.go:62 +0xe5
+sync.(*WaitGroup).Done(0x0?)
+	sync/waitgroup.go:87 +0x25
+github.com/fatedier/frp/cmd/frpc/sub.runClient({0x7ffe92c59c3e, 0x8}, 0xbc5df8?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000122160, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:15 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:15 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+open ftpc.ini: no such file or directory
+panic: sync: negative WaitGroup counter
+
+goroutine 1 [running]:
+sync.(*WaitGroup).Add(0x40?, 0x29?)
+	sync/waitgroup.go:62 +0xe5
+sync.(*WaitGroup).Done(0x0?)
+	sync/waitgroup.go:87 +0x25
+github.com/fatedier/frp/cmd/frpc/sub.runClient({0x7ffce384bc3e, 0x8}, 0xbc5df8?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000122160, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:17 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:17 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+open ftpc.ini: no such file or directory
+panic: sync: negative WaitGroup counter
+
+goroutine 1 [running]:
+sync.(*WaitGroup).Add(0xc0000ace38?, 0x29?)
+	sync/waitgroup.go:62 +0xe5
+sync.(*WaitGroup).Done(0x0?)
+	sync/waitgroup.go:87 +0x25
+github.com/fatedier/frp/cmd/frpc/sub.runClient({0x7ffddd689c3e, 0x8}, 0xbc5df8?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000034190, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:19 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:19 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+open ftpc.ini: no such file or directory
+panic: sync: negative WaitGroup counter
+
+goroutine 1 [running]:
+sync.(*WaitGroup).Add(0xc000124d68?, 0x29?)
+	sync/waitgroup.go:62 +0xe5
+sync.(*WaitGroup).Done(0x0?)
+	sync/waitgroup.go:87 +0x25
+github.com/fatedier/frp/cmd/frpc/sub.runClient({0x7ffca638fc3e, 0x8}, 0xc00017a990?)
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:332 +0x17b
+github.com/fatedier/frp/cmd/frpc/sub.glob..func5(0x11a0480?, {0xba412b?, 0x2?, 0x2?})
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:247 +0x5a5
+github.com/spf13/cobra.(*Command).execute(0x11a0480, {0xc000122160, 0x2, 0x2})
+	github.com/spf13/cobra@v1.7.0/command.go:940 +0x862
+github.com/spf13/cobra.(*Command).ExecuteC(0x11a0480)
+	github.com/spf13/cobra@v1.7.0/command.go:1068 +0x3bd
+github.com/spf13/cobra.(*Command).Execute(...)
+	github.com/spf13/cobra@v1.7.0/command.go:992
+github.com/fatedier/frp/cmd/frpc/sub.Execute()
+	github.com/fatedier/frp/cmd/frpc/sub/root.go:277 +0x25
+main.main()
+	github.com/fatedier/frp/cmd/frpc/main.go:23 +0x17
+2025/12/21 11:39:38 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:38 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/21 11:39:38 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [frpc.ini][0m
+2025/12/21 11:39:38 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [40cf93646254362d][0m
+2025/12/21 11:39:38 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [MC Server][0m
+2025/12/21 11:39:39 [1;34m[I] [control.go:172] [MC Server] 映射启动成功, 感谢您使用ChmlFrp![0m
+[INFO] 重启实例计划开始执行
+
+[INFO] 已执行预设的关闭命令：
+^c
+如果无法关闭实例请前往实例设置更改关闭实例的正确命令，比如 exit，stop，end 等
+[INFO] 实例已停止。
+[INFO] 检测到服务器已停止，正在重启实例...
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+^C
+2025/12/21 11:39:50 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:39:50 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/21 11:39:50 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [frpc.ini][0m
+2025/12/21 11:39:51 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [dce479312eee9a87][0m
+2025/12/21 11:39:51 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [MC Server][0m
+2025/12/21 11:39:51 [1;34m[I] [control.go:172] [MC Server] 映射启动成功, 感谢您使用ChmlFrp![0m
+[INFO] 重启实例计划开始执行
+
+[INFO] 已执行预设的关闭命令：
+^c
+如果无法关闭实例请前往实例设置更改关闭实例的正确命令，比如 exit，stop，end 等
+[INFO] 实例已停止。
+[INFO] 检测到服务器已停止，正在重启实例...
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+^C
+2025/12/21 11:40:38 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:40:38 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/21 11:40:38 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [frpc.ini][0m
+2025/12/21 11:40:39 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [ce7bc936da756b7e][0m
+2025/12/21 11:40:39 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [MC Server][0m
+2025/12/21 11:40:39 [1;34m[I] [control.go:172] [MC Server] 映射启动成功, 感谢您使用ChmlFrp![0m
+
+[INFO] 已执行预设的关闭命令：
+^c
+如果无法关闭实例请前往实例设置更改关闭实例的正确命令，比如 exit，stop，end 等
+[INFO] 实例已停止。
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+^C
+2025/12/21 11:40:58 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:40:58 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/21 11:40:58 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [frpc.ini][0m
+2025/12/21 11:40:59 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [49f282c7b88c6ba5][0m
+2025/12/21 11:40:59 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [MC Server][0m
+2025/12/21 11:40:59 [1;34m[I] [control.go:172] [MC Server] 映射启动成功, 感谢您使用ChmlFrp![0m
+[INFO] 重启实例计划开始执行
+
+[INFO] 已执行预设的关闭命令：
+^c
+如果无法关闭实例请前往实例设置更改关闭实例的正确命令，比如 exit，stop，end 等
+[INFO] 实例已停止。
+[INFO] 检测到服务器已停止，正在重启实例...
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+^C
+2025/12/21 11:41:43 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/21 11:41:43 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/21 11:41:43 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [frpc.ini][0m
+2025/12/21 11:41:43 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [74a43eaa8c119d1c][0m
+2025/12/21 11:41:43 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [MC Server A MC Server B][0m
+2025/12/21 11:41:43 [1;34m[I] [control.go:172] [MC Server A] 映射启动成功, 感谢您使用ChmlFrp![0m
+2025/12/21 11:41:43 [1;34m[I] [control.go:172] [MC Server B] 映射启动成功, 感谢您使用ChmlFrp![0m
+2025/12/21 11:41:44 [1;34m[I] [udp.go:91] [MC Server A] 传入udp代理的新工作连接, 218.93.206.195:11528[0m

@@ -29,10 +29,10 @@
         "ptyWindowRow": 40
     },
     "eventTask": {
-        "autoStart": false,
+        "autoStart": true,
         "autoRestart": false,
         "autoRestartMaxTimes": -1,
-        "ignore": true
+        "ignore": false
     },
     "docker": {
         "containerName": "",

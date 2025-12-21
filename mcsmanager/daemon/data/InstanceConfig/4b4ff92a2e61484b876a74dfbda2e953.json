@@ -1,12 +1,12 @@
 {
     "nickname": "Minecraft Server",
-    "startCommand": "\"/workspace/AppData/MinecraftServer/zulu25.30.17-ca-jdk25.0.1-linux_x64/bin/java\" -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar",
+    "startCommand": "\"/workspace/zulujava25/bin/java\" -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar",
     "stopCommand": "stop",
     "cwd": "/workspace/AppData/MinecraftServer",
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1766220658630,
-    "lastDatetime": 1766246371328,
+    "lastDatetime": 1766288113227,
     "type": "minecraft/java",
     "tag": [],
     "endTime": 0,
@@ -30,7 +30,7 @@
     },
     "eventTask": {
         "autoStart": false,
-        "autoRestart": false,
+        "autoRestart": true,
         "autoRestartMaxTimes": -1,
         "ignore": true
     },
@@ -55,7 +55,7 @@
     },
     "pingConfig": {
         "ip": "",
-        "port": 25565,
+        "port": 115200,
         "type": 1
     },
     "extraServiceConfig": {
