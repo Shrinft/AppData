@@ -706,4 +706,24 @@ persistent-shell> ^C
   时间: Sun Dec 21 12:00:03 CST 2025
 📝 前台运行模式
 
+persistent-shell> ./git-push.sh
+执行: ./git-push.sh
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main a18d6e1] 自动提交: 2025-12-21 12:00:09
+ 7 files changed, 609 insertions(+), 8 deletions(-)
+ create mode 100755 mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0/shell.sh
+ create mode 100644 test_auto_1766289609.txt
+spawn git push
+Warning: Permanently added the ECDSA host key for IP address '140.82.114.4' to the list of known hosts.
+Enumerating objects: 33, done.
+Counting objects:   3% (1/33)Counting objects:   6% (2/33)Counting objects:   9% (3/33)Counting objects:  12% (4/33)Counting objects:  15% (5/33)Counting objects:  18% (6/33)Counting objects:  21% (7/33)Counting objects:  24% (8/33)Counting objects:  27% (9/33)Counting objects:  30% (10/33)Counting objects:  33% (11/33)Counting objects:  36% (12/33)Counting objects:  39% (13/33)Counting objects:  42% (14/33)Counting objects:  45% (15/33)Counting objects:  48% (16/33)Counting objects:  51% (17/33)Counting objects:  54% (18/33)Counting objects:  57% (19/33)Counting objects:  60% (20/33)Counting objects:  63% (21/33)Counting objects:  66% (22/33)Counting objects:  69% (23/33)Counting objects:  72% (24/33)Counting objects:  75% (25/33)Counting objects:  78% (26/33)Counting objects:  81% (27/33)Counting objects:  84% (28/33)Counting objects:  87% (29/33)Counting objects:  90% (30/33)Counting objects:  93% (31/33)Counting objects:  96% (32/33)Counting objects: 100% (33/33)Counting objects: 100% (33/33), done.
+Delta compression using up to 16 threads
+Compressing objects:   5% (1/18)Compressing objects:  11% (2/18)Compressing objects:  16% (3/18)Compressing objects:  22% (4/18)Compressing objects:  27% (5/18)Compressing objects:  33% (6/18)Compressing objects:  38% (7/18)Compressing objects:  44% (8/18)Compressing objects:  50% (9/18)Compressing objects:  55% (10/18)Compressing objects:  61% (11/18)Compressing objects:  66% (12/18)Compressing objects:  72% (13/18)Compressing objects:  77% (14/18)Compressing objects:  83% (15/18)Compressing objects:  88% (16/18)Compressing objects:  94% (17/18)Compressing objects: 100% (18/18)Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  27% (5/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18)Writing objects:  66% (12/18)Writing objects:  72% (13/18)Writing objects:  77% (14/18)Writing objects:  83% (15/18)Writing objects:  88% (16/18)Writing objects:  94% (17/18)Writing objects: 100% (18/18)Writing objects: 100% (18/18), 8.33 KiB | 2.78 MiB/s, done.
+Total 18 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 12 local objects.[K
+To github.com:Shrinft/AppData.git
+   296d1f6..a18d6e1  main -> main
+✅ 命令执行成功
 persistent-shell> 
