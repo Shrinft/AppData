@@ -2056,9 +2056,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+  "minecraft:recipes/decorations/composter": {
     "criteria": {
-      "has_dandelion": "2025-11-29 16:21:44 +0800"
+      "has_wood_slab": "2025-11-29 15:57:50 +0800"
     },
     "done": true
   },
@@ -2068,9 +2068,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/composter": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_wood_slab": "2025-11-29 15:57:50 +0800"
+      "has_bone_meal": "2025-11-29 15:58:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-11-29 16:21:44 +0800"
     },
     "done": true
   },
@@ -2083,12 +2089,6 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-11-29 16:35:26 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2025-11-29 15:58:58 +0800"
     },
     "done": true
   },

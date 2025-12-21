@@ -76,3 +76,9 @@
 2025/12/21 12:45:53 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [10353b82480d21ad][0m
 2025/12/21 12:45:53 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
 2025/12/21 12:45:53 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+2025/12/22 00:46:58 [1;34m[I] [control.go:252] 正在和服务器断开链接...[0m
+2025/12/22 00:46:58 [1;34m[I] [visitor_manager.go:77] gracefully shutdown visitor manager[0m
+2025/12/22 00:46:58 [1;34m[I] [service.go:227] 尝试重新连接至服务器[0m
+2025/12/22 00:47:01 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [10353b82480d21ad][0m
+2025/12/22 00:47:01 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2025/12/22 00:47:03 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m

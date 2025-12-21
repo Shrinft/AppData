@@ -201,3 +201,28 @@
 [12/21 12:52:51] [INFO] 尝试使用系统用户启动子进程，用户名：
 [12/21 12:52:51] [INFO] ----------------
 [12/21 12:52:51] [INFO] 实例 fc60639ffe414b2c833de1d256490d53 成功启动 PID: 1973
+[12/21 12:55:35] [WARN] 会话 ibUDW8KezupGSWbYAAAB(::ffff:127.0.0.1)/environment/images 响应数据时异常:
+ 无法获取镜像信息，请确保您已正确安装Docker环境
+[12/21 12:55:35] [WARN] 会话 ibUDW8KezupGSWbYAAAB(::ffff:127.0.0.1)/environment/networkModes 响应数据时异常:
+ Error: connect ENOENT /var/run/docker.sock
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:738:12)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[12/21 12:56:02] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[12/21 12:56:02] [INFO] ----------------
+[12/21 12:56:02] [INFO] 会话 : 请求开启实例.
+[12/21 12:56:02] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[12/21 12:56:02] [INFO] 启动命令: /workspace/zulujava25/bin/java -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar nogui
+[12/21 12:56:02] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[12/21 12:56:02] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-c87f208e-57fb-40ee-b568-1c4d54275302 -cmd ["/workspace/zulujava25/bin/java","-Xmx15G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar","nogui"]
+[12/21 12:56:02] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[12/21 12:56:02] [INFO] 尝试使用系统用户启动子进程，用户名：
+[12/21 12:56:02] [INFO] ----------------
+[12/21 12:56:02] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 2071
+[12/22 00:47:24] [INFO] 会话 ZOg0Q6Gr-1oPipyCAAAe(::ffff:127.0.0.1) 验证身份成功
+[12/22 00:47:24] [WARN] 节点语言已更改： zh_cn

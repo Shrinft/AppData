@@ -482,4 +482,44 @@ Connection closed
   [0;32m[U][0mpload   - 上传世界文件到服务器
   [0;32m[C][0mancel   - 取消
 
+请选择 [D/U/C]: U^J
+[0;32m你选择了: 上传世界文件[0m
+
+[0;32m开始上传世界文件...[0m
+[1;33m本地未找到 world.zip，正在检查世界文件夹...[0m
+[1;33m正在压缩世界文件夹...[0m
+[1;33m正在压缩，请稍候...[0m
+[0;32m压缩完成 (大小: 88M)[0m
+[1;33m连接SFTP服务器...[0m
+Connected to 156.246.90.110.
+sftp> rm world.zip
+Removing /21369/world.zip
+sftp> put "/workspace/AppData/MinecraftServer/world.zip" "world.zip"
+Uploading /workspace/AppData/MinecraftServer/world.zip to /21369/world.zip
+sftp> bye
+[0;32m世界文件上传成功[0m
+[0;32m已删除本地临时压缩文件[0m
+[0;32m✓ 上传操作完成[0m
+
+[1;33m2秒后返回主菜单...[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
+请选择 [D/U/C]: 
+[0;31m无效选择，请重新输入[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
 请选择 [D/U/C]: 

@@ -771,4 +771,35 @@ sshpass is already the newest version (1.06-1).
 git is already the newest version (1:2.25.1-1ubuntu3.14).
 0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
 ✅ 命令执行成功
-persistent-shell> 
+persistent-shell> ./git-push.sh
+执行: ./git-push.sh
+步骤0: 创建测试文件...
+步骤1: 提交更改...
+[main 6906778] 自动提交: 2025-12-21 12:53:20
+ 14 files changed, 432 insertions(+), 794 deletions(-)
+ create mode 100755 mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53/htop
+ copy mcsmanager/daemon/logs/{current.log => 2025-12-21_12-45-40.log} (100%)
+ rewrite mcsmanager/daemon/logs/current.log (86%)
+ rewrite mcsmanager/daemon/logs/sysinfo.log (99%)
+ copy mcsmanager/daemon/logs/{sysinfo.log => sysinfo_2025-12-21_12-45-40.log} (100%)
+ create mode 100644 test_auto_1766292799.txt
+spawn git push
+The authenticity of host 'github.com (140.82.114.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+yes
+Warning: Permanently added 'github.com,140.82.114.3' (ECDSA) to the list of known hosts.
+Enumerating objects: 42, done.
+Counting objects:   2% (1/42)Counting objects:   4% (2/42)Counting objects:   7% (3/42)Counting objects:   9% (4/42)Counting objects:  11% (5/42)Counting objects:  14% (6/42)Counting objects:  16% (7/42)Counting objects:  19% (8/42)Counting objects:  21% (9/42)Counting objects:  23% (10/42)Counting objects:  26% (11/42)Counting objects:  28% (12/42)Counting objects:  30% (13/42)Counting objects:  33% (14/42)Counting objects:  35% (15/42)Counting objects:  38% (16/42)Counting objects:  40% (17/42)Counting objects:  42% (18/42)Counting objects:  45% (19/42)Counting objects:  47% (20/42)Counting objects:  50% (21/42)Counting objects:  52% (22/42)Counting objects:  54% (23/42)Counting objects:  57% (24/42)Counting objects:  59% (25/42)Counting objects:  61% (26/42)Counting objects:  64% (27/42)Counting objects:  66% (28/42)Counting objects:  69% (29/42)Counting objects:  71% (30/42)Counting objects:  73% (31/42)Counting objects:  76% (32/42)Counting objects:  78% (33/42)Counting objects:  80% (34/42)Counting objects:  83% (35/42)Counting objects:  85% (36/42)Counting objects:  88% (37/42)Counting objects:  90% (38/42)Counting objects:  92% (39/42)Counting objects:  95% (40/42)Counting objects:  97% (41/42)Counting objects: 100% (42/42)Counting objects: 100% (42/42), done.
+Delta compression using up to 16 threads
+Compressing objects:   5% (1/20)Compressing objects:  10% (2/20)Compressing objects:  15% (3/20)Compressing objects:  20% (4/20)Compressing objects:  25% (5/20)Compressing objects:  30% (6/20)Compressing objects:  35% (7/20)Compressing objects:  40% (8/20)Compressing objects:  45% (9/20)Compressing objects:  50% (10/20)Compressing objects:  55% (11/20)Compressing objects:  60% (12/20)Compressing objects:  65% (13/20)Compressing objects:  70% (14/20)Compressing objects:  75% (15/20)Compressing objects:  80% (16/20)Compressing objects:  85% (17/20)Compressing objects:  90% (18/20)Compressing objects:  95% (19/20)Compressing objects: 100% (20/20)Compressing objects: 100% (20/20), done.
+Writing objects:   4% (1/23)Writing objects:   8% (2/23)Writing objects:  13% (3/23)Writing objects:  17% (4/23)Writing objects:  21% (5/23)Writing objects:  26% (6/23)Writing objects:  30% (7/23)Writing objects:  34% (8/23)Writing objects:  39% (9/23)Writing objects:  43% (10/23)Writing objects:  47% (11/23)Writing objects:  52% (12/23)Writing objects:  56% (13/23)Writing objects:  60% (14/23)Writing objects:  65% (15/23)Writing objects:  69% (16/23)Writing objects:  73% (17/23)Writing objects:  78% (18/23)Writing objects:  82% (19/23)Writing objects:  86% (20/23)Writing objects:  91% (21/23)Writing objects:  95% (22/23)Writing objects: 100% (23/23)Writing objects: 100% (23/23), 12.44 KiB | 1.55 MiB/s, done.
+Total 23 (delta 16), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/16)[Kremote: Resolving deltas:   6% (1/16)[Kremote: Resolving deltas:  12% (2/16)[Kremote: Resolving deltas:  18% (3/16)[Kremote: Resolving deltas:  25% (4/16)[Kremote: Resolving deltas:  31% (5/16)[Kremote: Resolving deltas:  37% (6/16)[Kremote: Resolving deltas:  43% (7/16)[Kremote: Resolving deltas:  50% (8/16)[Kremote: Resolving deltas:  56% (9/16)[Kremote: Resolving deltas:  62% (10/16)[Kremote: Resolving deltas:  68% (11/16)[Kremote: Resolving deltas:  75% (12/16)[Kremote: Resolving deltas:  81% (13/16)[Kremote: Resolving deltas:  87% (14/16)[Kremote: Resolving deltas:  93% (15/16)[Kremote: Resolving deltas: 100% (16/16)[Kremote: Resolving deltas: 100% (16/16), completed with 16 local objects.[K
+To github.com:Shrinft/AppData.git
+   47ce527..6906778  main -> main
+✅ 命令执行成功
+persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> ./git-push.sh
+执行: ./git-push.sh
+步骤0: 创建测试文件...
+步骤1: 提交更改...
