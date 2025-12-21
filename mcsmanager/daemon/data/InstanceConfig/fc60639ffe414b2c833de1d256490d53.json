@@ -1,15 +1,15 @@
 {
     "nickname": "htop",
-    "startCommand": "htop",
+    "startCommand": "./htop",
     "stopCommand": "^c",
     "cwd": "/workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53",
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1766222887229,
-    "lastDatetime": 1766222940226,
+    "lastDatetime": 1766292577347,
     "type": "universal",
     "tag": [],
-    "endTime": null,
+    "endTime": 0,
     "fileCode": "utf8",
     "processType": "general",
     "updateCommand": "",
@@ -60,6 +60,7 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": ""
+        "openFrpToken": "",
+        "isOpenFrp": false
     }
 }

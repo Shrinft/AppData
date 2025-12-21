@@ -745,4 +745,30 @@ remote: Resolving deltas:   0% (0/7)[Kremote: Resolving deltas:  14% (1/7)[K
 To github.com:Shrinft/AppData.git
    a18d6e1..a965f03  main -> main
 ✅ 命令执行成功
+persistent-shell> [INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+🚀 启动持久化Shell环境...
+💡 提示: 输入 'exit' 退出，输入 'help' 查看帮助
+⚠️  注意: 按 Ctrl+C 不会退出，输入 'exit' 才能退出
+📊 系统信息:
+  工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+  用户: root
+  Shell: /bin/bash
+  时间: Sun Dec 21 12:46:02 CST 2025
+📝 前台运行模式
+
+persistent-shell> apt-get instll git sshpass
+执行: apt-get instll git sshpass
+E: Invalid operation instll
+❌ 命令执行失败 (退出代码: 100): apt-get instll git sshpass
+persistent-shell> apt-get install git sshpass
+执行: apt-get install git sshpass
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 35%Reading package lists... 35%Reading package lists... 35%Reading package lists... 35%Reading package lists... 49%Reading package lists... 49%Reading package lists... 52%Reading package lists... 64%Reading package lists... 64%Reading package lists... 68%Reading package lists... 68%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 81%Reading package lists... 81%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+sshpass is already the newest version (1.06-1).
+git is already the newest version (1:2.25.1-1ubuntu3.14).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+✅ 命令执行成功
 persistent-shell> 
