@@ -1,0 +1,10 @@
+{
+  "provider": "web",
+  "argument": "https://littleskin.cn/raw/634341",
+  "variant": "CLASSIC",
+  "value": {
+    "name": "textures",
+    "value": "ewogICJ0aW1lc3RhbXAiIDogMTc1NDYzMTcyMTc2NywKICAicHJvZmlsZUlkIiA6ICJmYzFhOTdlNTgxM2Y0NDI2YTNmZTI4ZjJiNDc1ZjA4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnZXRPbmxpbmVQbGF5ZXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiYzk5MDVjMWNlZTRhNmNlYzk5ZjlkNWZiNDhmYTFiMzk0MmE3ZTZkODljNGM2OGUxYzhmYjBhYzBjZjUzYmIiCiAgICB9CiAgfQp9",
+    "signature": "pe3T65oFRJG+dIhrwNoSKZBPf4au9wNT4QElqzm25Li/+if7cVFy/enY/lqv1wN3gE82Qp+1D4V5mKvpGyOuLxrfTq4gtBdJkqv/ZBXkG7wyNwY7s0YmGEcuilJqyHzSd6kqI7Hrl7+gr/H+xwGd2G3w38LFH12s/wv6ALresxqx6QjCxo+uLObvBYTxiofG3WrAiAmYHFNFb1TiRWJUxyazjLY2rM+pPZWLYzmqj5pqznRx5HmV62vn7iobhmBjG/iFePgnhGRFWHldsDfjkc2eQ1Xt/1oiziEUtQ4DP8r5Q0F+nc/N0Ow/ebEAU9zrNqu4VPW4OZ8JhCU3BzSyBSauPzMsBrRHTkE6TzX8mhp2ofh110doQ2I79Zq4mjbit29EC8YCZrUoMFI8ZY+HwrXCzzgyT33UphlJCMow9pPC/btcuiyhKT0db/6b/H7vrZBjrXROABGo28mxrOOqNouzdfCGqr+4q1ovnZnYb9J6W6P3bOwh49wUdS+inWQBkrX/z1LCUFfV8phCevcFiaVMQYGWktuYEbVuwr8yBNEVYei6wMnDH07Gr9WSzr+vHs6WYZj/9E4FmPqpEAa5A43WtWRr5WooRrSao9peEJ9mnQZ47hk452lYoCPr7rIuzTwlHdEP7MSsGjbJXRNrAq/KX5IVwhB75zJ9yBdEhQ0\u003d"
+  }
+}
