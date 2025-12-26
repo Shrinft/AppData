@@ -106,3 +106,12 @@
 2025/12/25 03:02:52 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [c4fcd1bae3087e16][0m
 2025/12/25 03:02:52 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
 2025/12/25 03:02:52 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+2025/12/26 16:49:11 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/26 16:49:11 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/26 16:49:11 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [./frpc.ini][0m
+2025/12/26 16:49:12 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [ddbfa83864d56ead][0m
+2025/12/26 16:49:12 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2025/12/26 16:49:12 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
