@@ -6,7 +6,7 @@
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1766215217474,
-    "lastDatetime": 1766289452466,
+    "lastDatetime": 1766902233174,
     "type": "universal",
     "tag": [],
     "endTime": 0,
@@ -60,7 +60,6 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": "",
-        "isOpenFrp": false
+        "openFrpToken": ""
     }
 }

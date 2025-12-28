@@ -1,0 +1,123 @@
+{
+ "configVer": "1.0",
+ "activeUID": "237036c41a0b432db558f9d4e719c5e9",
+ "userList": [
+  {
+   "userId": "237036c41a0b432db558f9d4e719c5e9",
+   "nickname": "155***050",
+   "accountName": "",
+   "workdir": "/",
+   "workdirFileEntity": {
+    "driveId": "",
+    "domainId": "",
+    "fileId": "root",
+    "fileName": "/",
+    "fileSize": 0,
+    "fileType": "folder",
+    "createdAt": "",
+    "updatedAt": "",
+    "fileExtension": "",
+    "uploadId": "",
+    "parentFileId": "",
+    "crc64Hash": "",
+    "contentHash": "",
+    "contentHashName": "",
+    "path": "/",
+    "category": "",
+    "syncFlag": false,
+    "syncMeta": "",
+    "thumbnail": "",
+    "albumId": ""
+   },
+   "resourceWorkdir": "",
+   "resourceWorkdirFileEntity": {
+    "driveId": "",
+    "domainId": "",
+    "fileId": "",
+    "fileName": "",
+    "fileSize": 0,
+    "fileType": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "fileExtension": "",
+    "uploadId": "",
+    "parentFileId": "",
+    "crc64Hash": "",
+    "contentHash": "",
+    "contentHashName": "",
+    "path": "",
+    "category": "",
+    "syncFlag": false,
+    "syncMeta": "",
+    "thumbnail": "",
+    "albumId": ""
+   },
+   "albumWorkdir": "",
+   "albumWorkdirFileEntity": {
+    "driveId": "",
+    "domainId": "",
+    "fileId": "",
+    "fileName": "",
+    "fileSize": 0,
+    "fileType": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "fileExtension": "",
+    "uploadId": "",
+    "parentFileId": "",
+    "crc64Hash": "",
+    "contentHash": "",
+    "contentHashName": "",
+    "path": "",
+    "category": "",
+    "syncFlag": false,
+    "syncMeta": "",
+    "thumbnail": "",
+    "albumId": ""
+   },
+   "activeDriveId": "722794061",
+   "driveList": [
+    {
+     "driveId": "722794061",
+     "driveName": "备份盘",
+     "driveTag": "File"
+    },
+    {
+     "driveId": "872165382",
+     "driveName": "资源库",
+     "driveTag": "Resource"
+    }
+   ],
+   "ticketId": "365c9b76cb254a94aecdad8f61109205",
+   "webapiToken": {
+    "accessToken": "",
+    "expired": 0
+   },
+   "openapiToken": {
+    "accessToken": "eyJraWQiOiJLcU8iLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyMzcwMzZjNDFhMGI0MzJkYjU1OGY5ZDRlNzE5YzVlOSIsImF1ZCI6ImNmOWY3MGU4ZmM2MTQzMGY4ZWM1YWI1Y2FkZjMxMzc1IiwicyI6ImVjZGdhIiwiZCI6IjcyMjc5NDA2MSw4NzIxNjUzODIiLCJpc3MiOiJhbGlwYW4iLCJleHAiOjE3NjY5MDk2MjksImlhdCI6MTc2NjkwMjQyNiwianRpIjoiMjhjYjU0OWJlMmY3NDMwYzk2M2EyYjMzZDRjMTk0OTMifQ.ocGRTfv_c7bz-3fSLVR_kDBQeUonDoiwrT-pUxb_07Y",
+    "expired": 1766909626
+   }
+  }
+ ],
+ "cacheSize": 0,
+ "maxDownloadParallel": 0,
+ "maxUploadParallel": 0,
+ "maxDownloadRate": 0,
+ "maxUploadRate": 0,
+ "saveDir": "",
+ "proxy": "",
+ "localAddrs": "",
+ "preferIPType": "ipv4",
+ "updateCheckInfo": {
+  "preferUpdateSrv": "",
+  "latestVer": "v0.3.7",
+  "checkTime": 1766902387
+ },
+ "videoFileExtensions": "mp4,flv,mkv,mov,rm,rmvb,wmv,wma,mv,asf,asx,mpg,mpeg,mpe,3gp,m4v,avi,vob",
+ "fileRecordConfig": "2",
+ "deviceId": "14PAHMTWf9buv7nLuhTmaAw7",
+ "deviceName": "Chrome浏览器",
+ "clientId": "cf9f70e8fc61430f8ec5ab5cadf31375",
+ "clientSecret": "",
+ "localWorkdir": ""
+}

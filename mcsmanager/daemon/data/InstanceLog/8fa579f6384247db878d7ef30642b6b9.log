@@ -1,0 +1,24 @@
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+提示: 方向键上下可切换历史命令.
+提示: Ctrl + A / E 跳转命令 首 / 尾.
+提示: 输入 help 获取帮助.
+aliyunpan > [1G[0Kaliyunpan > [13G[1G[0Kaliyunpan > ;[14G[1G[0Kaliyunpan > ;o[15G[1G[0Kaliyunpan > ;og[16G[1G[0Kaliyunpan > ;ogi[17G[1G[0Kaliyunpan > ;ogin[18G
+未找到命令: ;ogin
+运行命令 aliyunpan help 获取帮助
+aliyunpan > [1G[0Kaliyunpan > l[14G[1G[0Kaliyunpan > lo[15G[1G[0Kaliyunpan > lon[16G[1G[0Kaliyunpan > long[17G[1G[0Kaliyunpan > longi[18G[1G[0Kaliyunpan > longin[19G
+未找到命令: longin
+运行命令 aliyunpan help 获取帮助
+aliyunpan > [1G[0Kaliyunpan > l[14G[1G[0Kaliyunpan > lo[15G[1G[0Kaliyunpan > log[16G[1G[0Kaliyunpan > logi[17G[1G[0Kaliyunpan > login[18G
+请在浏览器打开以下链接进行登录，链接有效时间为5分钟。
+注意：你需要进行一次授权一次扫码的两次登录。
+https://openapi.alipan.com/oauth/authorize?client_id=cf9f70e8fc61430f8ec5ab5cadf31375&redirect_uri=https%3A%2F%2Fapi.tickstep.com%2Fauth%2Ftickstep%2Faliyunpan%2Ftoken%2Fopenapi%2F365c9b76cb254a94aecdad8f61109205%2Fauth2&scope=user:base,file:all:read,file:all:write,file:share:write,album:shared:read
+
+请在浏览器里面完成扫码登录，然后再按Enter键继续...
+阿里云盘登录成功:  155***050
+aliyunpan:/ 155***050(备份盘)$ 
+[INFO] 已执行预设的关闭命令：
+^c
+如果无法关闭实例请前往实例设置更改关闭实例的正确命令，比如 exit，stop，end 等
+[INFO] 实例已停止。
