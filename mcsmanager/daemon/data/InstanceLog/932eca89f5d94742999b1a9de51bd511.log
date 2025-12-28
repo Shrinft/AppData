@@ -354,3 +354,14 @@ main.main()
 2025/12/26 16:49:17 [1;34m[I] [control.go:172] [MC Server A] 映射启动成功, 感谢您使用ChmlFrp![0m
 2025/12/26 16:49:17 [1;34m[I] [control.go:172] [MC Server B] 映射启动成功, 感谢您使用ChmlFrp![0m
 2025/12/26 16:49:17 [1;34m[I] [udp.go:91] [MC Server A] 传入udp代理的新工作连接, 218.93.206.195:11528[0m
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+2025/12/28 13:05:21 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2025/12/28 13:05:21 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2025/12/28 13:05:21 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [frpc.ini][0m
+2025/12/28 13:05:21 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [7648910bc6cc5245][0m
+2025/12/28 13:05:21 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [MC Server A MC Server B][0m
+2025/12/28 13:05:22 [1;34m[I] [control.go:172] [MC Server A] 映射启动成功, 感谢您使用ChmlFrp![0m
+2025/12/28 13:05:22 [1;34m[I] [control.go:172] [MC Server B] 映射启动成功, 感谢您使用ChmlFrp![0m
+2025/12/28 13:05:22 [1;34m[I] [udp.go:91] [MC Server A] 传入udp代理的新工作连接, 218.93.206.195:11528[0m
