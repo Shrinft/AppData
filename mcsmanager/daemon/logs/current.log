@@ -1,92 +1,86 @@
-[12/29 03:01:16] [INFO] All feature modules and permission firewalls have been initialized successfully
-[12/29 03:01:16] [INFO] LANGUAGE: zh_cn
-[12/29 03:01:16] [INFO] 欢迎使用 MCSManager 守护进程
-[12/29 03:01:16] [INFO] 所有应用实例已加载，总计 7 个
-[12/29 03:01:16] [INFO] ----------------------------
-[12/29 03:01:16] [INFO] 守护进程现已成功启动
-[12/29 03:01:16] [INFO] 参考文档：https://docs.mcsmanager.com/
-[12/29 03:01:16] [INFO] 访问地址: http://localhost:7860
-[12/29 03:01:16] [INFO] 配置文件：data/Config/global.json
-[12/29 03:01:16] [INFO] 访问密钥：580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34
-[12/29 03:01:16] [INFO] 密钥作为唯一认证方式，请使用 MCSManager 面板的节点功能连接程序
-[12/29 03:01:16] [INFO] 你可以使用 Ctrl+C 快捷键即可关闭程序
-[12/29 03:01:16] [INFO] ----------------------------
-[12/29 03:01:23] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/29 03:01:23] [INFO] ----------------
-[12/29 03:01:23] [INFO] 会话 : 请求开启实例.
-[12/29 03:01:23] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
-[12/29 03:01:23] [INFO] 启动命令: ./gitpush download
-[12/29 03:01:23] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
-[12/29 03:01:23] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-c15614a3-212a-4b6f-ab07-6fbe4cfe025a -cmd ["./gitpush","download"]
-[12/29 03:01:23] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
-[12/29 03:01:23] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/29 03:01:23] [INFO] ----------------
-[12/29 03:01:23] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 1357
-[12/29 03:01:23] [INFO] 实例 Git Push Saves 17cbf5a1c2224809a76df690feae7732 自动启动指令已发出
-[12/29 03:01:28] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/29 03:01:28] [INFO] ----------------
-[12/29 03:01:28] [INFO] 会话 : 请求开启实例.
-[12/29 03:01:28] [INFO] 实例标识符: [63af6014618148c9ac2fd0aeea4af138]
-[12/29 03:01:28] [INFO] 启动命令: ./frpc
-[12/29 03:01:28] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
-[12/29 03:01:28] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-d6575f3a-1972-4dd3-a186-990987f9c526 -cmd ["./frpc"]
-[12/29 03:01:28] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
-[12/29 03:01:28] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/29 03:01:28] [INFO] ----------------
-[12/29 03:01:28] [INFO] 实例 63af6014618148c9ac2fd0aeea4af138 成功启动 PID: 1850
-[12/29 03:01:28] [INFO] 实例 frp 63af6014618148c9ac2fd0aeea4af138 自动启动指令已发出
-[12/29 03:01:32] [INFO] 会话 MP39zWbPxwnYLffoAAAB(::ffff:127.0.0.1) 验证身份成功
-[12/29 03:01:33] [WARN] 节点语言已更改： zh_cn
-[12/29 03:01:33] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/29 03:01:33] [INFO] ----------------
-[12/29 03:01:33] [INFO] 会话 : 请求开启实例.
-[12/29 03:01:33] [INFO] 实例标识符: [932eca89f5d94742999b1a9de51bd511]
-[12/29 03:01:33] [INFO] 启动命令: ./frpc -c frpc.ini
-[12/29 03:01:33] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
-[12/29 03:01:33] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511 -fifo /tmp/mcsmanager-instance-pipe/pipe-d4da8e8d-398b-4932-b8ee-191b8720df98 -cmd ["./frpc","-c","frpc.ini"]
-[12/29 03:01:33] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511
-[12/29 03:01:33] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/29 03:01:33] [INFO] ----------------
-[12/29 03:01:33] [INFO] 实例 932eca89f5d94742999b1a9de51bd511 成功启动 PID: 1896
-[12/29 03:01:33] [INFO] 实例 frpc 932eca89f5d94742999b1a9de51bd511 自动启动指令已发出
-[12/29 03:01:38] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/29 03:01:38] [INFO] ----------------
-[12/29 03:01:38] [INFO] 会话 : 请求开启实例.
-[12/29 03:01:38] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
-[12/29 03:01:38] [INFO] 启动命令: ./shell.sh
-[12/29 03:01:38] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
-[12/29 03:01:38] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-9e5f2035-e0ff-434e-8170-e611db024e60 -cmd ["./shell.sh"]
-[12/29 03:01:38] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
-[12/29 03:01:38] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/29 03:01:38] [INFO] ----------------
-[12/29 03:01:38] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1913
-[12/29 03:01:38] [INFO] 实例 Git Push c30553ca0026473f8c395082a92f09a0 自动启动指令已发出
-[12/29 03:01:43] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/29 03:01:43] [INFO] ----------------
-[12/29 03:01:43] [INFO] 会话 : 请求开启实例.
-[12/29 03:01:43] [INFO] 实例标识符: [fc60639ffe414b2c833de1d256490d53]
-[12/29 03:01:43] [INFO] 启动命令: ./htop
-[12/29 03:01:43] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
-[12/29 03:01:43] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53 -fifo /tmp/mcsmanager-instance-pipe/pipe-c1eaae09-6c3a-4a31-a2c0-89d6bfaefb8f -cmd ["./htop"]
-[12/29 03:01:43] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53
-[12/29 03:01:43] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/29 03:01:43] [INFO] ----------------
-[12/29 03:01:43] [INFO] 实例 fc60639ffe414b2c833de1d256490d53 成功启动 PID: 1924
-[12/29 03:01:43] [INFO] 实例 htop fc60639ffe414b2c833de1d256490d53 自动启动指令已发出
-[12/29 03:30:02] [INFO] 会话 : 请求开启实例，模式为仿真终端
-[12/29 03:30:02] [INFO] ----------------
-[12/29 03:30:02] [INFO] 会话 : 请求开启实例.
-[12/29 03:30:02] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
-[12/29 03:30:02] [INFO] 启动命令: /workspace/zulujava25/bin/java -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar nogui
-[12/29 03:30:02] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
-[12/29 03:30:02] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-869d06d8-5b9e-46e0-a2c5-b3d41cc5ae09 -cmd ["/workspace/zulujava25/bin/java","-Xmx15G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar","nogui"]
-[12/29 03:30:02] [INFO] 工作目录: /workspace/AppData/MinecraftServer
-[12/29 03:30:02] [INFO] 尝试使用系统用户启动子进程，用户名：
-[12/29 03:30:02] [INFO] ----------------
-[12/29 03:30:02] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 1967
-[12/29 05:05:13] [INFO] 会话 IDXP2WCXOK7gJoSDAAAD(::ffff:127.0.0.1) 验证身份成功
-[12/29 05:05:13] [WARN] 节点语言已更改： zh_cn
-[12/29 22:47:41] [INFO] 会话 7TySef0C8-7dxJWiAAAF(::ffff:127.0.0.1) 验证身份成功
-[12/29 22:47:41] [WARN] 节点语言已更改： zh_cn
-[12/30 00:52:23] [INFO] 会话 tNmnTv_XPS4f4eZQAAAH(::ffff:127.0.0.1) 验证身份成功
-[12/30 00:52:23] [WARN] 节点语言已更改： zh_cn
+[01/11 03:01:19] [INFO] All feature modules and permission firewalls have been initialized successfully
+[01/11 03:01:19] [INFO] LANGUAGE: zh_cn
+[01/11 03:01:19] [INFO] 欢迎使用 MCSManager 守护进程
+[01/11 03:01:19] [INFO] 所有应用实例已加载，总计 7 个
+[01/11 03:01:19] [INFO] ----------------------------
+[01/11 03:01:19] [INFO] 守护进程现已成功启动
+[01/11 03:01:19] [INFO] 参考文档：https://docs.mcsmanager.com/
+[01/11 03:01:19] [INFO] 访问地址: http://localhost:7860
+[01/11 03:01:19] [INFO] 配置文件：data/Config/global.json
+[01/11 03:01:19] [INFO] 访问密钥：580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34
+[01/11 03:01:19] [INFO] 密钥作为唯一认证方式，请使用 MCSManager 面板的节点功能连接程序
+[01/11 03:01:19] [INFO] 你可以使用 Ctrl+C 快捷键即可关闭程序
+[01/11 03:01:19] [INFO] ----------------------------
+[01/11 03:01:26] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[01/11 03:01:26] [INFO] ----------------
+[01/11 03:01:26] [INFO] 会话 : 请求开启实例.
+[01/11 03:01:26] [INFO] 实例标识符: [17cbf5a1c2224809a76df690feae7732]
+[01/11 03:01:26] [INFO] 启动命令: ./gitpush download
+[01/11 03:01:26] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[01/11 03:01:26] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732 -fifo /tmp/mcsmanager-instance-pipe/pipe-584a9320-6f89-47a8-910a-881eba6518de -cmd ["./gitpush","download"]
+[01/11 03:01:26] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/17cbf5a1c2224809a76df690feae7732
+[01/11 03:01:26] [INFO] 尝试使用系统用户启动子进程，用户名：
+[01/11 03:01:26] [INFO] ----------------
+[01/11 03:01:26] [INFO] 实例 17cbf5a1c2224809a76df690feae7732 成功启动 PID: 1356
+[01/11 03:01:26] [INFO] 实例 Git Push Saves 17cbf5a1c2224809a76df690feae7732 自动启动指令已发出
+[01/11 03:01:31] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[01/11 03:01:31] [INFO] ----------------
+[01/11 03:01:31] [INFO] 会话 : 请求开启实例.
+[01/11 03:01:31] [INFO] 实例标识符: [63af6014618148c9ac2fd0aeea4af138]
+[01/11 03:01:31] [INFO] 启动命令: ./frpc
+[01/11 03:01:31] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[01/11 03:01:31] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138 -fifo /tmp/mcsmanager-instance-pipe/pipe-d5fccee7-1a68-4fb3-a9b6-db433932f3d0 -cmd ["./frpc"]
+[01/11 03:01:31] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/63af6014618148c9ac2fd0aeea4af138
+[01/11 03:01:31] [INFO] 尝试使用系统用户启动子进程，用户名：
+[01/11 03:01:31] [INFO] ----------------
+[01/11 03:01:31] [INFO] 实例 63af6014618148c9ac2fd0aeea4af138 成功启动 PID: 1851
+[01/11 03:01:31] [INFO] 实例 frp 63af6014618148c9ac2fd0aeea4af138 自动启动指令已发出
+[01/11 03:01:36] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[01/11 03:01:36] [INFO] ----------------
+[01/11 03:01:36] [INFO] 会话 : 请求开启实例.
+[01/11 03:01:36] [INFO] 实例标识符: [932eca89f5d94742999b1a9de51bd511]
+[01/11 03:01:36] [INFO] 启动命令: ./frpc -c frpc.ini
+[01/11 03:01:36] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[01/11 03:01:36] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511 -fifo /tmp/mcsmanager-instance-pipe/pipe-1bff9c28-2379-47e8-91c4-9dd5401bf73e -cmd ["./frpc","-c","frpc.ini"]
+[01/11 03:01:36] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/932eca89f5d94742999b1a9de51bd511
+[01/11 03:01:36] [INFO] 尝试使用系统用户启动子进程，用户名：
+[01/11 03:01:36] [INFO] ----------------
+[01/11 03:01:36] [INFO] 实例 932eca89f5d94742999b1a9de51bd511 成功启动 PID: 1892
+[01/11 03:01:36] [INFO] 实例 frpc 932eca89f5d94742999b1a9de51bd511 自动启动指令已发出
+[01/11 03:01:41] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[01/11 03:01:41] [INFO] ----------------
+[01/11 03:01:41] [INFO] 会话 : 请求开启实例.
+[01/11 03:01:41] [INFO] 实例标识符: [c30553ca0026473f8c395082a92f09a0]
+[01/11 03:01:41] [INFO] 启动命令: ./shell.sh
+[01/11 03:01:41] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[01/11 03:01:41] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0 -fifo /tmp/mcsmanager-instance-pipe/pipe-8e23177f-124e-45db-a766-323341622c2c -cmd ["./shell.sh"]
+[01/11 03:01:41] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+[01/11 03:01:41] [INFO] 尝试使用系统用户启动子进程，用户名：
+[01/11 03:01:41] [INFO] ----------------
+[01/11 03:01:41] [INFO] 实例 c30553ca0026473f8c395082a92f09a0 成功启动 PID: 1908
+[01/11 03:01:41] [INFO] 实例 Git Push c30553ca0026473f8c395082a92f09a0 自动启动指令已发出
+[01/11 03:01:46] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[01/11 03:01:46] [INFO] ----------------
+[01/11 03:01:46] [INFO] 会话 : 请求开启实例.
+[01/11 03:01:46] [INFO] 实例标识符: [fc60639ffe414b2c833de1d256490d53]
+[01/11 03:01:46] [INFO] 启动命令: ./htop
+[01/11 03:01:46] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[01/11 03:01:46] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53 -fifo /tmp/mcsmanager-instance-pipe/pipe-97c2fc41-1db6-430e-9d5b-9a30fe5b929b -cmd ["./htop"]
+[01/11 03:01:46] [INFO] 工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/fc60639ffe414b2c833de1d256490d53
+[01/11 03:01:46] [INFO] 尝试使用系统用户启动子进程，用户名：
+[01/11 03:01:46] [INFO] ----------------
+[01/11 03:01:46] [INFO] 实例 fc60639ffe414b2c833de1d256490d53 成功启动 PID: 1919
+[01/11 03:01:46] [INFO] 实例 htop fc60639ffe414b2c833de1d256490d53 自动启动指令已发出
+[01/11 03:30:02] [INFO] 会话 : 请求开启实例，模式为仿真终端
+[01/11 03:30:02] [INFO] ----------------
+[01/11 03:30:02] [INFO] 会话 : 请求开启实例.
+[01/11 03:30:02] [INFO] 实例标识符: [4b4ff92a2e61484b876a74dfbda2e953]
+[01/11 03:30:02] [INFO] 启动命令: /workspace/zulujava25/bin/java -Xmx15G -Dfile.encoding=utf-8 -Djline.terminal=jline.UnsupportedTerminal -jar fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar nogui
+[01/11 03:30:02] [INFO] PTY 路径: /workspace/AppData/mcsmanager/daemon/lib/pty_linux_x64
+[01/11 03:30:02] [INFO] PTY 参数: -size 164,40 -coder utf8 -dir /workspace/AppData/MinecraftServer -fifo /tmp/mcsmanager-instance-pipe/pipe-fe0cafae-239a-4c79-bef1-b5f44bbad1f7 -cmd ["/workspace/zulujava25/bin/java","-Xmx15G","-Dfile.encoding=utf-8","-Djline.terminal=jline.UnsupportedTerminal","-jar","fabric-server-mc.1.21.5-loader.0.17.2-launcher.1.1.0.jar","nogui"]
+[01/11 03:30:02] [INFO] 工作目录: /workspace/AppData/MinecraftServer
+[01/11 03:30:02] [INFO] 尝试使用系统用户启动子进程，用户名：
+[01/11 03:30:02] [INFO] ----------------
+[01/11 03:30:02] [INFO] 实例 4b4ff92a2e61484b876a74dfbda2e953 成功启动 PID: 1979
+[01/11 04:02:41] [INFO] 会话 O8PMyJob177Ec_bkAAAB(::ffff:127.0.0.1) 验证身份成功
+[01/11 04:02:42] [WARN] 节点语言已更改： zh_cn

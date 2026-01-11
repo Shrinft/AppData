@@ -187,3 +187,123 @@
 2025/12/30 00:52:20 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [22a8e8d8af6c302b][0m
 2025/12/30 00:52:20 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
 2025/12/30 00:52:20 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+2026/01/11 03:01:31 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2026/01/11 03:01:31 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2026/01/11 03:01:31 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [./frpc.ini][0m
+2026/01/11 03:01:32 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [123661ad10f6001b][0m
+2026/01/11 03:01:32 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2026/01/11 03:01:32 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:02:05 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:02:38 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:03:11 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:03:44 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:04:17 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:04:50 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:05:23 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:05:56 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:06:29 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:07:02 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:07:35 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:08:08 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:08:41 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:09:14 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:09:47 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:10:20 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:10:53 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:11:26 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:11:59 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:12:32 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:13:05 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:13:38 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:14:11 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:14:44 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:15:17 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:15:50 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:16:23 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:16:56 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:17:29 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:18:02 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:18:35 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:19:08 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:19:41 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:20:14 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:20:48 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:21:21 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:21:54 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:22:27 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:23:00 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:23:33 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:24:06 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:24:39 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:25:12 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:25:45 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:26:18 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:26:51 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:27:24 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:27:57 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:28:30 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:29:03 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:29:36 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:30:09 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:30:42 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:31:15 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:31:48 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:32:21 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:32:54 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:33:27 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:34:00 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:34:33 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:35:06 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:35:39 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:36:12 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:36:45 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:37:18 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:37:51 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:38:24 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:38:57 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:39:30 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:40:03 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:40:36 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:41:09 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:41:42 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:42:15 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:42:48 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:43:21 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:43:54 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:44:27 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:45:00 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:45:33 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:46:06 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:46:39 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:47:12 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:47:45 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:48:18 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:48:51 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:49:24 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:49:57 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:50:30 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:51:03 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:51:36 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:52:09 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:52:42 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:53:15 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:53:48 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:54:21 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:54:54 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:55:27 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:56:00 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:56:34 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:57:07 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:57:40 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:58:13 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:58:46 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:59:19 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 03:59:52 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 04:00:25 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 04:00:58 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 04:01:31 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 04:02:04 [1;33m[W] [control.go:170] [CNBSERVER6] 启动失败: port already used[0m
+2026/01/11 04:02:37 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
