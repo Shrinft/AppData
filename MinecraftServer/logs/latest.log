@@ -1,19 +1,20 @@
+[00:09:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2289ms or 45 ticks behind
 [02:45:00] [Server thread/INFO]: Stopping the server
 [02:45:00] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
 [02:45:00] [Server thread/INFO]: Shutting down Geyser.
-[02:45:01] [Server thread/INFO]: Geyser shutdown successfully.
-[02:45:01] [WebSocketConnectReadThread-101/INFO]: The skin uploader has been closed
-[02:45:03] [Server thread/INFO]: Starting shutdown process...
-[02:45:03] [Server thread/INFO]: Closing storage...
-[02:45:03] [Server thread/INFO]: Goodbye!
-[02:45:03] [Server thread/INFO]: Stopping server
-[02:45:03] [Server thread/INFO]: Saving players
-[02:45:03] [Server thread/INFO]: Saving worlds
-[02:45:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:45:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:45:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:45:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:45:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:45:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:45:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:45:04] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[02:45:00] [Server thread/INFO]: Geyser shutdown successfully.
+[02:45:00] [WebSocketConnectReadThread-400/INFO]: The skin uploader has been closed
+[02:45:02] [Server thread/INFO]: Starting shutdown process...
+[02:45:02] [Server thread/INFO]: Closing storage...
+[02:45:02] [Server thread/INFO]: Goodbye!
+[02:45:02] [Server thread/INFO]: Stopping server
+[02:45:02] [Server thread/INFO]: Saving players
+[02:45:02] [Server thread/INFO]: Saving worlds
+[02:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:45:03] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.

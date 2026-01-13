@@ -959,3 +959,17 @@ persistent-shell> persistent-shell> persistent-shell> persistent-shell> persiste
 执行: ./git-push.sh
 步骤0: 创建测试文件...
 步骤1: 提交更改...
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+🚀 启动持久化Shell环境...
+💡 提示: 输入 'exit' 退出，输入 'help' 查看帮助
+⚠️  注意: 按 Ctrl+C 不会退出，输入 'exit' 才能退出
+📊 系统信息:
+  工作目录: /workspace/AppData/mcsmanager/daemon/data/InstanceData/c30553ca0026473f8c395082a92f09a0
+  用户: root
+  Shell: /bin/bash
+  时间: Tue Jan 13 03:01:47 CST 2026
+📝 前台运行模式
+
+persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> persistent-shell> 

@@ -1091,4 +1091,99 @@ Connection closed
   [0;32m[U][0mpload   - 上传世界文件到服务器
   [0;32m[C][0mancel   - 取消
 
+请选择 [D/U/C]: [INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+[1;33m检查所需工具...[0m
+[1;33m安装sshpass...[0m
+[0;32msshpass安装完成[0m
+[1;33m安装zip/unzip...[0m
+[0;32mzip/unzip安装完成[0m
+[1;33m添加SFTP主机密钥...[0m
+[1;33m警告: 无法自动添加主机密钥，将使用StrictHostKeyChecking=no[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
+请选择 [D/U/C]: D^J
+[0;32m你选择了: 下载世界文件[0m
+
+[0;32m开始下载世界文件...[0m
+[1;33m连接SFTP服务器...[0m
+ssh: connect to host 156.246.90.110 port 11520: Connection timed out
+Connection closed.  
+Connection closed
+[0;31m下载失败！请检查:[0m
+1. SFTP服务器是否可访问
+2. 用户名密码是否正确
+3. 服务器上是否存在 world.zip 文件
+4. 注意：服务器上的文件应该位于用户默认目录下，不是根目录
+[1;33m尝试列出服务器上的文件...[0m
+ssh: connect to host 156.246.90.110 port 11520: Connection timed out
+Connection closed
+[0;31m✗ 下载操作失败[0m
+
+[1;33m2秒后返回主菜单...[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
+请选择 [D/U/C]: 
+[0;31m无效选择，请重新输入[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
+请选择 [D/U/C]: U^J
+[0;32m你选择了: 上传世界文件[0m
+
+[0;32m开始上传世界文件...[0m
+[1;33m本地未找到 world.zip，正在检查世界文件夹...[0m
+[1;33m正在压缩世界文件夹...[0m
+[1;33m正在压缩，请稍候...[0m
+[0;32m压缩完成 (大小: 88M)[0m
+[1;33m连接SFTP服务器...[0m
+ssh: connect to host 156.246.90.110 port 11520: Connection timed out
+Connection closed.  
+Connection closed
+[0;31m上传失败 (错误码: 255)[0m
+[1;33m已清理本地临时压缩文件[0m
+[0;31m✗ 上传操作失败[0m
+
+[1;33m2秒后返回主菜单...[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
+请选择 [D/U/C]: 
+[0;31m无效选择，请重新输入[0m
+[H[2J[3J[0;32m=== Minecraft世界文件传输工具 ===[0m
+[0;34m本地目录: /workspace/AppData/MinecraftServer[0m
+[0;34mSFTP服务器: 21369@156.246.90.110:11520[0m
+
+[1;33m请选择操作:[0m
+  [0;32m[D][0mownload - 从服务器下载世界文件
+  [0;32m[U][0mpload   - 上传世界文件到服务器
+  [0;32m[C][0mancel   - 取消
+
 请选择 [D/U/C]: 
