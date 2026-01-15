@@ -328,3 +328,30 @@
 2026/01/13 12:02:41 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [bdf619ead22f8141][0m
 2026/01/13 12:02:41 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
 2026/01/13 12:02:41 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+[INFO] 正在启动...
+[INFO] 仿真终端模式已生效，您可以直接在终端内直接输入内容并使用 Ctrl，Tab 等功能键
+[INFO] 实例已启动...
+2026/01/15 03:03:30 [1;34m[I] [root.go:125] 欢迎使用ChmlFrp映射客户端![0m
+2026/01/15 03:03:30 [1;34m[I] [root.go:135] 从ChmlFrp API获取配置文件...[0m
+2026/01/15 03:03:30 [1;34m[I] [root.go:347] 启动配置文件的frpc服务 [./frpc.ini][0m
+2026/01/15 03:03:31 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [dafd40b94f045445][0m
+2026/01/15 03:03:31 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2026/01/15 03:03:31 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+2026/01/15 07:11:35 [1;34m[I] [control.go:252] 正在和服务器断开链接...[0m
+2026/01/15 07:11:35 [1;34m[I] [visitor_manager.go:77] gracefully shutdown visitor manager[0m
+2026/01/15 07:11:35 [1;34m[I] [service.go:227] 尝试重新连接至服务器[0m
+2026/01/15 07:11:36 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [dafd40b94f045445][0m
+2026/01/15 07:11:36 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2026/01/15 07:11:37 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+2026/01/15 11:16:37 [1;34m[I] [control.go:252] 正在和服务器断开链接...[0m
+2026/01/15 11:16:37 [1;34m[I] [visitor_manager.go:77] gracefully shutdown visitor manager[0m
+2026/01/15 11:16:37 [1;34m[I] [service.go:227] 尝试重新连接至服务器[0m
+2026/01/15 11:16:38 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [dafd40b94f045445][0m
+2026/01/15 11:16:38 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2026/01/15 11:16:38 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
+2026/01/15 22:47:59 [1;34m[I] [control.go:252] 正在和服务器断开链接...[0m
+2026/01/15 22:47:59 [1;34m[I] [visitor_manager.go:77] gracefully shutdown visitor manager[0m
+2026/01/15 22:47:59 [1;34m[I] [service.go:227] 尝试重新连接至服务器[0m
+2026/01/15 22:48:00 [1;34m[I] [service.go:313] 成功登录至服务器, 获取到RunID [dafd40b94f045445][0m
+2026/01/15 22:48:00 [1;34m[I] [proxy_manager.go:150] 已添加隧道: [CNBSERVER6][0m
+2026/01/15 22:48:01 [1;34m[I] [control.go:172] [CNBSERVER6] 映射启动成功, 感谢您使用ChmlFrp![0m
