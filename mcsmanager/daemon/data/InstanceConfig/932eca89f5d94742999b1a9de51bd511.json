@@ -6,7 +6,7 @@
     "ie": "utf8",
     "oe": "utf8",
     "createDatetime": 1766220678953,
-    "lastDatetime": 1766288458634,
+    "lastDatetime": 1779475850142,
     "type": "universal",
     "tag": [],
     "endTime": 0,
@@ -32,7 +32,7 @@
         "autoStart": true,
         "autoRestart": true,
         "autoRestartMaxTimes": -1,
-        "ignore": true
+        "ignore": false
     },
     "docker": {
         "containerName": "",
@@ -60,7 +60,6 @@
     },
     "extraServiceConfig": {
         "openFrpTunnelId": "",
-        "openFrpToken": "",
-        "isOpenFrp": false
+        "openFrpToken": ""
     }
 }
