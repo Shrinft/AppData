@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "ip": "",
+    "ip": "0.0.0.0",
     "port": 7860,
     "prefix": "",
     "key": "580845bbb3d9496ebd3470ba35148a592d333eb06ce1c34",
@@ -19,8 +19,9 @@
     "maxDownloadFromUrlFileCount": 1,
     "whiteListPanelIp": false,
     "whiteListPanelIps": [
-        "127.0.0.1",
-        "::1"
+    "127.0.0.1",
+    "::1",
+    "172.17.0.0/16"
     ],
     "ssl": false,
     "sslPemPath": "",
